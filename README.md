@@ -94,8 +94,25 @@ Workflows in [`.github/workflows/`](.github/workflows/):
    - Project site: `https://<user>.github.io/<repo>/`
    - Or user site if the repo is `<user>.github.io`
 
-`BASE_PATH` is set automatically (`/<repo>` for project sites, empty for `*.github.io` root sites).
+`BASE_PATH` is `/<repo>` for project URLs, empty for `*.github.io` root sites, and **empty** when you use a custom subdomain (see below).
 
+### Subdomain (ex.: `journal.camilomelo.com`)
+
+Keep `camilomelo.com` on your personal Pages site. Put **Journal in its own repo** with Pages enabled.
+
+1. **Cloudflare DNS** (domínio `camilomelo.com`):
+   - Type: **CNAME**
+   - Name: `journal`
+   - Target: `<seu-user>.github.io` (ex. `camilomelo.github.io`)
+   - Proxy: DNS only (cinza) no início; depois pode ligar o proxy laranja se quiser.
+2. No repo do Journal → **Settings → Pages → Custom domain:** `journal.camilomelo.com`  
+   (aguarde o DNS check / HTTPS).
+3. No mesmo repo → **Settings → Secrets and variables → Actions → Variables:**
+   - `CUSTOM_DOMAIN` = `journal.camilomelo.com`  
+   (isso faz o build com `BASE_PATH` vazio e grava o arquivo `CNAME`).
+4. Rode **Deploy GitHub Pages** de novo.
+
+Resultado: `https://journal.camilomelo.com` → este app; `https://camilomelo.com` → site pessoal, sem mudança.
 ### Manual triggers
 
 - Actions → **Update news** → Run workflow (optional max articles per source).

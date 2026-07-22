@@ -37,9 +37,21 @@ jobs:
       - name: Resolve BASE_PATH
         id: base
         run: |
+          # Priority:
+          # 1) vars.CUSTOM_DOMAIN set → empty BASE_PATH (e.g. journal.camilomelo.com)
+          # 2) vars.USE_CUSTOM_DOMAIN == true → empty BASE_PATH
+          # 3) vars.BASE_PATH set → use it (can be empty string via USE_CUSTOM_DOMAIN)
+          # 4) *.github.io repo → empty
+          # 5) default → /<repo>
+          CUSTOM="${{ vars.CUSTOM_DOMAIN }}"
+          USE_CUSTOM="${{ vars.USE_CUSTOM_DOMAIN }}"
           REPO="${{ github.event.repository.name }}"
           OWNER="${{ github.repository_owner }}"
-          if [ "$REPO" = "${OWNER}.github.io" ]; then
+
+          if [ -n "$CUSTOM" ] || [ "$USE_CUSTOM" = "true" ]; then
+            echo "path=" >> "$GITHUB_OUTPUT"
+            echo "Base path: (empty — custom subdomain/domain)"
+          elif [ "$REPO" = "${OWNER}.github.io" ]; then
             echo "path=" >> "$GITHUB_OUTPUT"
             echo "Base path: (root user/org site)"
           else
@@ -57,6 +69,10 @@ jobs:
         run: |
           npm ci
           npm run build
+
+      - name: Write CNAME for custom domain
+        if: ${{ vars.CUSTOM_DOMAIN != '' }}
+        run: echo "${{ vars.CUSTOM_DOMAIN }}" > app/build/CNAME
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
