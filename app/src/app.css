@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&family=Libre+Franklin:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme {
+	--font-display: 'Libre Baskerville', 'Times New Roman', serif;
+	--font-body: 'Newsreader', 'Times New Roman', serif;
+	--font-meta: 'Libre Franklin', ui-sans-serif, sans-serif;
+	--color-paper: #efe8dc;
+	--color-paper-deep: #e2d8c8;
+	--color-ink: #1a1714;
+	--color-ink-muted: #6a635a;
+	--color-rule: #2a2622;
+	--color-accent: #8b1e1e;
+	--color-highlight: #f6f1e7;
+}
+
+@layer base {
+	html {
+		background-color: var(--color-paper);
+		color: var(--color-ink);
+	}
+
+	body {
+		min-height: 100vh;
+		font-family: var(--font-body);
+		background-color: var(--color-paper);
+		background-image:
+			radial-gradient(rgba(26, 23, 20, 0.03) 0.6px, transparent 0.6px),
+			linear-gradient(180deg, var(--color-paper) 0%, var(--color-paper-deep) 100%);
+		background-size:
+			3px 3px,
+			100% 100%;
+	}
+
+	::selection {
+		background: color-mix(in srgb, var(--color-accent) 22%, transparent);
+	}
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transform: translateY(0.35rem);
+	}
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes rule-draw {
+	from {
+		transform: scaleX(0);
+	}
+	to {
+		transform: scaleX(1);
+	}
+}
+
+.animate-fade-in {
+	animation: fade-in 0.55s ease-out both;
+}
+
+.animate-rule {
+	transform-origin: center;
+	animation: rule-draw 0.7s ease-out both;
+}
+
+.prose-article {
+	font-family: var(--font-body);
+	font-size: 1.125rem;
+	line-height: 1.7;
+}
+
+.prose-article p {
+	margin-bottom: 1rem;
+}
+
+.prose-article img {
+	max-width: 100%;
+	height: auto;
+	margin: 1rem 0;
+}
+
+.prose-article a {
+	color: var(--color-accent);
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.prose-article h1,
+.prose-article h2,
+.prose-article h3 {
+	font-family: var(--font-display);
+	font-weight: 700;
+	margin: 1.25rem 0 0.5rem;
+}

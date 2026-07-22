@@ -1,0 +1,55 @@
+# Crawl RSS/portals and commit updated public JSON under data/
+name: Update news
+
+on:
+  schedule:
+    # Every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      max_articles:
+        description: 'Max full-article downloads per source'
+        required: false
+        default: '15'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install crawler deps
+        working-directory: crawler
+        run: bun install
+
+      - name: Run crawl
+        working-directory: crawler
+        env:
+          MAX: ${{ github.event.inputs.max_articles || '15' }}
+        run: bun run crawl -- --max "$MAX"
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feeds data/jobs data/sources.json
+          if git diff --staged --quiet; then
+            echo "No content changes."
+          else
+            git commit -m "chore(data): refresh news edition $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

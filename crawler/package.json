@@ -1,0 +1,16 @@
+{
+  "name": "journal-crawler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "bun run index.js",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "cheerio": "^1.1.0",
+    "fast-xml-parser": "^5.2.5",
+    "linkedom": "^0.18.11"
+  }
+}

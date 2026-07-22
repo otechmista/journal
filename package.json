@@ -1,0 +1,12 @@
+{
+  "name": "journal",
+  "private": true,
+  "scripts": {
+    "crawl": "cd crawler && bun run crawl",
+    "test:crawler": "cd crawler && bun test",
+    "sync-data": "bash scripts/sync-data.sh",
+    "dev": "bash scripts/sync-data.sh && cd app && npm run dev",
+    "build": "bash scripts/sync-data.sh && cd app && npm run build",
+    "preview": "cd app && npm run preview"
+  }
+}

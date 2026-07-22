@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "src_convergencia_feed",
+      "name": "Convergência Digital",
+      "type": "rss",
+      "enabled": true,
+      "url": "https://convergenciadigital.com.br/feed/"
+    },
+    {
+      "id": "src_tecnoblog",
+      "name": "Tecnoblog",
+      "type": "rss",
+      "enabled": true,
+      "url": "https://tecnoblog.net/feed/"
+    },
+    {
+      "id": "src_canaltech",
+      "name": "Canaltech",
+      "type": "rss",
+      "enabled": true,
+      "url": "https://canaltech.com.br/rss/"
+    },
+    {
+      "id": "src_tecmundo",
+      "name": "TecMundo",
+      "type": "scrape",
+      "enabled": true,
+      "url": "https://www.tecmundo.com.br/",
+      "selectors": {
+        "item": "article:has(a[href*='.htm'])",
+        "title": "a[href*='.htm']@title",
+        "link": "a[href*='.htm']@href"
+      },
+      "crawl": {
+        "depth": 1,
+        "max_pages": 5,
+        "same_origin_only": true,
+        "delay_ms": 500
+      }
+    },
+    {
+      "id": "src_convergencia_portal",
+      "name": "Convergência Digital (portal)",
+      "type": "scrape",
+      "enabled": true,
+      "url": "https://convergenciadigital.com.br/",
+      "selectors": {
+        "item": "h2.thumb-title, h2.post-title",
+        "title": "a",
+        "link": "a@href"
+      },
+      "crawl": {
+        "depth": 1,
+        "max_pages": 5,
+        "same_origin_only": true,
+        "delay_ms": 500
+      }
+    }
+  ]
+}

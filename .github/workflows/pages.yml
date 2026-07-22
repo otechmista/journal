@@ -1,0 +1,75 @@
+# Deploy Journal static site to GitHub Pages
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'app/**'
+      - 'data/**'
+      - 'scripts/sync-data.sh'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - name: Resolve BASE_PATH
+        id: base
+        run: |
+          REPO="${{ github.event.repository.name }}"
+          OWNER="${{ github.repository_owner }}"
+          if [ "$REPO" = "${OWNER}.github.io" ]; then
+            echo "path=" >> "$GITHUB_OUTPUT"
+            echo "Base path: (root user/org site)"
+          else
+            echo "path=/$REPO" >> "$GITHUB_OUTPUT"
+            echo "Base path: /$REPO"
+          fi
+
+      - name: Sync public data into static/
+        run: bash scripts/sync-data.sh
+
+      - name: Install & build
+        working-directory: app
+        env:
+          BASE_PATH: ${{ steps.base.outputs.path }}
+        run: |
+          npm ci
+          npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: app/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

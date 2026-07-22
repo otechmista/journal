@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Journal">
+  <rect width="512" height="512" fill="#efe8dc"/>
+  <rect x="48" y="48" width="416" height="416" fill="none" stroke="#1a1714" stroke-width="8"/>
+  <text x="256" y="280" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="120" font-weight="700" fill="#1a1714">J</text>
+  <line x1="120" y1="340" x2="392" y2="340" stroke="#8b1e1e" stroke-width="4"/>
+</svg>

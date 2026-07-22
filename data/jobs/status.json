@@ -1,0 +1,55 @@
+{
+  "last_refresh_at": "2026-07-22T22:19:44.741Z",
+  "jobs": [
+    {
+      "id": "job_src_convergencia_feed_1784758705665",
+      "source_id": "src_convergencia_feed",
+      "state": "succeeded",
+      "started_at": "2026-07-22T22:18:25.665Z",
+      "finished_at": "2026-07-22T22:18:25.929Z",
+      "items_found": 10,
+      "items_downloaded": 10,
+      "error": null
+    },
+    {
+      "id": "job_src_tecnoblog_1784758705929",
+      "source_id": "src_tecnoblog",
+      "state": "succeeded",
+      "started_at": "2026-07-22T22:18:25.929Z",
+      "finished_at": "2026-07-22T22:18:26.090Z",
+      "items_found": 50,
+      "items_downloaded": 50,
+      "error": null
+    },
+    {
+      "id": "job_src_canaltech_1784758706090",
+      "source_id": "src_canaltech",
+      "state": "succeeded",
+      "started_at": "2026-07-22T22:18:26.090Z",
+      "finished_at": "2026-07-22T22:18:27.674Z",
+      "items_found": 50,
+      "items_downloaded": 50,
+      "error": null
+    },
+    {
+      "id": "job_src_tecmundo_1784758707674",
+      "source_id": "src_tecmundo",
+      "state": "succeeded",
+      "started_at": "2026-07-22T22:18:27.674Z",
+      "finished_at": "2026-07-22T22:18:41.704Z",
+      "items_found": 18,
+      "items_downloaded": 18,
+      "error": null
+    },
+    {
+      "id": "job_src_convergencia_portal_1784758721704",
+      "source_id": "src_convergencia_portal",
+      "state": "succeeded",
+      "started_at": "2026-07-22T22:18:41.704Z",
+      "finished_at": "2026-07-22T22:19:44.702Z",
+      "items_found": 75,
+      "items_downloaded": 75,
+      "error": null
+    }
+  ]
+}
