@@ -1,52 +1,52 @@
 {
-  "last_refresh_at": "2026-07-22T22:19:44.741Z",
+  "last_refresh_at": "2026-07-22T23:06:08.822Z",
   "jobs": [
     {
-      "id": "job_src_convergencia_feed_1784758705665",
+      "id": "job_src_convergencia_feed_1784761509073",
       "source_id": "src_convergencia_feed",
       "state": "succeeded",
-      "started_at": "2026-07-22T22:18:25.665Z",
-      "finished_at": "2026-07-22T22:18:25.929Z",
+      "started_at": "2026-07-22T23:05:09.073Z",
+      "finished_at": "2026-07-22T23:05:09.493Z",
       "items_found": 10,
       "items_downloaded": 10,
       "error": null
     },
     {
-      "id": "job_src_tecnoblog_1784758705929",
+      "id": "job_src_tecnoblog_1784761509493",
       "source_id": "src_tecnoblog",
       "state": "succeeded",
-      "started_at": "2026-07-22T22:18:25.929Z",
-      "finished_at": "2026-07-22T22:18:26.090Z",
+      "started_at": "2026-07-22T23:05:09.493Z",
+      "finished_at": "2026-07-22T23:05:09.594Z",
       "items_found": 50,
       "items_downloaded": 50,
       "error": null
     },
     {
-      "id": "job_src_canaltech_1784758706090",
+      "id": "job_src_canaltech_1784761509594",
       "source_id": "src_canaltech",
       "state": "succeeded",
-      "started_at": "2026-07-22T22:18:26.090Z",
-      "finished_at": "2026-07-22T22:18:27.674Z",
+      "started_at": "2026-07-22T23:05:09.594Z",
+      "finished_at": "2026-07-22T23:05:10.852Z",
       "items_found": 50,
       "items_downloaded": 50,
       "error": null
     },
     {
-      "id": "job_src_tecmundo_1784758707674",
+      "id": "job_src_tecmundo_1784761510852",
       "source_id": "src_tecmundo",
       "state": "succeeded",
-      "started_at": "2026-07-22T22:18:27.674Z",
-      "finished_at": "2026-07-22T22:18:41.704Z",
+      "started_at": "2026-07-22T23:05:10.852Z",
+      "finished_at": "2026-07-22T23:05:22.798Z",
       "items_found": 18,
       "items_downloaded": 18,
       "error": null
     },
     {
-      "id": "job_src_convergencia_portal_1784758721704",
+      "id": "job_src_convergencia_portal_1784761522798",
       "source_id": "src_convergencia_portal",
       "state": "succeeded",
-      "started_at": "2026-07-22T22:18:41.704Z",
-      "finished_at": "2026-07-22T22:19:44.702Z",
+      "started_at": "2026-07-22T23:05:22.798Z",
+      "finished_at": "2026-07-22T23:06:08.798Z",
       "items_found": 75,
       "items_downloaded": 75,
       "error": null
