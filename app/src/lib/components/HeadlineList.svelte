@@ -1,5 +1,5 @@
 <script>
-	import { base } from '$app/paths';
+	import { resolve } from '$app/paths';
 	import { itemSlug } from '$lib/slug.js';
 	import { itemImage, itemLead, itemBadges, formatPublishedDate, sourceLabel } from '$lib/preview.js';
 
@@ -15,7 +15,7 @@
 				<a
 					class="headline-row"
 					class:is-selected={selectedId === item.id}
-					href="{base}/item/{itemSlug(item.id)}"
+					href={resolve(`/item/${itemSlug(item.id)}`)}
 					style="animation-delay: {Math.min(i * 25, 300)}ms"
 				>
 					<div class="headline-thumb" class:is-empty={!image}>

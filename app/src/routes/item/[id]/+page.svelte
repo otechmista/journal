@@ -1,5 +1,5 @@
 <script>
-	import { base } from '$app/paths';
+	import { resolve } from '$app/paths';
 	import { SITE, absoluteUrl, truncateMeta } from '$lib/site.js';
 	import { itemSlug } from '$lib/slug.js';
 	import Seo from '$lib/components/Seo.svelte';
@@ -12,6 +12,8 @@
 	let status = $derived(data.status);
 	let notFound = $derived(data.notFound);
 	let loadError = $derived(data.error || null);
+	const homeHref = resolve('/');
+	const editionHref = `${resolve('/')}#edicao`;
 
 	function formatLastUpdate(iso) {
 		if (!iso) return 'ainda não registrada';
@@ -94,13 +96,13 @@
 		aria-label="Navegação"
 	>
 		<a
-			href="{base}/"
+			href={homeHref}
 			class="font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-[var(--color-ink)] hover:text-[var(--color-accent)] transition-colors"
 		>
 			Journal
 		</a>
 		<a
-			href="{base}/#edicao"
+			href={editionHref}
 			class="text-[var(--color-ink-muted)] hover:text-[var(--color-accent)] transition-colors"
 		>
 			← Todas as matérias
@@ -116,7 +118,7 @@
 			)}. Volte à lista ou aguarde o próximo crawl.
 		</p>
 		<p class="mt-6">
-			<a href="{base}/#edicao" class="text-[var(--color-accent)] hover:underline"
+			<a href={editionHref} class="text-[var(--color-accent)] hover:underline"
 				>Ver todas as matérias</a
 			>
 		</p>
