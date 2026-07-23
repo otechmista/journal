@@ -1,17 +1,25 @@
 <script>
+	import { browser } from '$app/environment';
 	import { ExternalLink } from '@lucide/svelte';
 	import DOMPurify from 'dompurify';
 	import { cleanContentHtml, cleanContentText } from '$lib/clean.js';
 
 	let { item = null } = $props();
 
-	let safeHtml = $derived(
-		item?.content_html
-			? DOMPurify.sanitize(cleanContentHtml(item.content_html), {
-					ADD_ATTR: ['target', 'rel']
-				})
-			: ''
-	);
+	function sanitizeHtml(html) {
+		const cleaned = cleanContentHtml(html);
+		if (browser) {
+			return DOMPurify.sanitize(cleaned, { ADD_ATTR: ['target', 'rel'] });
+		}
+		// Trusted crawled HTML for prerender — strip obvious active content
+		return cleaned
+			.replace(/<script[\s\S]*?<\/script>/gi, '')
+			.replace(/<style[\s\S]*?<\/style>/gi, '')
+			.replace(/<\/?(?:iframe|object|embed|form)[^>]*>/gi, '')
+			.replace(/\son[a-z]+\s*=\s*(['"])[\s\S]*?\1/gi, '');
+	}
+
+	let safeHtml = $derived(item?.content_html ? sanitizeHtml(item.content_html) : '');
 	let safeText = $derived(item?.content_text ? cleanContentText(item.content_text) : '');
 
 	function sourceLabel(id) {

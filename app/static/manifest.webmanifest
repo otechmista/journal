@@ -1,7 +1,7 @@
 {
   "name": "Journal",
   "short_name": "Journal",
-  "description": "Public JSON news edition — retro-minimal newspaper reader.",
+  "description": "Notícias de tecnologia reunidas num só lugar — edição pública em JSON.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -9,6 +9,7 @@
   "theme_color": "#1a1714",
   "lang": "pt-BR",
   "orientation": "any",
+  "categories": ["news", "magazines"],
   "icons": [
     {
       "src": "icons/icon.svg",

@@ -1,4 +1,5 @@
 <script>
+	import { browser } from '$app/environment';
 	import { upsertNote, getNote } from '$lib/annotations.js';
 
 	let { itemId = null } = $props();
@@ -9,7 +10,7 @@
 
 	$effect(() => {
 		const id = itemId;
-		if (!id) {
+		if (!browser || !id) {
 			draft = '';
 			savedAt = null;
 			dirty = false;

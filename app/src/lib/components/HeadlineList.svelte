@@ -1,5 +1,6 @@
 <script>
 	import { base } from '$app/paths';
+	import { itemSlug } from '$lib/slug.js';
 
 	let { items = [], selectedId = null } = $props();
 
@@ -22,7 +23,7 @@
 	}
 
 	function hrefFor(item) {
-		return `${base}/item/${encodeURIComponent(item.id)}`;
+		return `${base}/item/${itemSlug(item.id)}`;
 	}
 </script>
 
@@ -31,7 +32,7 @@
 		class="py-16 text-center font-[family-name:var(--font-body)] text-[var(--color-ink-muted)] italic animate-fade-in"
 	>
 		No stories yet. Run <code class="font-[family-name:var(--font-meta)] text-sm">bun run crawl</code> in
-		<code class="font-[family-name:var(--font-meta)] text-sm">crawler/</code>, then Reload.
+		<code class="font-[family-name:var(--font-meta)] text-sm">crawler/</code>.
 	</p>
 {:else}
 	<ul class="divide-y divide-[color-mix(in_srgb,var(--color-rule)_18%,transparent)] animate-fade-in">

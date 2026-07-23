@@ -26,8 +26,11 @@ export default defineConfig({
 			}),
 			prerender: {
 				entries: ['*'],
+				origin: process.env.PUBLIC_SITE_URL || 'https://journal.camilomelo.com',
 				handleMissingId: 'warn',
-				handleHttpError: 'warn'
+				handleHttpError: 'warn',
+				handleUnseenRoutes: 'ignore',
+				handleInvalidUrl: 'ignore'
 			}
 		})
 	],

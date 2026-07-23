@@ -8,6 +8,7 @@ on:
       - 'app/**'
       - 'data/**'
       - 'scripts/sync-data.sh'
+      - 'scripts/generate-seo.sh'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -50,22 +51,34 @@ jobs:
 
           if [ -n "$CUSTOM" ] || [ "$USE_CUSTOM" = "true" ] || [ "$HAS_CNAME" = "true" ]; then
             echo "path=" >> "$GITHUB_OUTPUT"
+            if [ -n "$CUSTOM" ]; then
+              echo "site_url=https://${CUSTOM}" >> "$GITHUB_OUTPUT"
+            elif [ -f app/static/CNAME ]; then
+              echo "site_url=https://$(tr -d '[:space:]' < app/static/CNAME)" >> "$GITHUB_OUTPUT"
+            else
+              echo "site_url=https://journal.camilomelo.com" >> "$GITHUB_OUTPUT"
+            fi
             echo "Base path: (empty — custom domain)"
           elif [ "$REPO" = "${OWNER}.github.io" ]; then
             echo "path=" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://${OWNER}.github.io" >> "$GITHUB_OUTPUT"
             echo "Base path: (root user/org site)"
           else
             echo "path=/$REPO" >> "$GITHUB_OUTPUT"
+            echo "site_url=https://${OWNER}.github.io/${REPO}" >> "$GITHUB_OUTPUT"
             echo "Base path: /$REPO"
           fi
 
       - name: Sync public data into static/
+        env:
+          PUBLIC_SITE_URL: ${{ steps.base.outputs.site_url }}
         run: bash scripts/sync-data.sh
 
       - name: Install & build
         working-directory: app
         env:
           BASE_PATH: ${{ steps.base.outputs.path }}
+          PUBLIC_SITE_URL: ${{ steps.base.outputs.site_url }}
         run: |
           npm ci
           npm run build

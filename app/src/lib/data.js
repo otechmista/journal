@@ -9,23 +9,24 @@ function withBase(path) {
 	return `${base}${p}`;
 }
 
-function bust(path) {
-	const full = withBase(path);
-	const sep = full.includes('?') ? '&' : '?';
-	return `${full}${sep}t=${Date.now()}`;
-}
-
-async function getJson(path) {
-	const res = await fetch(bust(path));
+/**
+ * @param {string} path
+ * @param {typeof fetch} [fetcher]
+ */
+async function getJson(path, fetcher = fetch) {
+	const res = await fetcher(withBase(path));
 	if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
 	return res.json();
 }
 
-export async function loadEdition() {
+/**
+ * @param {typeof fetch} [fetcher]
+ */
+export async function loadEdition(fetcher = fetch) {
 	const [feed, status, sources] = await Promise.all([
-		getJson('/data/feeds/unified.json'),
-		getJson('/data/jobs/status.json'),
-		getJson('/data/sources.json')
+		getJson('/data/feeds/unified.json', fetcher),
+		getJson('/data/jobs/status.json', fetcher),
+		getJson('/data/sources.json', fetcher)
 	]);
 	return { feed, status, sources };
 }

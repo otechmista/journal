@@ -1,34 +1,73 @@
 <script>
-	import { onMount } from 'svelte';
-	import { loadEdition } from '$lib/data.js';
+	import { SITE, absoluteUrl, truncateMeta } from '$lib/site.js';
+	import { itemSlug } from '$lib/slug.js';
+	import Seo from '$lib/components/Seo.svelte';
 	import Masthead from '$lib/components/Masthead.svelte';
 	import HeadlineList from '$lib/components/HeadlineList.svelte';
 	import SourcesPanel from '$lib/components/SourcesPanel.svelte';
+	import { onMount } from 'svelte';
 
-	let feed = $state({ items: [] });
-	let status = $state({ last_refresh_at: null, jobs: [] });
-	let sources = $state({ sources: [] });
-	let error = $state(null);
+	let { data } = $props();
+
+	let feed = $derived(data.feed);
+	let status = $derived(data.status);
+	let sources = $derived(data.sources);
+	let error = $derived(data.error || null);
 	let sourcesOpen = $state(false);
 
-	async function load() {
-		const data = await loadEdition();
-		feed = data.feed;
-		status = data.status;
-		sources = data.sources;
-	}
-
 	onMount(() => {
-		load().catch((err) => {
-			error = err instanceof Error ? err.message : String(err);
-		});
 		if (typeof window !== 'undefined' && window.location.hash === '#todos') {
 			queueMicrotask(() => {
 				document.getElementById('todos')?.scrollIntoView({ behavior: 'smooth' });
 			});
 		}
 	});
+
+	let jsonLd = $derived({
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'WebSite',
+				name: SITE.name,
+				url: absoluteUrl('/'),
+				description: SITE.description,
+				inLanguage: SITE.language,
+				potentialAction: {
+					'@type': 'ReadAction',
+					target: absoluteUrl('/')
+				}
+			},
+			{
+				'@type': 'CollectionPage',
+				name: SITE.name,
+				description: SITE.description,
+				url: absoluteUrl('/'),
+				isPartOf: { '@type': 'WebSite', name: SITE.name, url: absoluteUrl('/') },
+				about: 'Notícias de tecnologia',
+				mainEntity: {
+					'@type': 'ItemList',
+					numberOfItems: (feed.items || []).length,
+					itemListElement: (feed.items || []).slice(0, 20).map((item, i) => ({
+						'@type': 'ListItem',
+						position: i + 1,
+						url: absoluteUrl(`/item/${itemSlug(item.id)}`),
+						name: item.title
+					}))
+				}
+			}
+		]
+	});
+
+	let homeDescription = $derived(
+		status?.last_refresh_at
+			? truncateMeta(
+					`${SITE.description} Última edição: ${new Date(status.last_refresh_at).toLocaleString('pt-BR', { dateStyle: 'long', timeStyle: 'short' })}.`
+				)
+			: SITE.description
+	);
 </script>
+
+<Seo title={SITE.name} description={homeDescription} type="website" path="/" jsonLd={jsonLd} />
 
 <main class="mx-auto max-w-3xl px-4 pb-20">
 	<Masthead
