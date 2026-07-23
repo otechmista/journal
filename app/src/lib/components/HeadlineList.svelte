@@ -31,7 +31,9 @@
 	<p
 		class="py-16 text-center font-[family-name:var(--font-body)] text-[var(--color-ink-muted)] italic animate-fade-in"
 	>
-		No stories yet. Run <code class="font-[family-name:var(--font-meta)] text-sm">bun run crawl</code> in
+		Ainda não há matérias nesta edição. Rode
+		<code class="font-[family-name:var(--font-meta)] text-sm">bun run crawl</code>
+		em
 		<code class="font-[family-name:var(--font-meta)] text-sm">crawler/</code>.
 	</p>
 {:else}
