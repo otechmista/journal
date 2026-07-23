@@ -1,5 +1,6 @@
 import { XMLParser } from 'fast-xml-parser';
 import { normalizeItem } from './feed.js';
+import { CRAWLER_HEADERS } from './http.js';
 
 const parser = new XMLParser({
 	ignoreAttributes: false,
@@ -29,7 +30,7 @@ export function parseFeedXml(xml, source) {
  */
 export async function fetchAndParseRss(url, source) {
 	const res = await fetch(url, {
-		headers: { 'User-Agent': 'JournalCrawler/0.1 (+https://local.journal)' }
+		headers: CRAWLER_HEADERS
 	});
 	if (!res.ok) throw new Error(`RSS fetch failed ${res.status} for ${url}`);
 	const xml = await res.text();
