@@ -38,7 +38,7 @@
 			Início
 		</a>
 		<a
-			href="{base}/#todos"
+			href="{base}/#edicao"
 			class="inline-flex items-center gap-1.5 hover:text-[var(--color-accent)] transition-colors"
 		>
 			<Newspaper size={15} />
@@ -91,7 +91,7 @@
 		</p>
 		<p class="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
 			<a
-				href="{base}/#todos"
+				href="{base}/#edicao"
 				class="font-[family-name:var(--font-meta)] text-sm text-[var(--color-accent)] hover:underline"
 			>
 				Ver todas as matérias →

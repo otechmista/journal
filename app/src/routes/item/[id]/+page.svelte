@@ -100,7 +100,7 @@
 			Journal
 		</a>
 		<a
-			href="{base}/#todos"
+			href="{base}/#edicao"
 			class="text-[var(--color-ink-muted)] hover:text-[var(--color-accent)] transition-colors"
 		>
 			← Todas as matérias
@@ -116,7 +116,7 @@
 			)}. Volte à lista ou aguarde o próximo crawl.
 		</p>
 		<p class="mt-6">
-			<a href="{base}/#todos" class="text-[var(--color-accent)] hover:underline"
+			<a href="{base}/#edicao" class="text-[var(--color-accent)] hover:underline"
 				>Ver todas as matérias</a
 			>
 		</p>

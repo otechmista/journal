@@ -1,68 +1,58 @@
 <script>
 	import { base } from '$app/paths';
 	import { itemSlug } from '$lib/slug.js';
+	import { itemImage, itemLead, itemBadges, formatPublishedDate, sourceLabel } from '$lib/preview.js';
 
-	let { items = [], selectedId = null } = $props();
-
-	function metaLine(item) {
-		const parts = [];
-		if (item._journal?.source_id) parts.push(item._journal.source_id.replace(/^src_/, ''));
-		if (item.date_published) {
-			try {
-				parts.push(
-					new Date(item.date_published).toLocaleDateString('pt-BR', {
-						day: '2-digit',
-						month: 'short'
-					})
-				);
-			} catch {
-				/* ignore */
-			}
-		}
-		return parts.join(' · ');
-	}
-
-	function hrefFor(item) {
-		return `${base}/item/${itemSlug(item.id)}`;
-	}
+	let { items = [], sources = [], reference = null, selectedId = null } = $props();
 </script>
 
-{#if !items.length}
-	<p
-		class="py-16 text-center font-[family-name:var(--font-body)] text-[var(--color-ink-muted)] italic animate-fade-in"
-	>
-		Ainda não há matérias nesta edição. Rode
-		<code class="font-[family-name:var(--font-meta)] text-sm">bun run crawl</code>
-		em
-		<code class="font-[family-name:var(--font-meta)] text-sm">crawler/</code>.
-	</p>
-{:else}
-	<ul class="divide-y divide-[color-mix(in_srgb,var(--color-rule)_18%,transparent)] animate-fade-in">
+{#if items.length}
+	<ul class="headline-list animate-fade-in">
 		{#each items as item, i (item.id)}
+			{@const image = itemImage(item)}
+			{@const badges = itemBadges(item, { reference })}
 			<li>
 				<a
-					href={hrefFor(item)}
-					class="block w-full text-left py-5 px-1 transition-colors hover:bg-[var(--color-highlight)] focus-visible:bg-[var(--color-highlight)] outline-none"
-					class:bg-[var(--color-highlight)]={selectedId === item.id}
-					style="animation-delay: {Math.min(i * 40, 400)}ms"
+					class="headline-row"
+					class:is-selected={selectedId === item.id}
+					href="{base}/item/{itemSlug(item.id)}"
+					style="animation-delay: {Math.min(i * 25, 300)}ms"
 				>
-					<div class="flex items-baseline justify-between gap-4">
-						<h2
-							class="font-[family-name:var(--font-display)] text-xl sm:text-2xl font-bold leading-snug text-[var(--color-ink)]"
-						>
-							{item.title}
-						</h2>
-						<span
-							class="shrink-0 font-[family-name:var(--font-meta)] text-[0.7rem] uppercase tracking-wide text-[var(--color-ink-muted)]"
-						>
-							{metaLine(item)}
-						</span>
+					<div class="headline-thumb" class:is-empty={!image}>
+						{#if image}
+							<img
+								src={image}
+								alt=""
+								loading="lazy"
+								decoding="async"
+								referrerpolicy="no-referrer"
+							/>
+						{:else}
+							<span aria-hidden="true">{sourceLabel(item._journal?.source_id, sources).charAt(0)}</span>
+						{/if}
 					</div>
-					{#if item.summary}
-						<p class="mt-2 text-[var(--color-ink-muted)] leading-relaxed line-clamp-2">
-							{item.summary}
+
+					<div class="headline-row-body">
+						<p class="headline-row-meta">
+							<span class="headline-row-source">
+								<span class="news-card-dot" aria-hidden="true"></span>
+								{sourceLabel(item._journal?.source_id, sources)}
+							</span>
+							{#if item.date_published}
+								<span class="headline-row-sep" aria-hidden="true">·</span>
+								<time datetime={item.date_published}>{formatPublishedDate(item.date_published)}</time>
+							{/if}
+							{#each badges as badge (badge.id)}
+								<span class="headline-row-badge is-{badge.id}" title={badge.title}>{badge.label}</span>
+							{/each}
 						</p>
-					{/if}
+
+						<h3 class="headline-row-title">{item.title}</h3>
+
+						{#if itemLead(item, 160)}
+							<p class="headline-row-lead">{itemLead(item, 160)}</p>
+						{/if}
+					</div>
 				</a>
 			</li>
 		{/each}

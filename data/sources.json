@@ -57,6 +57,70 @@
         "same_origin_only": true,
         "delay_ms": 500
       }
+    },
+    {
+      "id": "src_uxcollective_br",
+      "name": "UX Collective Brasil",
+      "type": "rss",
+      "enabled": true,
+      "topic": "design",
+      "url": "https://brasil.uxdesign.cc/feed"
+    },
+    {
+      "id": "src_uxcollective_br_news",
+      "name": "UX Collective Brasil · Newsletter",
+      "type": "rss",
+      "enabled": true,
+      "topic": "design",
+      "url": "https://brasiluxdesign.substack.com/feed"
+    },
+    {
+      "id": "src_vagasux",
+      "name": "VagasUX News",
+      "type": "rss",
+      "enabled": true,
+      "topic": "design",
+      "url": "https://vagasux.substack.com/feed"
+    },
+    {
+      "id": "src_coelhobranco",
+      "name": "O Coelho Branco",
+      "type": "rss",
+      "enabled": true,
+      "topic": "design",
+      "url": "https://ocoelhobranco.substack.com/feed"
+    },
+    {
+      "id": "src_chiefofdesign",
+      "name": "Chief of Design · UX",
+      "type": "rss",
+      "enabled": true,
+      "topic": "design",
+      "url": "https://www.chiefofdesign.com.br/category/ux-design/feed/"
+    },
+    {
+      "id": "src_des1gnon",
+      "name": "Des1gnON",
+      "type": "rss",
+      "enabled": true,
+      "topic": "design",
+      "url": "https://www.des1gnon.com/feed/"
+    },
+    {
+      "id": "src_camaraux",
+      "name": "Camaraux",
+      "type": "rss",
+      "enabled": true,
+      "topic": "design",
+      "url": "https://www.camaraux.com.br/blog/feed"
+    },
+    {
+      "id": "src_handtalk",
+      "name": "Hand Talk · Acessibilidade",
+      "type": "rss",
+      "enabled": true,
+      "topic": "design",
+      "url": "https://blog.handtalk.me/feed/"
     }
   ]
 }

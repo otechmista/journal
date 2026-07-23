@@ -3,7 +3,7 @@ import { parseHTML } from 'linkedom';
 import { mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { join } from 'node:path';
-import { PATHS, sleep } from './paths.js';
+import { PATHS, sleep, absoluteUrl } from './paths.js';
 import { cleanContentHtml, cleanContentText } from './clean.js';
 
 /**
@@ -16,6 +16,11 @@ export async function enrichItemWithArticle(item, opts = {}) {
 	try {
 		if (item.content_html && item.content_html.length > 400) {
 			applyClean(item);
+			// Feed body is enough, but a card still needs an illustration.
+			if (!item.image && !/<img\b/i.test(item.content_html)) {
+				item.image = (await fetchSocialImage(item.url)) || undefined;
+				if (delayMs > 0) await sleep(delayMs);
+			}
 			item._journal.content_status = 'ok';
 			item._journal.content_error = null;
 			return item;
@@ -37,6 +42,11 @@ export async function enrichItemWithArticle(item, opts = {}) {
 			const file = join(PATHS.articlesDir, `${hash}.html`);
 			await Bun.write(file, html);
 			item._journal.article_snapshot = `articles/${hash}.html`;
+		}
+
+		if (!item.image) {
+			const image = extractSocialImage(html, item.url);
+			if (image) item.image = image;
 		}
 
 		const { content_html, content_text, title } = extractReadable(html, item.url);
@@ -99,6 +109,46 @@ function extractReadable(html, url) {
 		content_text: article.textContent || stripTags(article.content || ''),
 		title: article.title || ''
 	};
+}
+
+/**
+ * Fetch a page just to read its social card image. Never throws.
+ * @param {string} url
+ * @returns {Promise<string>}
+ */
+export async function fetchSocialImage(url) {
+	try {
+		const res = await fetch(url, {
+			headers: { 'User-Agent': 'JournalCrawler/0.1 (+https://local.journal)' }
+		});
+		if (!res.ok) return '';
+		return extractSocialImage(await res.text(), url);
+	} catch {
+		return '';
+	}
+}
+
+/**
+ * Lead image declared by the page itself (og:image / twitter:image).
+ * @param {string} html
+ * @param {string} pageUrl
+ * @returns {string} absolute URL, or '' when the page declares none
+ */
+export function extractSocialImage(html, pageUrl) {
+	const patterns = [
+		/<meta[^>]+property=["']og:image(?::url)?["'][^>]*>/i,
+		/<meta[^>]+name=["']og:image(?::url)?["'][^>]*>/i,
+		/<meta[^>]+name=["']twitter:image(?::src)?["'][^>]*>/i,
+		/<meta[^>]+property=["']twitter:image(?::src)?["'][^>]*>/i
+	];
+	for (const pattern of patterns) {
+		const tag = html.match(pattern)?.[0];
+		const content = tag?.match(/\scontent=["']([^"']+)["']/i)?.[1]?.trim();
+		if (!content) continue;
+		const absolute = absoluteUrl(content, pageUrl);
+		if (absolute) return absolute;
+	}
+	return '';
 }
 
 function stripTags(s) {

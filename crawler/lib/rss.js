@@ -71,6 +71,7 @@ function parseRss(doc, source) {
 				summary: summary && summary !== contentHtml ? stripTags(summary).slice(0, 500) : undefined,
 				content_html: looksLikeHtml(contentHtml) ? contentHtml : undefined,
 				content_text: !looksLikeHtml(contentHtml) && contentHtml ? contentHtml : undefined,
+				image: mediaImage(item),
 				date_published: parseDate(textOf(item.pubDate) || textOf(item['dc:date'])),
 				authors: item['dc:creator'] ? [{ name: textOf(item['dc:creator']) }] : undefined
 			},
@@ -102,6 +103,7 @@ function parseAtom(feed, source) {
 				summary: textOf(entry.summary) ? stripTags(textOf(entry.summary)).slice(0, 500) : undefined,
 				content_html: looksLikeHtml(contentHtml) ? contentHtml : undefined,
 				content_text: !looksLikeHtml(contentHtml) && contentHtml ? contentHtml : undefined,
+				image: mediaImage(entry),
 				date_published: parseDate(textOf(entry.published) || textOf(entry.updated)),
 				authors: asArray(entry.author)
 					.map((a) => ({ name: textOf(a.name) || textOf(a) }))
@@ -112,6 +114,29 @@ function parseAtom(feed, source) {
 		if (normalized) out.push(normalized);
 	}
 	return out;
+}
+
+/**
+ * Lead image shipped by the feed: media:content, media:thumbnail or enclosure.
+ * @param {Record<string, any>} node RSS item / Atom entry
+ * @returns {string|undefined}
+ */
+export function mediaImage(node) {
+	const candidates = [
+		...asArray(node['media:content']),
+		...asArray(node['media:thumbnail']),
+		...asArray(node.enclosure)
+	];
+	for (const c of candidates) {
+		if (!c || typeof c !== 'object') continue;
+		const url = String(c['@_url'] || c['@_href'] || '').trim();
+		if (!/^https?:\/\//i.test(url)) continue;
+		const type = String(c['@_type'] || c['@_medium'] || '');
+		if (type && !/^image/i.test(type)) continue;
+		if (!type && !/\.(jpe?g|png|webp|avif|gif)(\?|$)/i.test(url)) continue;
+		return url;
+	}
+	return undefined;
 }
 
 function looksLikeHtml(s) {
