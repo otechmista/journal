@@ -2,11 +2,24 @@
  * Public JSON data access — no application API.
  * User annotations live in localStorage (see annotations.js).
  */
-import { base } from '$app/paths';
+import { base, resolve } from '$app/paths';
 
+/**
+ * Root-relative (or kit-base) path for public assets / JSON.
+ * Treats relative kit `base` (`.` / `./`) as empty so fetches stay absolute.
+ * @param {string} path
+ */
 function withBase(path) {
 	const p = path.startsWith('/') ? path : `/${path}`;
-	return `${base}${p}`;
+	let root = base || '';
+	if (root === '.' || root === './') root = '';
+	root = root.replace(/\/$/, '');
+	if (root) return `${root}${p}`;
+	try {
+		return resolve(p);
+	} catch {
+		return p;
+	}
 }
 
 /**

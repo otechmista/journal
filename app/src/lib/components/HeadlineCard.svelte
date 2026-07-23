@@ -1,5 +1,5 @@
 <script>
-	import { base } from '$app/paths';
+	import { resolve } from '$app/paths';
 	import { itemSlug } from '$lib/slug.js';
 	import {
 		itemImage,
@@ -33,7 +33,7 @@
 	class:is-selected={selected}
 	style="animation-delay: {Math.min(index * 45, 360)}ms"
 >
-	<a class="news-card-link" href="{base}/item/{itemSlug(item.id)}">
+	<a class="news-card-link" href={resolve(`/item/${itemSlug(item.id)}`)}>
 		<div class="news-card-media" aria-hidden={image && !imageFailed ? undefined : 'true'}>
 			{#if image && !imageFailed}
 				<img

@@ -1,6 +1,6 @@
 <script>
-	import { base } from '$app/paths';
-	import { List, Home, Newspaper, Braces } from '@lucide/svelte';
+	import { resolve } from '$app/paths';
+	import { List, Home, Newspaper, Braces, Info } from '@lucide/svelte';
 	import { withBase } from '$lib/data.js';
 
 	let {
@@ -11,6 +11,9 @@
 	} = $props();
 
 	const jsonUrl = withBase('/data/feeds/unified.json');
+	const homeHref = resolve('/');
+	const editionHref = `${resolve('/')}#edicao`;
+	const aboutHref = resolve('/sobre');
 
 	function formatDateline(iso) {
 		if (!iso) return 'Edição pendente — aguarde o próximo crawl';
@@ -31,28 +34,37 @@
 		aria-label="Principal"
 	>
 		<a
-			href="{base}/"
+			href={homeHref}
 			class="inline-flex items-center gap-1.5 hover:text-[var(--color-accent)] transition-colors"
 		>
 			<Home size={15} />
 			Início
 		</a>
 		<a
-			href="{base}/#edicao"
+			href={editionHref}
 			class="inline-flex items-center gap-1.5 hover:text-[var(--color-accent)] transition-colors"
 		>
 			<Newspaper size={15} />
 			Todos
 		</a>
-		<button
-			type="button"
+		{#if ontogglesources}
+			<button
+				type="button"
+				class="inline-flex items-center gap-1.5 hover:text-[var(--color-accent)] transition-colors"
+				onclick={() => ontogglesources?.()}
+				aria-expanded={sourcesOpen}
+			>
+				<List size={15} />
+				Fontes
+			</button>
+		{/if}
+		<a
+			href={aboutHref}
 			class="inline-flex items-center gap-1.5 hover:text-[var(--color-accent)] transition-colors"
-			onclick={() => ontogglesources?.()}
-			aria-expanded={sourcesOpen}
 		>
-			<List size={15} />
-			Fontes
-		</button>
+			<Info size={15} />
+			Sobre
+		</a>
 		<a
 			href={jsonUrl}
 			target="_blank"
@@ -91,7 +103,7 @@
 		</p>
 		<p class="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
 			<a
-				href="{base}/#edicao"
+				href={editionHref}
 				class="font-[family-name:var(--font-meta)] text-sm text-[var(--color-accent)] hover:underline"
 			>
 				Ver todas as matérias →
