@@ -6,76 +6,73 @@
 	let { item = null } = $props();
 
 	let safeHtml = $derived(
-		item?.content_html ? DOMPurify.sanitize(cleanContentHtml(item.content_html)) : ''
+		item?.content_html
+			? DOMPurify.sanitize(cleanContentHtml(item.content_html), {
+					ADD_ATTR: ['target', 'rel']
+				})
+			: ''
 	);
 	let safeText = $derived(item?.content_text ? cleanContentText(item.content_text) : '');
+
+	function sourceLabel(id) {
+		if (!id) return 'fonte';
+		return String(id).replace(/^src_/, '').replace(/_/g, ' ');
+	}
 </script>
 
 {#if !item}
-	<p class="text-[var(--color-ink-muted)] italic py-8">Select a headline to read.</p>
+	<p class="text-[var(--color-ink-muted)] italic py-8">Selecione uma manchete para ler.</p>
 {:else}
-	<article class="animate-fade-in">
-		<h1
-			class="font-[family-name:var(--font-display)] text-3xl sm:text-4xl font-bold leading-tight text-[var(--color-ink)]"
-		>
-			{item.title}
-		</h1>
-		<p
-			class="mt-3 font-[family-name:var(--font-meta)] text-xs uppercase tracking-[0.14em] text-[var(--color-ink-muted)]"
-		>
-			{item._journal?.source_id || 'source'}
-			{#if item.date_published}
-				· {new Date(item.date_published).toLocaleString('pt-BR')}
-			{/if}
-			{#if item._journal?.content_status && item._journal.content_status !== 'ok'}
-				· content {item._journal.content_status}
-			{/if}
-		</p>
+	<article class="article-sheet animate-fade-in">
+		<header class="article-header">
+			<p class="article-kicker">
+				<span>{sourceLabel(item._journal?.source_id)}</span>
+				{#if item.date_published}
+					<span class="article-kicker-sep" aria-hidden="true">·</span>
+					<time datetime={item.date_published}>
+						{new Date(item.date_published).toLocaleString('pt-BR', {
+							dateStyle: 'long',
+							timeStyle: 'short'
+						})}
+					</time>
+				{/if}
+			</p>
 
-		<p class="mt-5">
-			<a
-				href={item.url}
-				target="_blank"
-				rel="noopener noreferrer"
-				class="inline-flex items-center gap-2 font-[family-name:var(--font-meta)] text-sm font-medium text-[var(--color-accent)] hover:underline"
-			>
-				Abrir artigo original
-				<ExternalLink size={14} />
-			</a>
-		</p>
+			<h1 class="article-title">{item.title}</h1>
 
-		<div class="mt-5 h-px w-full bg-[var(--color-rule)] opacity-70" aria-hidden="true"></div>
+			<p class="article-original">
+				<a
+					href={item.url}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="inline-flex items-center gap-2"
+				>
+					Ler no site original
+					<ExternalLink size={14} />
+				</a>
+			</p>
+		</header>
+
+		<div class="article-rule" aria-hidden="true"></div>
 
 		{#if item._journal?.content_status === 'error'}
-			<p class="mt-6 text-[var(--color-accent)]">
+			<p class="mt-8 text-[var(--color-accent)]">
 				Texto completo indisponível{item._journal.content_error
 					? `: ${item._journal.content_error}`
 					: '.'}
 			</p>
 			{#if item.summary}
-				<p class="mt-4 text-[var(--color-ink-muted)]">{item.summary}</p>
+				<p class="mt-4 text-[var(--color-ink-muted)] leading-relaxed">{item.summary}</p>
 			{/if}
 		{:else if safeHtml}
-			<div class="prose-article mt-6">{@html safeHtml}</div>
+			<div class="prose-article">{@html safeHtml}</div>
 		{:else if safeText}
-			<div class="prose-article mt-6 whitespace-pre-wrap">{safeText}</div>
+			<div class="prose-article whitespace-pre-wrap">{safeText}</div>
 		{:else}
-			<p class="mt-6 text-[var(--color-ink-muted)] italic">Corpo ainda não baixado.</p>
+			<p class="mt-8 text-[var(--color-ink-muted)] italic">Corpo ainda não baixado.</p>
 			{#if item.summary}
-				<p class="mt-4">{item.summary}</p>
+				<p class="mt-4 leading-relaxed">{item.summary}</p>
 			{/if}
 		{/if}
-
-		<p class="mt-10 pt-6 border-t border-[color-mix(in_srgb,var(--color-rule)_25%,transparent)]">
-			<a
-				href={item.url}
-				target="_blank"
-				rel="noopener noreferrer"
-				class="inline-flex items-center gap-2 font-[family-name:var(--font-meta)] text-sm text-[var(--color-accent)] hover:underline"
-			>
-				Ler no site original
-				<ExternalLink size={14} />
-			</a>
-		</p>
 	</article>
 {/if}

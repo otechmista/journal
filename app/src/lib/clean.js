@@ -8,6 +8,8 @@ const CHANNEL_HREF =
 const PROMO_TEXT =
 	/participe dos canais de ofertas|achados do tb|ct ofertas|melhores promo/i;
 
+const PLACEHOLDER = /\{\{\s*WHATSAPP_CHANNEL\s*\}\}/i;
+
 /**
  * @param {string} html
  * @returns {string}
@@ -28,16 +30,33 @@ export function cleanContentHtml(html) {
 		}
 	}
 
-	for (const el of [...root.querySelectorAll('div.social, aside')]) {
+	for (const el of [...root.querySelectorAll('div.social, aside, button.lightbox-trigger')]) {
 		const blob = `${el.textContent || ''}${el.innerHTML || ''}`;
-		if (CHANNEL_HREF.test(blob) || /whatsapp|telegram/i.test(blob)) el.remove();
+		if (
+			el.matches('button.lightbox-trigger') ||
+			CHANNEL_HREF.test(blob) ||
+			/whatsapp|telegram/i.test(blob)
+		) {
+			el.remove();
+		}
 	}
 
 	for (const el of [...root.querySelectorAll('li, p, div, span')]) {
 		if (!el.isConnected) continue;
 		const text = (el.textContent || '').replace(/\s+/g, ' ').trim();
+		const htmlInner = el.innerHTML || '';
+		if (PLACEHOLDER.test(text) || PLACEHOLDER.test(htmlInner)) {
+			if (text.replace(PLACEHOLDER, '').trim() === '') {
+				el.remove();
+				continue;
+			}
+		}
 		if (!text) continue;
-		if (PROMO_TEXT.test(text) && /whatsapp|telegram|📱/i.test(text) && (el.children.length <= 2 || text.length < 180)) {
+		if (
+			PROMO_TEXT.test(text) &&
+			/whatsapp|telegram|📱/i.test(text) &&
+			(el.children.length <= 2 || text.length < 180)
+		) {
 			el.remove();
 		}
 	}
@@ -62,7 +81,10 @@ export function cleanContentText(text) {
 function scrubPromoPhrases(s) {
 	return s
 		.replace(/Participe dos canais de ofertas do Achados do TB\s*(WhatsApp)?\s*(Telegram)?/gi, ' ')
-		.replace(/(?:📱\s*)?Veja as melhores promo(?:ções|&ccedil;&otilde;es)[\s\S]{0,160}?no WhatsApp[\s\S]{0,60}?CT Ofertas/gi, ' ')
+		.replace(
+			/(?:📱\s*)?Veja as melhores promo(?:ções|&ccedil;&otilde;es)[\s\S]{0,160}?no WhatsApp[\s\S]{0,60}?CT Ofertas/gi,
+			' '
+		)
 		.replace(/\{\{\s*WHATSAPP_CHANNEL\s*\}\}/gi, ' ')
 		.replace(/https?:\/\/(?:www\.)?(?:whatsapp\.com\/channel|wa\.me\/channel)[^\s<"']*/gi, ' ');
 }
@@ -71,6 +93,7 @@ function scrubPromoPhrases(s) {
 function isEmptyNoise(el) {
 	const text = (el.textContent || '').replace(/\s+/g, ' ').trim();
 	if (!text) return true;
+	if (PLACEHOLDER.test(text) && text.replace(PLACEHOLDER, '').trim() === '') return true;
 	if (text.length < 120 && PROMO_TEXT.test(text)) return true;
 	if (text.length < 40 && /^(WhatsApp|Telegram|📱)$/i.test(text)) return true;
 	return false;

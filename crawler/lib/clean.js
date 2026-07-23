@@ -9,6 +9,8 @@ const CHANNEL_HREF =
 const PROMO_TEXT =
 	/participe dos canais de ofertas|achados do tb|ct ofertas|melhores promo(?:ções|&#231;&#245;es|&ccedil;&otilde;es) de (?:hoje|celulares) no whatsapp/i;
 
+const PLACEHOLDER = /\{\{\s*WHATSAPP_CHANNEL\s*\}\}/i;
+
 /**
  * @param {string} html
  * @returns {string}
@@ -27,18 +29,30 @@ export function cleanContentHtml(html) {
 		}
 	});
 
-	$('div.social, aside, .widget-social').each((_, el) => {
+	$('div.social, aside, .widget-social, button.lightbox-trigger').each((_, el) => {
 		const t = $(el).text();
 		const h = $(el).html() || '';
-		if (CHANNEL_HREF.test(h) || /whatsapp|telegram/i.test(t)) $(el).remove();
+		if (
+			$(el).is('button.lightbox-trigger') ||
+			CHANNEL_HREF.test(h) ||
+			/whatsapp|telegram/i.test(t)
+		) {
+			$(el).remove();
+		}
 	});
 
-	$('li, p, div, span').each((_, el) => {
+	$('p, li, div, span').each((_, el) => {
 		const node = $(el);
 		if (!node.parent().length) return;
 		const text = node.text().replace(/\s+/g, ' ').trim();
 		const htmlInner = node.html() || '';
-		if (!text) return;
+		if (!text && !htmlInner) return;
+		if (PLACEHOLDER.test(text) || PLACEHOLDER.test(htmlInner)) {
+			if (text.replace(PLACEHOLDER, '').trim() === '') {
+				node.remove();
+				return;
+			}
+		}
 		if (PROMO_TEXT.test(text) && /whatsapp|telegram|📱/i.test(text + htmlInner)) {
 			if (node.children().length <= 2 || text.length < 180) node.remove();
 		}
@@ -67,7 +81,10 @@ export function cleanContentText(text) {
 function scrubPromoPhrases(s) {
 	return s
 		.replace(/Participe dos canais de ofertas do Achados do TB\s*(WhatsApp)?\s*(Telegram)?/gi, ' ')
-		.replace(/(?:📱\s*)?Veja as melhores promo(?:ções|&#231;&#245;es|&ccedil;&otilde;es)[\s\S]{0,160}?no WhatsApp[\s\S]{0,60}?CT Ofertas/gi, ' ')
+		.replace(
+			/(?:📱\s*)?Veja as melhores promo(?:ções|&#231;&#245;es|&ccedil;&otilde;es)[\s\S]{0,160}?no WhatsApp[\s\S]{0,60}?CT Ofertas/gi,
+			' '
+		)
 		.replace(/\{\{\s*WHATSAPP_CHANNEL\s*\}\}/gi, ' ')
 		.replace(/https?:\/\/(?:www\.)?(?:whatsapp\.com\/channel|wa\.me\/channel)[^\s<"']*/gi, ' ');
 }
@@ -78,6 +95,7 @@ function scrubPromoPhrases(s) {
 function isEmptyNoise(node) {
 	const text = node.text().replace(/\s+/g, ' ').trim();
 	if (!text) return true;
+	if (PLACEHOLDER.test(text) && text.replace(PLACEHOLDER, '').trim() === '') return true;
 	if (text.length < 120 && PROMO_TEXT.test(text)) return true;
 	if (text.length < 40 && /^(WhatsApp|Telegram|📱)$/i.test(text)) return true;
 	return false;

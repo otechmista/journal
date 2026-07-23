@@ -22,4 +22,11 @@ describe('cleanContent', () => {
 			'desempenho. Veja as melhores promo&ccedil;&otilde;es de smartwatches no WhatsApp do CT Ofertas Entre os destaques';
 		expect(cleanContentText(text)).toBe('desempenho. Entre os destaques');
 	});
+
+	test('removes {{WHATSAPP_CHANNEL}} placeholder block', () => {
+		const html = `<p>Fim da matéria.</p><p>{{WHATSAPP_CHANNEL}}</p>`;
+		const out = cleanContentHtml(html);
+		expect(out).toContain('Fim da matéria');
+		expect(out).not.toMatch(/WHATSAPP_CHANNEL/);
+	});
 });

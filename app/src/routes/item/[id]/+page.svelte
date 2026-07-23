@@ -51,30 +51,30 @@
 	});
 </script>
 
-<main class="mx-auto max-w-3xl px-4 pb-20 pt-8">
+<main class="mx-auto max-w-2xl px-4 pb-24 pt-6 sm:pt-10">
 	<nav
-		class="mb-8 flex flex-wrap items-center gap-5 font-[family-name:var(--font-meta)] text-sm"
+		class="mb-10 flex flex-wrap items-center justify-between gap-4 font-[family-name:var(--font-meta)] text-sm"
 		aria-label="Navegação"
 	>
 		<a
 			href="{base}/"
-			class="text-[var(--color-ink-muted)] hover:text-[var(--color-accent)] transition-colors"
+			class="font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-[var(--color-ink)] hover:text-[var(--color-accent)] transition-colors"
 		>
-			Início
+			Journal
 		</a>
 		<a
 			href="{base}/#todos"
 			class="text-[var(--color-ink-muted)] hover:text-[var(--color-accent)] transition-colors"
 		>
-			Todos
+			← Todas as matérias
 		</a>
 	</nav>
 
 	{#if loading}
 		<p class="text-[var(--color-ink-muted)] italic">Carregando…</p>
 	{:else if error}
-		<p class="text-[var(--color-accent)]" role="alert">{error}</p>
-		<p class="mt-4">
+		<p class="text-[var(--color-accent)] leading-relaxed" role="alert">{error}</p>
+		<p class="mt-6">
 			<a href="{base}/#todos" class="text-[var(--color-accent)] hover:underline"
 				>Ver todas as matérias</a
 			>

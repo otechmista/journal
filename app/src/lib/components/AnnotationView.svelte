@@ -41,21 +41,21 @@
 	}
 </script>
 
-<section class="mt-10 pt-6 border-t border-[color-mix(in_srgb,var(--color-rule)_25%,transparent)]">
+<section class="mt-12 pt-8 border-t border-[color-mix(in_srgb,var(--color-rule)_22%,transparent)]">
 	<h3
-		class="font-[family-name:var(--font-meta)] text-[0.7rem] uppercase tracking-[0.2em] text-[var(--color-ink-muted)] mb-3"
+		class="font-[family-name:var(--font-meta)] text-[0.7rem] uppercase tracking-[0.2em] text-[var(--color-ink-muted)] mb-2"
 	>
-		Your notes
+		Suas anotações
 	</h3>
 	{#if !itemId}
-		<p class="text-sm text-[var(--color-ink-muted)] italic">Open a story to annotate.</p>
+		<p class="text-sm text-[var(--color-ink-muted)] italic">Abra uma matéria para anotar.</p>
 	{:else}
-		<p class="mb-3 text-xs text-[var(--color-ink-muted)] font-[family-name:var(--font-meta)]">
-			Private to this browser (localStorage) — not published with the public JSON feeds.
+		<p class="mb-4 text-xs text-[var(--color-ink-muted)] font-[family-name:var(--font-meta)] leading-relaxed">
+			Só neste navegador (localStorage) — não entram no JSON público.
 		</p>
 		<textarea
-			class="w-full min-h-28 bg-[var(--color-highlight)] border border-[color-mix(in_srgb,var(--color-rule)_20%,transparent)] px-3 py-2 font-[family-name:var(--font-body)] text-[var(--color-ink)] text-base leading-relaxed outline-none focus:border-[var(--color-accent)] resize-y"
-			placeholder="Write a personal note on this story…"
+			class="w-full min-h-28 bg-[var(--color-highlight)] border border-[color-mix(in_srgb,var(--color-rule)_18%,transparent)] px-3 py-2.5 font-[family-name:var(--font-body)] text-[var(--color-ink)] text-base leading-relaxed outline-none focus:border-[var(--color-accent)] resize-y"
+			placeholder="Escreva uma nota pessoal sobre esta matéria…"
 			bind:value={draft}
 			oninput={() => (dirty = true)}
 		></textarea>
@@ -66,21 +66,21 @@
 				onclick={save}
 				disabled={!dirty && !draft.trim() && !savedAt}
 			>
-				Save
+				Salvar
 			</button>
 			<button
 				type="button"
 				class="text-[var(--color-ink-muted)] hover:text-[var(--color-accent)] transition-colors"
 				onclick={clear}
 			>
-				Clear
+				Limpar
 			</button>
 			{#if savedAt && !dirty}
 				<span class="text-[0.7rem] text-[var(--color-ink-muted)]">
-					Saved {new Date(savedAt).toLocaleString('pt-BR')}
+					Salvo {new Date(savedAt).toLocaleString('pt-BR')}
 				</span>
 			{:else if dirty}
-				<span class="text-[0.7rem] text-[var(--color-accent)]">Unsaved</span>
+				<span class="text-[0.7rem] text-[var(--color-accent)]">Não salvo</span>
 			{/if}
 		</div>
 	{/if}
