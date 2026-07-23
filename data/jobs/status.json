@@ -1,245 +1,132 @@
 {
-<<<<<<< HEAD
-  "last_refresh_at": "2026-07-23T18:28:05.065Z",
+  "last_refresh_at": "2026-07-23T18:44:49.100Z",
   "jobs": [
     {
-      "id": "job_src_convergencia_feed_1784831233936",
+      "id": "job_src_convergencia_feed_1784832226042",
       "source_id": "src_convergencia_feed",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:13.936Z",
-      "finished_at": "2026-07-23T18:27:19.932Z",
-=======
-  "last_refresh_at": "2026-07-23T18:38:37.473Z",
-  "jobs": [
-    {
-      "id": "job_src_convergencia_feed_1784831811888",
-      "source_id": "src_convergencia_feed",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:36:51.888Z",
-      "finished_at": "2026-07-23T18:37:01.454Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:43:46.042Z",
+      "finished_at": "2026-07-23T18:43:54.145Z",
       "items_found": 10,
       "items_downloaded": 10,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_tecnoblog_1784831239932",
+      "id": "job_src_tecnoblog_1784832234145",
       "source_id": "src_tecnoblog",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:19.932Z",
-      "finished_at": "2026-07-23T18:27:20.244Z",
-=======
-      "id": "job_src_tecnoblog_1784831821454",
-      "source_id": "src_tecnoblog",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:37:01.454Z",
-      "finished_at": "2026-07-23T18:37:03.114Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:43:54.145Z",
+      "finished_at": "2026-07-23T18:43:54.492Z",
       "items_found": 50,
-      "items_downloaded": 50,
+      "items_downloaded": 20,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_canaltech_1784831240244",
+      "id": "job_src_canaltech_1784832234492",
       "source_id": "src_canaltech",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:20.244Z",
-      "finished_at": "2026-07-23T18:27:22.938Z",
-=======
-      "id": "job_src_canaltech_1784831823114",
-      "source_id": "src_canaltech",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:37:03.114Z",
-      "finished_at": "2026-07-23T18:37:11.343Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:43:54.492Z",
+      "finished_at": "2026-07-23T18:43:59.990Z",
       "items_found": 50,
-      "items_downloaded": 50,
+      "items_downloaded": 20,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_tecmundo_1784831242938",
+      "id": "job_src_tecmundo_1784832239990",
       "source_id": "src_tecmundo",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:22.938Z",
-      "finished_at": "2026-07-23T18:27:31.416Z",
-=======
-      "id": "job_src_tecmundo_1784831831343",
-      "source_id": "src_tecmundo",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:37:11.343Z",
-      "finished_at": "2026-07-23T18:37:21.659Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:43:59.990Z",
+      "finished_at": "2026-07-23T18:44:10.302Z",
       "items_found": 14,
       "items_downloaded": 14,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_convergencia_portal_1784831251416",
+      "id": "job_src_convergencia_portal_1784832250302",
       "source_id": "src_convergencia_portal",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:31.416Z",
-      "finished_at": "2026-07-23T18:27:39.803Z",
-=======
-      "id": "job_src_convergencia_portal_1784831841659",
-      "source_id": "src_convergencia_portal",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:37:21.659Z",
-      "finished_at": "2026-07-23T18:38:18.003Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:44:10.302Z",
+      "finished_at": "2026-07-23T18:44:22.753Z",
       "items_found": 75,
-      "items_downloaded": 75,
+      "items_downloaded": 20,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_uxcollective_br_1784831259803",
+      "id": "job_src_uxcollective_br_1784832262753",
       "source_id": "src_uxcollective_br",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:39.803Z",
-      "finished_at": "2026-07-23T18:27:40.055Z",
-=======
-      "id": "job_src_uxcollective_br_1784831898003",
-      "source_id": "src_uxcollective_br",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:38:18.003Z",
-      "finished_at": "2026-07-23T18:38:18.941Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:44:22.753Z",
+      "finished_at": "2026-07-23T18:44:23.136Z",
       "items_found": 10,
       "items_downloaded": 10,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_uxcollective_br_news_1784831260055",
+      "id": "job_src_uxcollective_br_news_1784832263136",
       "source_id": "src_uxcollective_br_news",
       "state": "failed",
-      "started_at": "2026-07-23T18:27:40.055Z",
-      "finished_at": "2026-07-23T18:27:40.076Z",
+      "started_at": "2026-07-23T18:44:23.136Z",
+      "finished_at": "2026-07-23T18:44:23.157Z",
       "items_found": 0,
       "items_downloaded": 0,
       "error": "RSS fetch failed 403 for https://brasiluxdesign.substack.com/feed"
     },
     {
-      "id": "job_src_vagasux_1784831260076",
+      "id": "job_src_vagasux_1784832263157",
       "source_id": "src_vagasux",
       "state": "failed",
-      "started_at": "2026-07-23T18:27:40.076Z",
-      "finished_at": "2026-07-23T18:27:40.108Z",
+      "started_at": "2026-07-23T18:44:23.157Z",
+      "finished_at": "2026-07-23T18:44:23.177Z",
       "items_found": 0,
       "items_downloaded": 0,
       "error": "RSS fetch failed 403 for https://vagasux.substack.com/feed"
     },
     {
-      "id": "job_src_coelhobranco_1784831260108",
+      "id": "job_src_coelhobranco_1784832263177",
       "source_id": "src_coelhobranco",
       "state": "failed",
-      "started_at": "2026-07-23T18:27:40.108Z",
-      "finished_at": "2026-07-23T18:27:40.127Z",
+      "started_at": "2026-07-23T18:44:23.177Z",
+      "finished_at": "2026-07-23T18:44:23.214Z",
       "items_found": 0,
       "items_downloaded": 0,
       "error": "RSS fetch failed 403 for https://ocoelhobranco.substack.com/feed"
     },
     {
-      "id": "job_src_chiefofdesign_1784831260127",
+      "id": "job_src_chiefofdesign_1784832263214",
       "source_id": "src_chiefofdesign",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:40.127Z",
-      "finished_at": "2026-07-23T18:27:46.872Z",
-=======
-      "id": "job_src_uxcollective_br_news_1784831898942",
-      "source_id": "src_uxcollective_br_news",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:38:18.942Z",
-      "finished_at": "2026-07-23T18:38:20.153Z",
-      "items_found": 20,
-      "items_downloaded": 20,
-      "error": null
-    },
-    {
-      "id": "job_src_vagasux_1784831900153",
-      "source_id": "src_vagasux",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:38:20.153Z",
-      "finished_at": "2026-07-23T18:38:21.403Z",
-      "items_found": 20,
-      "items_downloaded": 20,
-      "error": null
-    },
-    {
-      "id": "job_src_coelhobranco_1784831901412",
-      "source_id": "src_coelhobranco",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:38:21.412Z",
-      "finished_at": "2026-07-23T18:38:23.269Z",
-      "items_found": 20,
-      "items_downloaded": 20,
-      "error": null
-    },
-    {
-      "id": "job_src_chiefofdesign_1784831903270",
-      "source_id": "src_chiefofdesign",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:38:23.270Z",
-      "finished_at": "2026-07-23T18:38:27.404Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:44:23.214Z",
+      "finished_at": "2026-07-23T18:44:27.650Z",
       "items_found": 10,
       "items_downloaded": 10,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_des1gnon_1784831266872",
+      "id": "job_src_des1gnon_1784832267651",
       "source_id": "src_des1gnon",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:46.872Z",
-      "finished_at": "2026-07-23T18:27:47.733Z",
-=======
-      "id": "job_src_des1gnon_1784831907404",
-      "source_id": "src_des1gnon",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:38:27.404Z",
-      "finished_at": "2026-07-23T18:38:29.581Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:44:27.651Z",
+      "finished_at": "2026-07-23T18:44:28.695Z",
       "items_found": 10,
       "items_downloaded": 10,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_camaraux_1784831267733",
+      "id": "job_src_camaraux_1784832268695",
       "source_id": "src_camaraux",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:27:47.733Z",
-      "finished_at": "2026-07-23T18:28:04.214Z",
-=======
-      "id": "job_src_camaraux_1784831909581",
-      "source_id": "src_camaraux",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:38:29.581Z",
-      "finished_at": "2026-07-23T18:38:35.727Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:44:28.695Z",
+      "finished_at": "2026-07-23T18:44:48.055Z",
       "items_found": 8,
       "items_downloaded": 8,
       "error": null
     },
     {
-<<<<<<< HEAD
-      "id": "job_src_handtalk_1784831284214",
+      "id": "job_src_handtalk_1784832288055",
       "source_id": "src_handtalk",
       "state": "succeeded",
-      "started_at": "2026-07-23T18:28:04.214Z",
-      "finished_at": "2026-07-23T18:28:04.999Z",
-=======
-      "id": "job_src_handtalk_1784831915728",
-      "source_id": "src_handtalk",
-      "state": "succeeded",
-      "started_at": "2026-07-23T18:38:35.728Z",
-      "finished_at": "2026-07-23T18:38:37.247Z",
->>>>>>> f0dd3e4 (Update RSS feed data for Camaraux and Canaltech)
+      "started_at": "2026-07-23T18:44:48.055Z",
+      "finished_at": "2026-07-23T18:44:49.028Z",
       "items_found": 10,
       "items_downloaded": 10,
       "error": null
