@@ -1,6 +1,7 @@
 import * as cheerio from 'cheerio';
 import { normalizeItem } from './feed.js';
 import { absoluteUrl, sameOrigin, sleep } from './paths.js';
+import { CRAWLER_HEADERS } from './http.js';
 
 /**
  * Parse `selector` or `selector@attr`.
@@ -87,7 +88,7 @@ export async function scrapeSource(source, opts = {}) {
 		visited.add(next.url);
 
 		const res = await fetch(next.url, {
-			headers: { 'User-Agent': 'JournalCrawler/0.1 (+https://local.journal)' },
+			headers: CRAWLER_HEADERS,
 			signal: opts.signal
 		});
 		if (!res.ok) {

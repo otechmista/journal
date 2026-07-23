@@ -5,6 +5,7 @@ import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { PATHS, sleep, absoluteUrl } from './paths.js';
 import { cleanContentHtml, cleanContentText } from './clean.js';
+import { CRAWLER_HEADERS } from './http.js';
 
 /**
  * Download full article body into the item.
@@ -27,7 +28,7 @@ export async function enrichItemWithArticle(item, opts = {}) {
 		}
 
 		const res = await fetch(item.url, {
-			headers: { 'User-Agent': 'JournalCrawler/0.1 (+https://local.journal)' }
+			headers: CRAWLER_HEADERS
 		});
 		if (!res.ok) {
 			item._journal.content_status = 'error';
@@ -119,7 +120,7 @@ function extractReadable(html, url) {
 export async function fetchSocialImage(url) {
 	try {
 		const res = await fetch(url, {
-			headers: { 'User-Agent': 'JournalCrawler/0.1 (+https://local.journal)' }
+			headers: CRAWLER_HEADERS
 		});
 		if (!res.ok) return '';
 		return extractSocialImage(await res.text(), url);
