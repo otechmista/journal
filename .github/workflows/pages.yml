@@ -37,20 +37,20 @@ jobs:
       - name: Resolve BASE_PATH
         id: base
         run: |
-          # Priority:
-          # 1) vars.CUSTOM_DOMAIN set → empty BASE_PATH (e.g. journal.camilomelo.com)
-          # 2) vars.USE_CUSTOM_DOMAIN == true → empty BASE_PATH
-          # 3) vars.BASE_PATH set → use it (can be empty string via USE_CUSTOM_DOMAIN)
-          # 4) *.github.io repo → empty
-          # 5) default → /<repo>
+          # Custom domain must use empty BASE_PATH (site served at domain root).
+          # Detect via: repo var, USE_CUSTOM_DOMAIN, or committed app/static/CNAME.
           CUSTOM="${{ vars.CUSTOM_DOMAIN }}"
           USE_CUSTOM="${{ vars.USE_CUSTOM_DOMAIN }}"
           REPO="${{ github.event.repository.name }}"
           OWNER="${{ github.repository_owner }}"
+          HAS_CNAME=false
+          if [ -f app/static/CNAME ] || [ -f app/build/CNAME ]; then
+            HAS_CNAME=true
+          fi
 
-          if [ -n "$CUSTOM" ] || [ "$USE_CUSTOM" = "true" ]; then
+          if [ -n "$CUSTOM" ] || [ "$USE_CUSTOM" = "true" ] || [ "$HAS_CNAME" = "true" ]; then
             echo "path=" >> "$GITHUB_OUTPUT"
-            echo "Base path: (empty — custom subdomain/domain)"
+            echo "Base path: (empty — custom domain)"
           elif [ "$REPO" = "${OWNER}.github.io" ]; then
             echo "path=" >> "$GITHUB_OUTPUT"
             echo "Base path: (root user/org site)"
@@ -73,6 +73,9 @@ jobs:
       - name: Write CNAME for custom domain
         if: ${{ vars.CUSTOM_DOMAIN != '' }}
         run: echo "${{ vars.CUSTOM_DOMAIN }}" > app/build/CNAME
+
+      - name: Ensure .nojekyll
+        run: touch app/build/.nojekyll
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

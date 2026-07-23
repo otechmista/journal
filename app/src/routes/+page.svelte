@@ -8,27 +8,20 @@
 	let feed = $state({ items: [] });
 	let status = $state({ last_refresh_at: null, jobs: [] });
 	let sources = $state({ sources: [] });
-	let loading = $state(false);
 	let error = $state(null);
 	let sourcesOpen = $state(false);
 
-	async function reload() {
-		loading = true;
-		error = null;
-		try {
-			const data = await loadEdition();
-			feed = data.feed;
-			status = data.status;
-			sources = data.sources;
-		} catch (err) {
-			error = err instanceof Error ? err.message : String(err);
-		} finally {
-			loading = false;
-		}
+	async function load() {
+		const data = await loadEdition();
+		feed = data.feed;
+		status = data.status;
+		sources = data.sources;
 	}
 
 	onMount(() => {
-		reload();
+		load().catch((err) => {
+			error = err instanceof Error ? err.message : String(err);
+		});
 		if (typeof window !== 'undefined' && window.location.hash === '#todos') {
 			queueMicrotask(() => {
 				document.getElementById('todos')?.scrollIntoView({ behavior: 'smooth' });
@@ -40,10 +33,8 @@
 <main class="mx-auto max-w-3xl px-4 pb-20">
 	<Masthead
 		lastRefreshAt={status.last_refresh_at}
-		{loading}
 		{sourcesOpen}
 		showCallout={true}
-		onrefresh={reload}
 		ontogglesources={() => (sourcesOpen = !sourcesOpen)}
 	/>
 

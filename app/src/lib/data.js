@@ -11,9 +11,8 @@ function withBase(path) {
 
 function bust(path) {
 	const full = withBase(path);
-	const u = new URL(full, typeof window !== 'undefined' ? window.location.origin : 'http://local');
-	u.searchParams.set('t', String(Date.now()));
-	return u.pathname + u.search;
+	const sep = full.includes('?') ? '&' : '?';
+	return `${full}${sep}t=${Date.now()}`;
 }
 
 async function getJson(path) {

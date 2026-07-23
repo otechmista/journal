@@ -74,8 +74,9 @@ export async function runCrawl(opts = {}) {
 	await Bun.write(PATHS.unified, JSON.stringify(unified, null, 2));
 
 	const anyOk = jobs.some((j) => j.state === 'succeeded');
+	const prev = await loadStatus();
 	const status = {
-		last_refresh_at: anyOk ? new Date().toISOString() : (await loadStatus()).last_refresh_at,
+		last_refresh_at: anyOk ? new Date().toISOString() : prev.last_refresh_at,
 		jobs
 	};
 	await Bun.write(PATHS.status, JSON.stringify(status, null, 2));

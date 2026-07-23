@@ -1,18 +1,19 @@
 <script>
 	import { base } from '$app/paths';
-	import { RefreshCw, List, Home, Newspaper } from '@lucide/svelte';
+	import { List, Home, Newspaper, Braces } from '@lucide/svelte';
+	import { withBase } from '$lib/data.js';
 
 	let {
 		lastRefreshAt = null,
-		loading = false,
 		sourcesOpen = false,
 		showCallout = true,
-		onrefresh = undefined,
 		ontogglesources = undefined
 	} = $props();
 
+	const jsonUrl = withBase('/data/feeds/unified.json');
+
 	function formatDateline(iso) {
-		if (!iso) return 'Edição pendente — rode bun run crawl';
+		if (!iso) return 'Edição pendente — aguarde o próximo crawl';
 		try {
 			return new Date(iso).toLocaleString('pt-BR', {
 				dateStyle: 'long',
@@ -45,15 +46,6 @@
 		</a>
 		<button
 			type="button"
-			class="inline-flex items-center gap-1.5 hover:text-[var(--color-accent)] transition-colors disabled:opacity-50"
-			onclick={() => onrefresh?.()}
-			disabled={loading}
-		>
-			<RefreshCw size={15} class={loading ? 'animate-spin' : ''} />
-			{loading ? 'Atualizando…' : 'Atualizar'}
-		</button>
-		<button
-			type="button"
 			class="inline-flex items-center gap-1.5 hover:text-[var(--color-accent)] transition-colors"
 			onclick={() => ontogglesources?.()}
 			aria-expanded={sourcesOpen}
@@ -61,6 +53,16 @@
 			<List size={15} />
 			Fontes
 		</button>
+		<a
+			href={jsonUrl}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="inline-flex items-center gap-1.5 hover:text-[var(--color-accent)] transition-colors"
+			title="Abrir a edição unificada em JSON (download / curl / integração)"
+		>
+			<Braces size={15} />
+			JSON
+		</a>
 	</nav>
 
 	<p
@@ -87,12 +89,20 @@
 		>
 			Um começo simples: notícias de tecnologia reunidas num só lugar, para todos lerem.
 		</p>
-		<p class="mt-3">
+		<p class="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
 			<a
 				href="{base}/#todos"
 				class="font-[family-name:var(--font-meta)] text-sm text-[var(--color-accent)] hover:underline"
 			>
 				Ver todas as matérias →
+			</a>
+			<a
+				href={jsonUrl}
+				target="_blank"
+				rel="noopener noreferrer"
+				class="font-[family-name:var(--font-meta)] text-sm text-[var(--color-ink-muted)] hover:text-[var(--color-accent)] hover:underline"
+			>
+				Baixar / usar o JSON
 			</a>
 		</p>
 	{/if}

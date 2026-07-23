@@ -1,3 +1,5 @@
+import { cleanContentHtml, cleanContentText } from './clean.js';
+
 /**
  * @typedef {object} JournalMeta
  * @property {string} source_id
@@ -35,13 +37,20 @@ export function normalizeItem(raw, meta) {
 	const id = itemId(raw);
 	const now = new Date().toISOString();
 
+	const content_html = raw.content_html ? cleanContentHtml(raw.content_html) : undefined;
+	const content_text = raw.content_text
+		? cleanContentText(raw.content_text)
+		: content_html
+			? cleanContentText(content_html.replace(/<[^>]+>/g, ' '))
+			: undefined;
+
 	return {
 		id,
 		url,
 		title,
-		summary: raw.summary || undefined,
-		content_text: raw.content_text || undefined,
-		content_html: raw.content_html || undefined,
+		summary: raw.summary ? cleanContentText(raw.summary) : undefined,
+		content_text: content_text || undefined,
+		content_html: content_html || undefined,
 		image: raw.image || undefined,
 		date_published: raw.date_published || undefined,
 		date_modified: raw.date_modified || undefined,
@@ -50,7 +59,7 @@ export function normalizeItem(raw, meta) {
 			source_id: meta.source_id,
 			source_type: meta.source_type,
 			ingested_at: now,
-			content_status: raw._journal?.content_status || (raw.content_html || raw.content_text ? 'ok' : 'missing'),
+			content_status: raw._journal?.content_status || (content_html || content_text ? 'ok' : 'missing'),
 			content_error: raw._journal?.content_error ?? null,
 			article_snapshot: raw._journal?.article_snapshot ?? null
 		}

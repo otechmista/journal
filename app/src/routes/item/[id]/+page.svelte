@@ -16,11 +16,11 @@
 		item = null;
 		try {
 			const id = decodeURIComponent(encodedId);
-			const { feed } = await loadEdition();
+			const { feed, status } = await loadEdition();
 			const found = (feed.items || []).find((i) => i.id === id);
 			if (!found) {
-				error =
-					'Matéria não encontrada na edição atual. Volte e use Atualizar após um crawl.';
+				const last = formatLastUpdate(status?.last_refresh_at);
+				error = `Matéria não encontrada na edição atual. Última atualização: ${last}. Volte à lista ou aguarde o próximo crawl.`;
 			} else {
 				item = found;
 			}
@@ -28,6 +28,18 @@
 			error = err instanceof Error ? err.message : String(err);
 		} finally {
 			loading = false;
+		}
+	}
+
+	function formatLastUpdate(iso) {
+		if (!iso) return 'ainda não registrada';
+		try {
+			return new Date(iso).toLocaleString('pt-BR', {
+				dateStyle: 'long',
+				timeStyle: 'short'
+			});
+		} catch {
+			return iso;
 		}
 	}
 

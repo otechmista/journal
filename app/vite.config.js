@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { defineConfig, searchForWorkspaceRoot } from 'vite';
 import { join } from 'node:path';
 
-/** GitHub Pages project site: set BASE_PATH=/<repo>. Empty for local / user site. */
+/** GitHub Pages: BASE_PATH=/<repo> for *.github.io/<repo>; empty for custom domain root. */
 const base = process.env.BASE_PATH || '';
 
 export default defineConfig({
@@ -13,19 +13,21 @@ export default defineConfig({
 		sveltekit({
 			paths: {
 				base,
-				relative: false
+				// Relative asset URLs avoid white-screen when domain vs /repo mismatch during setup
+				relative: true
 			},
 			compilerOptions: {
 				runes: ({ filename }) =>
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
 			adapter: adapter({
-				fallback: 'index.html',
+				fallback: '404.html',
 				strict: false
 			}),
 			prerender: {
 				entries: ['*'],
-				handleMissingId: 'warn'
+				handleMissingId: 'warn',
+				handleHttpError: 'warn'
 			}
 		})
 	],

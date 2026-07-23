@@ -1,10 +1,14 @@
 <script>
 	import { ExternalLink } from '@lucide/svelte';
-	import DOMPurify from 'isomorphic-dompurify';
+	import DOMPurify from 'dompurify';
+	import { cleanContentHtml, cleanContentText } from '$lib/clean.js';
 
 	let { item = null } = $props();
 
-	let safeHtml = $derived(item?.content_html ? DOMPurify.sanitize(item.content_html) : '');
+	let safeHtml = $derived(
+		item?.content_html ? DOMPurify.sanitize(cleanContentHtml(item.content_html)) : ''
+	);
+	let safeText = $derived(item?.content_text ? cleanContentText(item.content_text) : '');
 </script>
 
 {#if !item}
@@ -53,8 +57,8 @@
 			{/if}
 		{:else if safeHtml}
 			<div class="prose-article mt-6">{@html safeHtml}</div>
-		{:else if item.content_text}
-			<div class="prose-article mt-6 whitespace-pre-wrap">{item.content_text}</div>
+		{:else if safeText}
+			<div class="prose-article mt-6 whitespace-pre-wrap">{safeText}</div>
 		{:else}
 			<p class="mt-6 text-[var(--color-ink-muted)] italic">Corpo ainda não baixado.</p>
 			{#if item.summary}

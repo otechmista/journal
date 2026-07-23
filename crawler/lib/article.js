@@ -4,6 +4,7 @@ import { mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { join } from 'node:path';
 import { PATHS, sleep } from './paths.js';
+import { cleanContentHtml, cleanContentText } from './clean.js';
 
 /**
  * Download full article body into the item.
@@ -14,9 +15,9 @@ export async function enrichItemWithArticle(item, opts = {}) {
 	const delayMs = opts.delayMs ?? 400;
 	try {
 		if (item.content_html && item.content_html.length > 400) {
+			applyClean(item);
 			item._journal.content_status = 'ok';
 			item._journal.content_error = null;
-			if (!item.content_text) item.content_text = stripTags(item.content_html);
 			return item;
 		}
 
@@ -47,6 +48,7 @@ export async function enrichItemWithArticle(item, opts = {}) {
 
 		item.content_html = content_html || undefined;
 		item.content_text = content_text || stripTags(content_html || '');
+		applyClean(item);
 		if (!item.title && title) item.title = title;
 		item._journal.content_status = 'ok';
 		item._journal.content_error = null;
@@ -57,6 +59,17 @@ export async function enrichItemWithArticle(item, opts = {}) {
 
 	if (delayMs > 0) await sleep(delayMs);
 	return item;
+}
+
+/** @param {import('./feed.js').FeedItem} item */
+function applyClean(item) {
+	if (item.content_html) {
+		item.content_html = cleanContentHtml(item.content_html);
+		item.content_text = cleanContentText(item.content_text || stripTags(item.content_html));
+	} else if (item.content_text) {
+		item.content_text = cleanContentText(item.content_text);
+	}
+	if (item.summary) item.summary = cleanContentText(item.summary);
 }
 
 /**

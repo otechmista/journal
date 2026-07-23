@@ -59,7 +59,7 @@ bun run dev
 cd app && npm run dev
 ```
 
-`app/static/data` is a symlink to `../data`. Vite is configured to allow that path (`server.fs.allow`). **Reload** in the UI only re-fetches public JSON (it does **not** start a crawl). Notes are edited in the article view and saved locally.
+`app/static/data` is a symlink to `../data`. Vite is configured to allow that path (`server.fs.allow`). The edition refreshes via the **Update news** GitHub Action cron (every 6 hours). Notes are edited in the article view and saved locally.
 
 ```bash
 npm run build    # static site in app/build

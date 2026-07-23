@@ -3,7 +3,7 @@ name: Update news
 
 on:
   schedule:
-    # Every 6 hours
+    # Every 6 hours (UTC)
     - cron: '0 */6 * * *'
   workflow_dispatch:
     inputs:
