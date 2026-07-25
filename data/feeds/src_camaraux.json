@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-25T18:19:36.656Z",
+        "ingested_at": "2026-07-25T22:35:25.343Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-25T18:19:36.656Z",
+        "ingested_at": "2026-07-25T22:35:25.343Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-25T18:19:36.656Z",
+        "ingested_at": "2026-07-25T22:35:25.344Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=9283",
+      "url": "https://camaraux.com.br/?p=9283",
+      "title": "Service Blueprint: o que é, como criar e exemplo prático",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Entenda como mapear ações do cliente, pontos de contato, bastidores e processos internos com um Service Blueprint prático. Este conteúdo foi publicado originalmente em Service Blueprint: o que é, como criar e exemplo prático na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Entenda como mapear ações do cliente, pontos de contato, bastidores e processos internos com um Service Blueprint prático.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/service-blueprint/\">Service Blueprint: o que é, como criar e exemplo prático</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/service-blueprint-experiencia-do-cliente.webp",
+      "date_published": "2026-07-25T19:02:18.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-07-25T22:35:25.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-25T18:19:36.657Z",
+        "ingested_at": "2026-07-25T22:35:25.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-25T18:19:36.657Z",
+        "ingested_at": "2026-07-25T22:35:25.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-25T18:19:36.657Z",
+        "ingested_at": "2026-07-25T22:35:25.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -153,29 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-25T18:19:36.657Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=8803",
-      "url": "https://camaraux.com.br/?p=8803",
-      "title": "Cognitive Walkthrough: avaliação de usabilidade para encontrar problemas antes dos testes",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Guia completo sobre cognitive walkthrough, método de avaliação de usabilidade usado para revisar tarefas, fluxos e problemas antes dos testes com usuários. Este conteúdo foi publicado originalmente em Cognitive Walkthrough: avaliação de usabilidade para encontrar problemas antes dos testes na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Guia completo sobre cognitive walkthrough, método de avaliação de usabilidade usado para revisar tarefas, fluxos e problemas antes dos testes com usuários.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/cognitive-walkthrough-avaliacao-de-usabilidade/\">Cognitive Walkthrough: avaliação de usabilidade para encontrar problemas antes dos testes</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2024/07/Cognitive-Walkthrough-em-UX-nova-ilustracao.webp",
-      "date_published": "2026-06-01T14:05:20.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-07-25T18:19:36.658Z",
+        "ingested_at": "2026-07-25T22:35:25.345Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
