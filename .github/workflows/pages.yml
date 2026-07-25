@@ -10,6 +10,14 @@ on:
       - 'scripts/sync-data.sh'
       - 'scripts/generate-seo.sh'
       - '.github/workflows/pages.yml'
+  workflow_run:
+    # The crawler pushes data commits using the default GITHUB_TOKEN, which
+    # does not trigger the `push` event above (GitHub's anti-loop rule for
+    # workflow-authored pushes). Chain off its completion instead so every
+    # refreshed news edition actually gets deployed.
+    workflows: ['Update news']
+    types: [completed]
+    branches: [main, master]
   workflow_dispatch:
 
 permissions:
@@ -23,10 +31,13 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.ref }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
