@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-27T18:33:11.498Z",
+        "ingested_at": "2026-07-28T00:29:49.976Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-27T18:33:11.498Z",
+        "ingested_at": "2026-07-28T00:29:49.976Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-27T18:33:11.498Z",
+        "ingested_at": "2026-07-28T00:29:49.976Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=9317",
+      "url": "https://camaraux.com.br/?p=9317",
+      "title": "UX para agentes de IA: 6 princípios essenciais de confiança e controle",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. UX para agentes de IA: conheça 6 princípios para projetar autonomia, transparência, supervisão humana, reversibilidade e confiança. Este conteúdo foi publicado originalmente em UX para agentes de IA: 6 princípios essenciais de confiança e controle na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>UX para agentes de IA: conheça 6 princípios para projetar autonomia, transparência, supervisão humana, reversibilidade e confiança.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/ux-para-agentes-de-ia/\">UX para agentes de IA: 6 princípios essenciais de confiança e controle</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/ux-para-agentes-de-ia-thumbnail.webp",
+      "date_published": "2026-07-27T23:42:03.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-07-28T00:29:49.977Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-27T18:33:11.499Z",
+        "ingested_at": "2026-07-28T00:29:49.977Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-27T18:33:11.499Z",
+        "ingested_at": "2026-07-28T00:29:49.977Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-27T18:33:11.499Z",
+        "ingested_at": "2026-07-28T00:29:49.977Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -153,29 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-27T18:33:11.499Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=8810",
-      "url": "https://camaraux.com.br/?p=8810",
-      "title": "UX Benchmarking: como analisar concorrentes em produtos digitais",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. UX benchmarking ajuda a comparar concorrentes, medir usabilidade e encontrar melhorias reais para produtos digitais. Veja como aplicar. Este conteúdo foi publicado originalmente em UX Benchmarking: como analisar concorrentes em produtos digitais na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>UX benchmarking ajuda a comparar concorrentes, medir usabilidade e encontrar melhorias reais para produtos digitais. Veja como aplicar.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/benchmarking/\">UX Benchmarking: como analisar concorrentes em produtos digitais</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/06/UX-Benchmarking-como-analisar-concorrentes-em-produtos-digitais.webp",
-      "date_published": "2026-06-01T14:11:20.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-07-27T18:33:11.499Z",
+        "ingested_at": "2026-07-28T00:29:49.978Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
