@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-28T00:29:49.976Z",
+        "ingested_at": "2026-07-28T06:53:43.013Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-28T00:29:49.976Z",
+        "ingested_at": "2026-07-28T06:53:43.014Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,51 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-28T00:29:49.976Z",
+        "ingested_at": "2026-07-28T06:53:43.014Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=9333",
+      "url": "https://camaraux.com.br/?p=9333",
+      "title": "Optimal Workshop: guia completo para pesquisas de UX",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Optimal Workshop: conheça card sorting, tree testing, testes de clique, planos e um passo a passo para conduzir pesquisas de UX melhores. Este conteúdo foi publicado originalmente em Optimal Workshop: guia completo para pesquisas de UX na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Optimal Workshop: conheça card sorting, tree testing, testes de clique, planos e um passo a passo para conduzir pesquisas de UX melhores.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/optimal-workshop/\">Optimal Workshop: guia completo para pesquisas de UX</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/optimal-workshop-pesquisa-ux-camaraux-2026.webp",
+      "date_published": "2026-07-28T01:04:01.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-07-28T06:53:43.014Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=9329",
+      "url": "https://camaraux.com.br/?p=9329",
+      "title": "Miro vs FigJam: qual é melhor para workshops de UX?",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Miro vs FigJam: compare recursos, planos e 8 critérios práticos para escolher a melhor ferramenta para workshops de UX e equipes de produto. Este conteúdo foi publicado originalmente em Miro vs FigJam: qual é melhor para workshops de UX? na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Miro vs FigJam: compare recursos, planos e 8 critérios práticos para escolher a melhor ferramenta para workshops de UX e equipes de produto.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/miro-vs-figjam/\">Miro vs FigJam: qual é melhor para workshops de UX?</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/miro-vs-figjam-workshops-ux-camaraux.webp",
+      "date_published": "2026-07-28T00:46:25.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-07-28T06:53:43.015Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-28T00:29:49.977Z",
+        "ingested_at": "2026-07-28T06:53:43.015Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-28T00:29:49.977Z",
+        "ingested_at": "2026-07-28T06:53:43.015Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,51 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-28T00:29:49.977Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=8965",
-      "url": "https://camaraux.com.br/?p=8965",
-      "title": "Agência de UX: o que é, quando contratar e como escolher",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Guia para entender o que faz uma agência de UX, quando contratar e como escolher o parceiro certo para melhorar produtos digitais. Este conteúdo foi publicado originalmente em Agência de UX: o que é, quando contratar e como escolher na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Guia para entender o que faz uma agência de UX, quando contratar e como escolher o parceiro certo para melhorar produtos digitais.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/agencia-de-ux/\">Agência de UX: o que é, quando contratar e como escolher</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/06/Agencia-de-UX-o-que-e-quando-contratar-e-como-escolher.webp",
-      "date_published": "2026-06-17T14:19:25.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-07-28T00:29:49.977Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=8958",
-      "url": "https://camaraux.com.br/?p=8958",
-      "title": "O que é design de interação (IxD)",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Design de interação (IxD) é a disciplina que define como usuários executam ações em produtos digitais. Entenda as 5 dimensões e como aplicar. Este conteúdo foi publicado originalmente em O que é design de interação (IxD) na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Design de interação (IxD) é a disciplina que define como usuários executam ações em produtos digitais. Entenda as 5 dimensões e como aplicar.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/design-de-interacao/\">O que é design de interação (IxD)</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/06/O-que-e-design-de-interacao-IxD.webp",
-      "date_published": "2026-06-15T12:08:02.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-07-28T00:29:49.978Z",
+        "ingested_at": "2026-07-28T06:53:43.015Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
