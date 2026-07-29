@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-29T00:27:54.255Z",
+        "ingested_at": "2026-07-29T12:42:13.974Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-29T00:27:54.256Z",
+        "ingested_at": "2026-07-29T12:42:13.975Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-29T00:27:54.256Z",
+        "ingested_at": "2026-07-29T12:42:13.975Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=9420",
+      "url": "https://camaraux.com.br/?p=9420",
+      "title": "Lookback: guia de testes de usabilidade e entrevistas",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda a usar Lookback para entrevistas e testes de usabilidade moderados e não moderados, com gravação, observação, IA e privacidade. Este conteúdo foi publicado originalmente em Lookback: guia de testes de usabilidade e entrevistas na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda a usar Lookback para entrevistas e testes de usabilidade moderados e não moderados, com gravação, observação, IA e privacidade.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/lookback/\">Lookback: guia de testes de usabilidade e entrevistas</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/lookback-testes-usabilidade-entrevistas-camaraux-jul2026-v2.webp",
+      "date_published": "2026-07-29T12:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-07-29T12:42:13.975Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-29T00:27:54.257Z",
+        "ingested_at": "2026-07-29T12:42:13.975Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-29T00:27:54.257Z",
+        "ingested_at": "2026-07-29T12:42:13.976Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-29T00:27:54.257Z",
+        "ingested_at": "2026-07-29T12:42:13.976Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -153,29 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-07-29T00:27:54.257Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=9333",
-      "url": "https://camaraux.com.br/?p=9333",
-      "title": "Optimal Workshop: guia completo para pesquisas de UX",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Optimal Workshop: conheça card sorting, tree testing, testes de clique, planos e um passo a passo para conduzir pesquisas de UX melhores. Este conteúdo foi publicado originalmente em Optimal Workshop: guia completo para pesquisas de UX na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Optimal Workshop: conheça card sorting, tree testing, testes de clique, planos e um passo a passo para conduzir pesquisas de UX melhores.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/optimal-workshop/\">Optimal Workshop: guia completo para pesquisas de UX</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/optimal-workshop-pesquisa-ux-camaraux-2026.webp",
-      "date_published": "2026-07-28T01:04:01.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-07-29T00:27:54.258Z",
+        "ingested_at": "2026-07-29T12:42:13.976Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
