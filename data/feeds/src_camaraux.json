@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T06:53:12.597Z",
+        "ingested_at": "2026-08-04T12:40:53.215Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T06:53:12.597Z",
+        "ingested_at": "2026-08-04T12:40:53.215Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T06:53:12.597Z",
+        "ingested_at": "2026-08-04T12:40:53.216Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=9449",
+      "url": "https://camaraux.com.br/?p=9449",
+      "title": "Teste de conceito: o que é, quando fazer e como validar uma ideia",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda o que é teste de conceito, quando usar o método e como avaliar uma ideia com usuários antes de investir em design e desenvolvimento. Este conteúdo foi publicado originalmente em Teste de conceito: o que é, quando fazer e como validar uma ideia na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda o que é teste de conceito, quando usar o método e como avaliar uma ideia com usuários antes de investir em design e desenvolvimento.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/teste-de-conceito/\">Teste de conceito: o que é, quando fazer e como validar uma ideia</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/teste-de-conceito-ux-camaraux.webp",
+      "date_published": "2026-08-04T12:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-04T12:40:53.216Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T06:53:12.598Z",
+        "ingested_at": "2026-08-04T12:40:53.216Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T06:53:12.598Z",
+        "ingested_at": "2026-08-04T12:40:53.216Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T06:53:12.598Z",
+        "ingested_at": "2026-08-04T12:40:53.217Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -153,29 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T06:53:12.599Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=9431",
-      "url": "https://camaraux.com.br/?p=9431",
-      "title": "Product Discovery: o que é e como conduzir na prática",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Entenda o que é Product Discovery, como reduzir riscos e conduzir pesquisas, protótipos e experimentos para decidir o que vale a pena construir. Este conteúdo foi publicado originalmente em Product Discovery: o que é e como conduzir na prática na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Entenda o que é Product Discovery, como reduzir riscos e conduzir pesquisas, protótipos e experimentos para decidir o que vale a pena construir.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/product-discovery/\">Product Discovery: o que é e como conduzir na prática</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/product-discovery-camaraux-jul2026.webp",
-      "date_published": "2026-07-30T18:00:00.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-04T06:53:12.599Z",
+        "ingested_at": "2026-08-04T12:40:53.217Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
