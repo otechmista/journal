@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T12:40:53.215Z",
+        "ingested_at": "2026-08-04T18:35:08.379Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T12:40:53.215Z",
+        "ingested_at": "2026-08-04T18:35:08.379Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T12:40:53.216Z",
+        "ingested_at": "2026-08-04T18:35:08.379Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=9452",
+      "url": "https://camaraux.com.br/?p=9452",
+      "title": "Fake Door Test: como validar demanda antes de desenvolver",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Entenda como usar Fake Door Test para medir interesse antes de desenvolver, com métricas, exemplos e cuidados éticos para preservar a confiança. Este conteúdo foi publicado originalmente em Fake Door Test: como validar demanda antes de desenvolver na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Entenda como usar Fake Door Test para medir interesse antes de desenvolver, com métricas, exemplos e cuidados éticos para preservar a confiança.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/fake-door-test/\">Fake Door Test: como validar demanda antes de desenvolver</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/fake-door-test-validacao-demanda-camaraux.webp",
+      "date_published": "2026-08-04T18:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-04T18:35:08.380Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T12:40:53.216Z",
+        "ingested_at": "2026-08-04T18:35:08.380Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T12:40:53.216Z",
+        "ingested_at": "2026-08-04T18:35:08.380Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T12:40:53.216Z",
+        "ingested_at": "2026-08-04T18:35:08.380Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -153,29 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-04T12:40:53.217Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=9435",
-      "url": "https://camaraux.com.br/?p=9435",
-      "title": "Opportunity Solution Tree: o que é e como criar uma árvore",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda a criar uma Opportunity Solution Tree para conectar resultados, necessidades de clientes, soluções e testes de suposições. Este conteúdo foi publicado originalmente em Opportunity Solution Tree: o que é e como criar uma árvore na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda a criar uma Opportunity Solution Tree para conectar resultados, necessidades de clientes, soluções e testes de suposições.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/opportunity-solution-tree/\">Opportunity Solution Tree: o que é e como criar uma árvore</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/opportunity-solution-tree-camaraux-jul2026.webp",
-      "date_published": "2026-07-31T12:00:00.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-04T12:40:53.217Z",
+        "ingested_at": "2026-08-04T18:35:08.380Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
