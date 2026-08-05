@@ -15,7 +15,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.931Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -31,7 +31,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.931Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -47,7 +47,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.931Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -63,7 +63,23 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.781Z",
+        "ingested_at": "2026-08-05T08:27:28.932Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://www.tecmundo.com.br/produto/415056-googlebook-15-substituto-do-chromebook-tem-imagens-vazadas.htm",
+      "url": "https://www.tecmundo.com.br/produto/415056-googlebook-15-substituto-do-chromebook-tem-imagens-vazadas.htm",
+      "title": "Googlebook 15: substituto do Chromebook tem imagens vazadas",
+      "content_text": "Vazaram as primeiras imagens do Googlebook 15, desenvolvido pela Lenovo, que será um dos dispositivos a inaugurar a nova categoria de notebooks do Google anunciada em maio como substituta da linha Chromebook. Os detalhes foram revelados pelo site Digital Citizen no domingo (2).Com design premium e acabamento em branco prateado, a novidade possui tela de 15 polegadas com bordas finas. Há um pequeno recorte na parte superior, onde fica a webcam, acompanhado de uma tampa de privacidade para esconder a lente quando ela não estiver em uso.smart_displayNossos vídeos em destaquePrincipais características do Googlebook 15Embora o relatório não detalhe as especificações técnicas, as imagens mostram que ele executa uma versão do Android para notebooks. Na área superior do display, há uma barra de status com hora e data à esquerda, enquanto à direita aparecem os ícones do Gemini, notificação, Wi-Fi e bateria.Já na parte inferior, um botão “G” surge ao lado esquerdo, como o botão Iniciar do Windows, ao lado dos ícones de vários apps fixados;Gemini, Chrome, Gmail, Agenda, Arquivos, YouTube e Fotos são alguns deles, assim como o do Adobe Premiere Pro;O portátil permitirá rodar apps de celulares Android nativamente, sem emulação, e dará acesso aos arquivos armazenados no telefone;Não se sabe qual processador o Googlebook 15 da Lenovo usará, com as possibilidades incluindo chip com arquitetura ARM e opções convencionais da Intel e AMD.O Googlebook 15 possui touchpad maior. (Imagem: Digital Citizen/Reprodução)O teclado traz uma tecla dedicada ao Gemini, outra para troca rápida de conta/perfil e 14 teclas de funções, mas não tem teclas numéricas. Apesar de incomum para modelos maiores, o design possibilita a centralização do teclado e a oferta de um touchpad mais amplo.Já nas laterais, há portas USB-C e USB-A, entrada P2 para fone de ouvido e o que aparenta ser um leitor de cartão de memória. Outros destaques são os dois alto-falantes com o símbolo Dolby Atmos, indicando suporte à tecnologia, e a dobradiça com abertura de 157,5 graus.Modelo 2 em 1Em um relatório separado, o Android Headlines divulgou imagens de uma versão 2 em 1 do Lenovo Googlebook. Ele se diferencia pela tela sensível ao toque e a entrada para a canela stylus, provavelmente a Tab Pen Pro 2, mas não está claro se ela e o teclado virão na caixa ou serão vendidos separadamente.Os modelos terão, ainda, um novo mouse sem fio com tecla dedicada para IA que vazou no final de semana. O dispositivo é compatível com o recurso Magic Pointer, que lê o contexto e sugere ações com o Gemini ao mover o cursor para algo na tela.O modelo 2 em 1 e o novo mouse ao lado do Googlebook 15 convencional. (Imagem: Android Headlines/Reprodução)A linha Googlebook da Lenovo deve ser lançada em setembro durante a IFA 2026 em Berlim, na Alemanha. Ainda não existem informações sobre os preços.Siga no TecMundo e relembre outras novidades anunciadas pelo Google na conferência I/O 2026.",
+      "content_html": "<div class=\"page\" id=\"readability-page-1\"><div id=\"main-content\"><p>Vazaram as primeiras imagens do Googlebook 15, desenvolvido pela Lenovo, que será <strong>um dos dispositivos a inaugurar a nova categoria de notebooks do Google</strong> anunciada em maio como substituta da linha Chromebook. Os detalhes foram revelados pelo site <i>Digital Citizen</i> no domingo (2).</p><p>Com design premium e acabamento em branco prateado, a novidade possui <strong>tela de 15 polegadas com bordas finas</strong>. Há um pequeno recorte na parte superior, onde fica a webcam, acompanhado de uma tampa de privacidade para esconder a lente quando ela não estiver em uso.</p><div><p><span>smart_display</span></p><h2>Nossos vídeos em destaque</h2></div><h2>Principais características do Googlebook 15</h2><p>Embora o relatório <strong>não detalhe as especificações técnicas</strong>, as imagens mostram que ele executa uma <a href=\"https://www.tecmundo.com.br/produto/413110-aluminium-os-video-mostra-detalhes-do-sistema-do-google-para-pcs-antes-do-lancamento.htm\">versão do Android para notebooks</a>. Na área superior do display, há uma barra de status com hora e data à esquerda, enquanto à direita aparecem os ícones do Gemini, notificação, Wi-Fi e bateria.</p><ul><li>Já na parte inferior, um <strong>botão “G” surge ao lado esquerdo</strong>, como o botão Iniciar do Windows, ao lado dos ícones de vários apps fixados;</li><li>Gemini, Chrome, Gmail, Agenda, Arquivos, YouTube e Fotos são alguns deles, assim como o do Adobe Premiere Pro;</li><li>O portátil permitirá <strong>rodar apps de celulares Android nativamente</strong>, sem emulação, e dará acesso aos arquivos armazenados no telefone;</li><li><strong>Não se sabe qual processador o Googlebook 15 da Lenovo usará</strong>, com as possibilidades incluindo <a href=\"https://www.tecmundo.com.br/produto/211758-processador-arm.htm\">chip com arquitetura ARM</a> e opções convencionais da Intel e AMD.</li></ul><figure><img src=\"https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_1_2906ac179d.jpg?ims=400x0/filters:quality(70)\" srcset=\"https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_1_2906ac179d.jpg?ims=400x0/filters:quality(70) 1x, https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_1_2906ac179d.jpg?ims=600x0/filters:quality(70) 1.5x, https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_1_2906ac179d.jpg?ims=800x0/filters:quality(70) 2x, https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_1_2906ac179d.jpg?ims=1200x0/filters:quality(70) 3x\" sizes=\"100vw\" width=\"400\" height=\"300\" alt=\"notebook-googlebook-15\" loading=\"lazy\" fetchpriority=\"auto\"><figcaption>O Googlebook 15 possui touchpad maior. (Imagem: Digital Citizen/Reprodução)</figcaption></figure><p>O teclado traz uma <strong>tecla dedicada ao Gemini</strong>, outra para troca rápida de conta/perfil e 14 teclas de funções, mas não tem teclas numéricas. Apesar de incomum para modelos maiores, o design possibilita a centralização do teclado e a oferta de um touchpad mais amplo.</p><p>Já nas laterais, há <strong>portas USB-C e USB-A, entrada P2 para fone de ouvido e o que aparenta ser um leitor de cartão de memória</strong>. Outros destaques são os dois alto-falantes com o símbolo Dolby Atmos, indicando suporte à tecnologia, e a dobradiça com abertura de 157,5 graus.</p><h2>Modelo 2 em 1</h2><p>Em um relatório separado, o <i>Android Headlines</i> divulgou imagens de uma <strong>versão 2 em 1 do Lenovo Googlebook</strong>. Ele se diferencia pela tela sensível ao toque e a entrada para a canela stylus, provavelmente a Tab Pen Pro 2, mas não está claro se ela e o teclado virão na caixa ou serão vendidos separadamente.</p><p>Os modelos terão, ainda, um <strong>novo mouse sem fio com tecla dedicada para IA</strong> que vazou no final de semana. O dispositivo é compatível com o recurso Magic Pointer, que lê o contexto e sugere ações com o Gemini ao mover o cursor para algo na tela.</p><figure><img src=\"https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_2_307ea47519.jpg?ims=400x0/filters:quality(70)\" srcset=\"https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_2_307ea47519.jpg?ims=400x0/filters:quality(70) 1x, https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_2_307ea47519.jpg?ims=600x0/filters:quality(70) 1.5x, https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_2_307ea47519.jpg?ims=800x0/filters:quality(70) 2x, https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_2_307ea47519.jpg?ims=1200x0/filters:quality(70) 3x\" sizes=\"100vw\" width=\"400\" height=\"300\" alt=\"novos-notebooks-da-lenovo\" loading=\"lazy\" fetchpriority=\"auto\"><figcaption>O modelo 2 em 1 e o novo mouse ao lado do Googlebook 15 convencional. (Imagem: Android Headlines/Reprodução)</figcaption></figure><p>A linha Googlebook da Lenovo deve ser lançada em setembro durante a <a href=\"https://www.tecmundo.com.br/produto/414991-celular-com-tela-sem-bordas-e-revelado-compare-com-iphone-e-galaxy.htm\">IFA 2026 em Berlim</a>, na Alemanha. <strong>Ainda não existem informações sobre os preços</strong>.</p><p>Siga no TecMundo e relembre outras novidades anunciadas pelo Google na <a href=\"https://www.tecmundo.com.br/software/413259-google-io-2026-veja-resumao-com-as-principais-novidades-do-evento.htm\">conferência I/O 2026</a>.</p></div></div>",
+      "image": "https://tm.ibxk.com.br/2026/08/04/lenovo_googlebook_15_24334ac589.jpg?ims=1600x900/filters:format(jpg)",
+      "_journal": {
+        "source_id": "src_tecmundo",
+        "source_type": "scrape",
+        "ingested_at": "2026-08-05T08:27:28.931Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -79,7 +95,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.931Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -95,7 +111,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.931Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -111,7 +127,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.931Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -127,7 +143,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.932Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -143,7 +159,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.932Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -159,7 +175,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.780Z",
+        "ingested_at": "2026-08-05T08:27:28.932Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -175,7 +191,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.781Z",
+        "ingested_at": "2026-08-05T08:27:28.932Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -191,7 +207,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.781Z",
+        "ingested_at": "2026-08-05T08:27:28.932Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -207,7 +223,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.781Z",
+        "ingested_at": "2026-08-05T08:27:28.932Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -223,23 +239,7 @@
       "_journal": {
         "source_id": "src_tecmundo",
         "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.781Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://www.tecmundo.com.br/produto/415047-motorola-confirma-sem-querer-o-novo-edge-70-neo.htm",
-      "url": "https://www.tecmundo.com.br/produto/415047-motorola-confirma-sem-querer-o-novo-edge-70-neo.htm",
-      "title": "Motorola confirma sem querer o novo Edge 70 Neo",
-      "content_text": "A Motorola pode ter acidentalmente confirmado a existência do smartphone Edge 70 Neo por meio de um formulário. Tudo começou quando um funcionário da Motorola publicou em um fórum da Lenovo sobre testes do Android 17 Beta para o dispositivo, que sequer foi anunciado.Tanto na postagem do fórum quanto no formulário de inscrição para os testes, o nome do Motorola Edge 70 Neo é repetido algumas vezes. Sempre há a possibilidade de o funcionário ter feito uma confusão com o nome dos dispositivos, já que a linha Edge 70 contempla vários produtos, mas esse não parece ser o caso.smart_displayNossos vídeos em destaqueA fabricante já lançou os modelos Edge 70 padrão, Edge 70 Max, Edge 70 Pro, Edge 70 Pro+, Edge 70 Fusion, Edge 70 Fusion+ e tem o Edge 70 Ultra no forno. Historicamente, essa linha da Motorola possui um modelo Neo, mas neste ano isso ainda não aconteceu.Publicação da Motorola sobre o Edge 70 Neo (Captura de tela: Felipe Vidal/TecMundo)Como setembro deve ser um mês de atenção total para a Apple, pode ser que a Motorola anuncie este Edge 70 Neo ainda em agosto, já que o mês não reserva tantas surpresas no mundo dos smartphones. Porém, ao longo dos anos as variantes Neo foram lançadas logo no início de setembro, então o anúncio pode não passar das próximas semanas.Como deve ser o Motorola Edge 70 Neo?Essa é a primeira vez que o nome do Motorola Edge 70 Neo surge na internet. Por conta disso, há pouquíssimas informações a respeito desse produto disponíveis. O que se sabe é que a série Neo geralmente apresenta uma pegada mais compacta e com preços um pouco mais acessíveis.Ao comparar o que foi feito entre os Edge 60 e Edge 60 Neo da geração passada, é possível esperar que o 70 Neo traga uma tela pequena de 6,3 polegadas. O painel deve manter o mesmo material, do tipo pOLED, assim como a taxa de atualização variável de até 120 Hz para suavidade extra.Nesta geração, a Motorola trouxe o chip Snapdragon 7 Gen 4 ao Edge 70 base, então é esperado que a versão Neo seja similar nesse sentido. Opções de RAM devem ficar entre 8 GB e 12 GB, enquanto o armazenamento pode bater na casa dos 512 GB, mas isso depende de como a Motorola vai lidar com os altos preços desses componentes.Visual do Edge 70 Neo não deve ser muito diferente do restante da linha. (Imagem: Motorola/Divulgação)As câmeras são sempre um mistério, mas geralmente a companhia mantém pelo menos o sensor principal, que no caso do Edge 70 é de 50 MP. Pode ser que nesse caso haja uma diferença nos sensores ultrawide e frontal.Por falar em novos celulares, a Jovi lançou no Brasil o poderoso X300 Ultra com um conjunto absurdo de câmeras e preço de R$ 19.999. Siga o TecMundo no X, Instagram, Facebook e YouTube e assine a nossa newsletter para receber as principais notícias e análises diretamente no seu e-mail.",
-      "content_html": "<div class=\"page\" id=\"readability-page-1\"><div id=\"main-content\"><p><strong>A Motorola pode ter acidentalmente confirmado a existência do smartphone Edge 70 Neo</strong> por meio de um formulário. Tudo começou quando um funcionário da Motorola publicou em um fórum da Lenovo sobre testes do Android 17 Beta para o dispositivo, que sequer foi anunciado.</p><p>Tanto na postagem do fórum quanto no formulário de inscrição para os testes, o nome do Motorola Edge 70 Neo é repetido algumas vezes. Sempre há a possibilidade de o funcionário ter feito uma confusão com o nome dos dispositivos, já que a linha Edge 70 contempla vários produtos, mas esse não parece ser o caso.</p><div><p><span>smart_display</span></p><h2>Nossos vídeos em destaque</h2></div><p>A fabricante já lançou os modelos Edge 70 padrão, Edge 70 Max, Edge 70 Pro, Edge 70 Pro+, Edge 70 Fusion, Edge 70 Fusion+ e tem o <a href=\"https://www.tecmundo.com.br/produto/414097-motorola-edge-70-max-tem-imagens-vazadas-e-deve-ter-configuracao-premium.htm\" target=\"_blank\">Edge 70 Ultra no forno</a>. Historicamente,<strong> essa linha da Motorola possui um modelo Neo</strong>, mas neste ano isso ainda não aconteceu.</p><figure><img src=\"https://tm.ibxk.com.br/2026/08/04/image_608c65743d.png?ims=400x0/filters:quality(70)\" srcset=\"https://tm.ibxk.com.br/2026/08/04/image_608c65743d.png?ims=400x0/filters:quality(70) 1x, https://tm.ibxk.com.br/2026/08/04/image_608c65743d.png?ims=600x0/filters:quality(70) 1.5x, https://tm.ibxk.com.br/2026/08/04/image_608c65743d.png?ims=800x0/filters:quality(70) 2x, https://tm.ibxk.com.br/2026/08/04/image_608c65743d.png?ims=1200x0/filters:quality(70) 3x\" sizes=\"100vw\" width=\"400\" height=\"300\" alt=\"undefined\" loading=\"lazy\" fetchpriority=\"auto\"><figcaption>Publicação da Motorola sobre o Edge 70 Neo (Captura de tela: Felipe Vidal/TecMundo)</figcaption></figure><p>Como setembro deve ser um mês de atenção total para a Apple, pode ser que a Motorola anuncie este Edge 70 Neo ainda em agosto, já que o mês não reserva tantas surpresas no mundo dos smartphones. Porém, ao longo dos anos as variantes Neo foram lançadas logo no início de setembro, então <strong>o anúncio pode não passar das próximas semanas</strong>.</p><h2>Como deve ser o Motorola Edge 70 Neo?</h2><p>Essa é a primeira vez que o nome do Motorola Edge 70 Neo surge na internet. Por conta disso, há pouquíssimas informações a respeito desse produto disponíveis. O que se sabe é que a série Neo geralmente apresenta uma pegada mais compacta e com preços um pouco mais acessíveis.</p><p>Ao comparar o que foi feito entre os Edge 60 e Edge 60 Neo da geração passada, <strong>é possível esperar que o 70 Neo traga uma tela pequena de 6,3 polegadas</strong>. O painel deve manter o mesmo material, do tipo pOLED, assim como a taxa de atualização variável de até 120 Hz para suavidade extra.</p><p>Nesta geração, a Motorola trouxe o <a href=\"https://www.tecmundo.com.br/celular/404529-chip-snapdragon-7-gen-4-e-lancado-com-npu-melhor-para-celulares-intermediarios-confira.htm\" target=\"_blank\">chip Snapdragon 7 Gen 4</a> ao Edge 70 base, então é esperado que a versão Neo seja similar nesse sentido. Opções de RAM devem ficar entre 8 GB e 12 GB, enquanto o armazenamento pode bater na casa dos 512 GB, mas isso depende de como a Motorola vai lidar com os altos preços desses componentes.</p><figure><img src=\"https://tm.ibxk.com.br/2026/08/04/edge_60_neo_814746f102.jpg?ims=400x0/filters:quality(70)\" srcset=\"https://tm.ibxk.com.br/2026/08/04/edge_60_neo_814746f102.jpg?ims=400x0/filters:quality(70) 1x, https://tm.ibxk.com.br/2026/08/04/edge_60_neo_814746f102.jpg?ims=600x0/filters:quality(70) 1.5x, https://tm.ibxk.com.br/2026/08/04/edge_60_neo_814746f102.jpg?ims=800x0/filters:quality(70) 2x, https://tm.ibxk.com.br/2026/08/04/edge_60_neo_814746f102.jpg?ims=1200x0/filters:quality(70) 3x\" sizes=\"100vw\" width=\"400\" height=\"300\" alt=\"edge-60-neo.jpg\" loading=\"lazy\" fetchpriority=\"auto\"><figcaption>Visual do Edge 70 Neo não deve ser muito diferente do restante da linha. (Imagem: Motorola/Divulgação)</figcaption></figure><p>As câmeras são sempre um mistério, <strong>mas geralmente a companhia mantém pelo menos o sensor principal</strong>, que no caso do Edge 70 é de 50 MP. Pode ser que nesse caso haja uma diferença nos sensores ultrawide e frontal.</p><p>Por falar em novos celulares, <a href=\"https://www.tecmundo.com.br/produto/415027-jovi-x300-ultra-e-lancado-no-brasil-com-cameras-e-preco-que-impressionam.htm\">a Jovi lançou no Brasil o poderoso X300 Ultra</a> com um conjunto absurdo de câmeras e preço de R$ 19.999. Siga o <strong>TecMundo</strong> no X, Instagram, Facebook e YouTube e assine a nossa newsletter para receber as principais notícias e análises diretamente no seu e-mail.</p></div></div>",
-      "image": "https://tm.ibxk.com.br/2026/08/04/EDGE_70_NEO_97aef690a6.jpg?ims=1600x900/filters:format(jpg)",
-      "_journal": {
-        "source_id": "src_tecmundo",
-        "source_type": "scrape",
-        "ingested_at": "2026-08-05T01:59:16.781Z",
+        "ingested_at": "2026-08-05T08:27:28.932Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
