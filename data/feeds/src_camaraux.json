@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-10T07:21:10.522Z",
+        "ingested_at": "2026-08-10T12:56:07.533Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-10T07:21:10.523Z",
+        "ingested_at": "2026-08-10T12:56:07.534Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-10T07:21:10.523Z",
+        "ingested_at": "2026-08-10T12:56:07.534Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=10427",
+      "url": "https://camaraux.com.br/?p=10427",
+      "title": "Lei de Fitts: o que é e como aplicar em interfaces",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Entenda a Lei de Fitts e aprenda a aplicar distância, tamanho e área acionável para criar interfaces mais rápidas, previsíveis e acessíveis. Este conteúdo foi publicado originalmente em Lei de Fitts: o que é e como aplicar em interfaces na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Entenda a Lei de Fitts e aprenda a aplicar distância, tamanho e área acionável para criar interfaces mais rápidas, previsíveis e acessíveis.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/lei-de-fitts-ux-2/\">Lei de Fitts: o que é e como aplicar em interfaces</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/lei-de-fitts-ux-interface.webp",
+      "date_published": "2026-08-10T12:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-10T12:56:07.534Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-10T07:21:10.524Z",
+        "ingested_at": "2026-08-10T12:56:07.534Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-10T07:21:10.524Z",
+        "ingested_at": "2026-08-10T12:56:07.535Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-10T07:21:10.525Z",
+        "ingested_at": "2026-08-10T12:56:07.535Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -143,7 +165,6 @@
       "title": "Teste de conceito: o que é, quando fazer e como validar uma ideia",
       "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda o que é teste de conceito, quando usar o método e como avaliar uma ideia com usuários antes de investir em design e desenvolvimento. Este conteúdo foi publicado originalmente em Teste de conceito: o que é, quando fazer e como validar uma ideia na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
       "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda o que é teste de conceito, quando usar o método e como avaliar uma ideia com usuários antes de investir em design e desenvolvimento.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/teste-de-conceito/\">Teste de conceito: o que é, quando fazer e como validar uma ideia</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/teste-de-conceito-ux-camaraux.webp",
       "date_published": "2026-08-04T12:00:00.000Z",
       "authors": [
         {
@@ -153,29 +174,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-10T07:21:10.525Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=9446",
-      "url": "https://camaraux.com.br/?p=9446",
-      "title": "Assumption Mapping: como mapear e priorizar suposições",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda a usar Assumption Mapping para identificar crenças, priorizar riscos e escolher quais suposições testar antes de investir em uma solução. Este conteúdo foi publicado originalmente em Assumption Mapping: como mapear e priorizar suposições na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda a usar Assumption Mapping para identificar crenças, priorizar riscos e escolher quais suposições testar antes de investir em uma solução.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/assumption-mapping/\">Assumption Mapping: como mapear e priorizar suposições</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/assumption-mapping-risco-evidencia-camaraux-20260728.webp",
-      "date_published": "2026-08-03T18:00:00.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-10T07:21:10.525Z",
+        "ingested_at": "2026-08-10T12:56:07.536Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
