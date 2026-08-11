@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-11T06:57:38.786Z",
+        "ingested_at": "2026-08-11T12:51:49.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-11T06:57:38.786Z",
+        "ingested_at": "2026-08-11T12:51:49.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-11T06:57:38.787Z",
+        "ingested_at": "2026-08-11T12:51:49.999Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=10437",
+      "url": "https://camaraux.com.br/?p=10437",
+      "title": "Carga cognitiva em UX: como criar interfaces mais fáceis de entender",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Entenda a carga cognitiva em UX e aprenda a criar interfaces mais claras, acessíveis e fáceis de entender, sem esconder funcionalidades importantes. Este conteúdo foi publicado originalmente em Carga cognitiva em UX: como criar interfaces mais fáceis de entender na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Entenda a carga cognitiva em UX e aprenda a criar interfaces mais claras, acessíveis e fáceis de entender, sem esconder funcionalidades importantes.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/carga-cognitiva-ux/\">Carga cognitiva em UX: como criar interfaces mais fáceis de entender</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/carga-cognitiva-ux-interfaces.png",
+      "date_published": "2026-08-11T12:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-11T12:51:49.999Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-11T06:57:38.787Z",
+        "ingested_at": "2026-08-11T12:51:49.999Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-11T06:57:38.787Z",
+        "ingested_at": "2026-08-11T12:51:49.999Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-11T06:57:38.787Z",
+        "ingested_at": "2026-08-11T12:51:50.000Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -153,29 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-11T06:57:38.788Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=9452",
-      "url": "https://camaraux.com.br/?p=9452",
-      "title": "Fake Door Test: como validar demanda antes de desenvolver",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Entenda como usar Fake Door Test para medir interesse antes de desenvolver, com métricas, exemplos e cuidados éticos para preservar a confiança. Este conteúdo foi publicado originalmente em Fake Door Test: como validar demanda antes de desenvolver na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Entenda como usar Fake Door Test para medir interesse antes de desenvolver, com métricas, exemplos e cuidados éticos para preservar a confiança.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/fake-door-test/\">Fake Door Test: como validar demanda antes de desenvolver</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/fake-door-test-validacao-demanda-camaraux.webp",
-      "date_published": "2026-08-04T18:00:00.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-11T06:57:38.788Z",
+        "ingested_at": "2026-08-11T12:51:50.000Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
