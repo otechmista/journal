@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-12T07:16:36.669Z",
+        "ingested_at": "2026-08-12T12:58:55.113Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-12T07:16:36.670Z",
+        "ingested_at": "2026-08-12T12:58:55.114Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-12T07:16:36.670Z",
+        "ingested_at": "2026-08-12T12:58:55.114Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=10522",
+      "url": "https://camaraux.com.br/?p=10522",
+      "title": "Princípios da Gestalt aplicados ao UX e UI Design",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda como proximidade, similaridade, fechamento, continuidade e outros princípios da Gestalt ajudam a criar interfaces mais claras e fáceis de entender. Este conteúdo foi publicado originalmente em Princípios da Gestalt aplicados ao UX e UI Design na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda como proximidade, similaridade, fechamento, continuidade e outros princípios da Gestalt ajudam a criar interfaces mais claras e fáceis de entender.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/principios-gestalt-ux-ui/\">Princípios da Gestalt aplicados ao UX e UI Design</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/principios-gestalt-ux-interface.png",
+      "date_published": "2026-08-12T12:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-12T12:58:55.114Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-12T07:16:36.671Z",
+        "ingested_at": "2026-08-12T12:58:55.115Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-12T07:16:36.671Z",
+        "ingested_at": "2026-08-12T12:58:55.115Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-12T07:16:36.671Z",
+        "ingested_at": "2026-08-12T12:58:55.115Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -153,29 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-12T07:16:36.672Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=9464",
-      "url": "https://camaraux.com.br/?p=9464",
-      "title": "Tree Testing: como validar a arquitetura de informação",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda a planejar um tree testing, escrever tarefas, analisar sucesso e identificar problemas em rótulos, categorias e caminhos de navegação. Este conteúdo foi publicado originalmente em Tree Testing: como validar a arquitetura de informação na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda a planejar um tree testing, escrever tarefas, analisar sucesso e identificar problemas em rótulos, categorias e caminhos de navegação.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/tree-testing/\">Tree Testing: como validar a arquitetura de informação</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/07/tree-testing-arquitetura-informacao-camaraux.webp",
-      "date_published": "2026-08-05T18:00:00.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-12T07:16:36.672Z",
+        "ingested_at": "2026-08-12T12:58:55.116Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
