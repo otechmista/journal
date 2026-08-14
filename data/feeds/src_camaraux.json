@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-14T12:53:51.254Z",
+        "ingested_at": "2026-08-14T18:45:28.241Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-14T12:53:51.254Z",
+        "ingested_at": "2026-08-14T18:45:28.242Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-14T12:53:51.255Z",
+        "ingested_at": "2026-08-14T18:45:28.242Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=10447",
+      "url": "https://camaraux.com.br/?p=10447",
+      "title": "Modelos mentais em UX: como usuários esperam que interfaces funcionem",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Entenda modelos mentais em UX e aprenda a criar interfaces que respeitam expectativas, reduzem confusão e tornam a interação mais previsível. Este conteúdo foi publicado originalmente em Modelos mentais em UX: como usuários esperam que interfaces funcionem na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Entenda modelos mentais em UX e aprenda a criar interfaces que respeitam expectativas, reduzem confusão e tornam a interação mais previsível.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/modelos-mentais-ux/\">Modelos mentais em UX: como usuários esperam que interfaces funcionem</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/modelos-mentais-ux-interface.png",
+      "date_published": "2026-08-14T18:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-14T18:45:28.242Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-14T12:53:51.255Z",
+        "ingested_at": "2026-08-14T18:45:28.243Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-14T12:53:51.255Z",
+        "ingested_at": "2026-08-14T18:45:28.243Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,29 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-14T12:53:51.255Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=10538",
-      "url": "https://camaraux.com.br/?p=10538",
-      "title": "Hierarquia visual: como organizar informações em uma interface",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda a usar tamanho, contraste, espaçamento, alinhamento e tipografia para organizar informações e orientar a atenção em interfaces. Este conteúdo foi publicado originalmente em Hierarquia visual: como organizar informações em uma interface na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda a usar tamanho, contraste, espaçamento, alinhamento e tipografia para organizar informações e orientar a atenção em interfaces.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/hierarquia-visual-ux/\">Hierarquia visual: como organizar informações em uma interface</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/hierarquia-visual-ux-interface.png",
-      "date_published": "2026-08-12T18:00:00.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-14T12:53:51.256Z",
+        "ingested_at": "2026-08-14T18:45:28.243Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
