@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-18T06:33:46.127Z",
+        "ingested_at": "2026-08-18T12:34:36.666Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-18T06:33:46.127Z",
+        "ingested_at": "2026-08-18T12:34:36.667Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,29 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-18T06:33:46.128Z",
+        "ingested_at": "2026-08-18T12:34:36.667Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=10667",
+      "url": "https://camaraux.com.br/?p=10667",
+      "title": "Empty states em UX: como orientar usuários quando não há conteúdo",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda a criar empty states em UX que orientam usuários, explicam o próximo passo e transformam telas vazias em experiências úteis. Este conteúdo foi publicado originalmente em Empty states em UX: como orientar usuários quando não há conteúdo na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda a criar empty states em UX que orientam usuários, explicam o próximo passo e transformam telas vazias em experiências úteis.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/empty-states-ux/\">Empty states em UX: como orientar usuários quando não há conteúdo</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/empty-states-ux-thumb.jpg",
+      "date_published": "2026-08-18T12:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-18T12:34:36.667Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +109,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-18T06:33:46.128Z",
+        "ingested_at": "2026-08-18T12:34:36.668Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,7 +131,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-18T06:33:46.128Z",
+        "ingested_at": "2026-08-18T12:34:36.668Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -131,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-18T06:33:46.128Z",
+        "ingested_at": "2026-08-18T12:34:36.668Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -153,29 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-18T06:33:46.129Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=10550",
-      "url": "https://camaraux.com.br/?p=10550",
-      "title": "UX vs CX vs Service Design: diferenças e quando usar cada abordagem",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Entenda as diferenças entre UX, CX e Service Design e descubra quando usar cada abordagem para resolver problemas de produto, jornada ou serviço. Este conteúdo foi publicado originalmente em UX vs CX vs Service Design: diferenças e quando usar cada abordagem na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Entenda as diferenças entre UX, CX e Service Design e descubra quando usar cada abordagem para resolver problemas de produto, jornada ou serviço.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/ux-vs-cx-service-design/\">UX vs CX vs Service Design: diferenças e quando usar cada abordagem</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/ux-cx-service-design-interface.png",
-      "date_published": "2026-08-13T12:00:00.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-18T06:33:46.129Z",
+        "ingested_at": "2026-08-18T12:34:36.668Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
