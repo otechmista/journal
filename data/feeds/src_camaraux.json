@@ -21,7 +21,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-24T06:45:00.969Z",
+        "ingested_at": "2026-08-24T12:37:38.267Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -43,7 +43,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-24T06:45:00.970Z",
+        "ingested_at": "2026-08-24T12:37:38.267Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -65,7 +65,73 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-24T06:45:00.970Z",
+        "ingested_at": "2026-08-24T12:37:38.267Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=12429",
+      "url": "https://camaraux.com.br/?p=12429",
+      "title": "Triangulação em UX Research: como combinar métodos e dados",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda a combinar entrevistas, testes e dados de uso em UX Research, comparando evidências, limites e conflitos para tomar decisões melhores. Este conteúdo foi publicado originalmente em Triangulação em UX Research: como combinar métodos e dados na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda a combinar entrevistas, testes e dados de uso em UX Research, comparando evidências, limites e conflitos para tomar decisões melhores.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/triangulacao-ux-research/\">Triangulação em UX Research: como combinar métodos e dados</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/triangulacao-ux-research-camara-ux.jpg",
+      "date_published": "2026-08-24T12:30:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-24T12:37:38.267Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=12905",
+      "url": "https://camaraux.com.br/?p=12905",
+      "title": "Findability em UX: como melhorar busca, navegação e encontrabilidade",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Findability em UX é a capacidade de uma pessoa encontrar, reconhecer e recuperar conteúdos e funcionalidades. Veja como avaliar rótulos, arquitetura, navegação, busca, filtros, acessibilidade e recuperação com métodos e checklist. Este conteúdo foi publicado originalmente em Findability em UX: como melhorar busca, navegação e encontrabilidade na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Findability em UX é a capacidade de uma pessoa encontrar, reconhecer e recuperar conteúdos e funcionalidades. Veja como avaliar rótulos, arquitetura, navegação, busca, filtros, acessibilidade e recuperação com métodos e checklist.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/findability-ux/\">Findability em UX: como melhorar busca, navegação e encontrabilidade</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/findability-ux-thumbnail.jpg",
+      "date_published": "2026-08-24T12:30:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-24T12:37:38.268Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://camaraux.com.br/?p=12857",
+      "url": "https://camaraux.com.br/?p=12857",
+      "title": "Services-as-Software: do copiloto ao autopiloto na era dos agentes de IA",
+      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Services-as-Software é a evolução do SaaS em que agentes de IA deixam de apenas ajudar e passam a executar tarefas e entregar resultados. Entenda o impacto em produtos, UX, startups e modelos de negócio. Este conteúdo foi publicado originalmente em Services-as-Software: do copiloto ao autopiloto na era dos agentes de IA na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
+      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Services-as-Software é a evolução do SaaS em que agentes de IA deixam de apenas ajudar e passam a executar tarefas e entregar resultados. Entenda o impacto em produtos, UX, startups e modelos de negócio.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/services-as-software/\">Services-as-Software: do copiloto ao autopiloto na era dos agentes de IA</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
+      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/services-as-software-thumbnail.jpg",
+      "date_published": "2026-08-24T11:00:00.000Z",
+      "authors": [
+        {
+          "name": "Lucas Camara"
+        }
+      ],
+      "_journal": {
+        "source_id": "src_camaraux",
+        "source_type": "rss",
+        "ingested_at": "2026-08-24T12:37:38.268Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -87,7 +153,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-24T06:45:00.970Z",
+        "ingested_at": "2026-08-24T12:37:38.268Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -109,73 +175,7 @@
       "_journal": {
         "source_id": "src_camaraux",
         "source_type": "rss",
-        "ingested_at": "2026-08-24T06:45:00.970Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=12395",
-      "url": "https://camaraux.com.br/?p=12395",
-      "title": "Estratégia de Produto: o que é e como criar uma estratégia",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Estratégia de produto transforma visão, evidências e objetivos de negócio em escolhas sobre onde concentrar esforços. Entenda seus elementos, como construí-la e como conectá-la a discovery, métricas e execução. Este conteúdo foi publicado originalmente em Estratégia de Produto: o que é e como criar uma estratégia na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Estratégia de produto transforma visão, evidências e objetivos de negócio em escolhas sobre onde concentrar esforços. Entenda seus elementos, como construí-la e como conectá-la a discovery, métricas e execução.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/estrategia-de-produto/\">Estratégia de Produto: o que é e como criar uma estratégia</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/Estrategia-de-Produto.png",
-      "date_published": "2026-08-19T02:13:40.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-24T06:45:00.970Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=12364",
-      "url": "https://camaraux.com.br/?p=12364",
-      "title": "UX Research: o que é, como funciona e como fazer pesquisa com usuários",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. UX Research investiga pessoas, contextos, comportamentos e experiências para produzir evidências que orientem decisões de UX e produto. Entenda o processo, os tipos de pesquisa e os limites de cada evidência. Este conteúdo foi publicado originalmente em UX Research: o que é, como funciona e como fazer pesquisa com usuários na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>UX Research investiga pessoas, contextos, comportamentos e experiências para produzir evidências que orientem decisões de UX e produto. Entenda o processo, os tipos de pesquisa e os limites de cada evidência.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/ux-research/\">UX Research: o que é, como funciona e como fazer pesquisa com usuários</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/UX-Research.png",
-      "date_published": "2026-08-18T17:37:01.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-24T06:45:00.970Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://camaraux.com.br/?p=10667",
-      "url": "https://camaraux.com.br/?p=10667",
-      "title": "Empty states em UX: como orientar usuários quando não há conteúdo",
-      "content_text": "Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design. Aprenda a criar empty states em UX que orientam usuários, explicam o próximo passo e transformam telas vazias em experiências úteis. Este conteúdo foi publicado originalmente em Empty states em UX: como orientar usuários quando não há conteúdo na Camaraux®️ , por Lucas Camara . Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.",
-      "content_html": "<p>Conteúdo original da CamaraUX, por Lucas Camara. Consultoria em UX Design, Product Design, Design Systems, Pesquisa UX, Acessibilidade e IA aplicada ao design.</p>\n<p>Aprenda a criar empty states em UX que orientam usuários, explicam o próximo passo e transformam telas vazias em experiências úteis.</p>\n<p>Este conteúdo foi publicado originalmente em <a rel=\"nofollow\" href=\"https://camaraux.com.br/empty-states-ux/\">Empty states em UX: como orientar usuários quando não há conteúdo</a> na <a rel=\"nofollow\" href=\"https://camaraux.com.br\">Camaraux®️</a>, por <a rel=\"nofollow\" href=\"https://camaraux.com.br/autor/lucas-camara/\">Lucas Camara</a>.</p>\n<p>Para mais conteúdos sobre UX Design, Design Systems, Pesquisa UX, Acessibilidade, CRO e IA aplicada ao design, acesse a CamaraUX.</p>\n",
-      "image": "https://camaraux.com.br/wp-content/uploads/2026/08/empty-states-ux-thumb.jpg",
-      "date_published": "2026-08-18T12:00:00.000Z",
-      "authors": [
-        {
-          "name": "Lucas Camara"
-        }
-      ],
-      "_journal": {
-        "source_id": "src_camaraux",
-        "source_type": "rss",
-        "ingested_at": "2026-08-24T06:45:00.971Z",
+        "ingested_at": "2026-08-24T12:37:38.268Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
