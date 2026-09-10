@@ -7,8 +7,9 @@ on:
     paths:
       - 'app/**'
       - 'data/**'
-      - 'scripts/sync-data.sh'
-      - 'scripts/generate-seo.sh'
+      - 'scripts/sync-data.mjs'
+      - 'scripts/generate-seo.mjs'
+      - 'shared/**'
       - '.github/workflows/pages.yml'
   workflow_run:
     # The crawler pushes data commits using the default GITHUB_TOKEN, which
@@ -83,7 +84,7 @@ jobs:
       - name: Sync public data into static/
         env:
           PUBLIC_SITE_URL: ${{ steps.base.outputs.site_url }}
-        run: bash scripts/sync-data.sh
+        run: node scripts/sync-data.mjs
 
       - name: Install & build
         working-directory: app

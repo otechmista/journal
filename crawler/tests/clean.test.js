@@ -29,4 +29,14 @@ describe('cleanContent', () => {
 		expect(out).toContain('Fim da matéria');
 		expect(out).not.toMatch(/WHATSAPP_CHANNEL/);
 	});
+
+	test('strips active HTML before it reaches the reader', () => {
+		const html = `<p onclick="alert(1)">Intro</p><script>alert(1)</script><a href="javascript:alert(1)">ruim</a><p>Fim.</p>`;
+		const out = cleanContentHtml(html);
+		expect(out).toContain('Intro');
+		expect(out).toContain('Fim.');
+		expect(out).not.toMatch(/<script/i);
+		expect(out).not.toMatch(/onclick/i);
+		expect(out).not.toMatch(/javascript:/i);
+	});
 });

@@ -1,42 +1,18 @@
-# sv
+# Journal app
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+SvelteKit static reader for Journal. The canonical commands live at the repository root so the app and public JSON data stay in sync.
 
 ```sh
-# create a new project
-npx sv create my-app
+cd ..
+npm run bootstrap
+npm run dev
+npm run check:app
 ```
 
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv@0.16.5 create --template minimal --no-types --no-install app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Direct app commands still work after dependencies are installed, but they do not refresh `app/static/data`:
 
 ```sh
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
 npm run build
+npm run preview
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.

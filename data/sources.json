@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "retention_days": 14,
   "sources": [
     {
       "id": "src_convergencia_feed",

@@ -2,11 +2,16 @@
   "name": "journal",
   "private": true,
   "scripts": {
+    "bootstrap": "cd crawler && bun install && cd ../app && npm ci",
     "crawl": "cd crawler && bun run crawl",
+    "generate-seo": "node scripts/generate-seo.mjs",
+    "sync-data": "node scripts/sync-data.mjs",
     "test:crawler": "cd crawler && bun test",
-    "sync-data": "bash scripts/sync-data.sh",
-    "dev": "bash scripts/sync-data.sh && cd app && npm run dev",
-    "build": "bash scripts/sync-data.sh && cd app && npm run build",
+    "check:crawler": "cd crawler && bun test",
+    "check:app": "node scripts/sync-data.mjs && cd app && npm run build",
+    "check": "npm run check:crawler && npm run check:app",
+    "dev": "node scripts/sync-data.mjs && cd app && npm run dev",
+    "build": "node scripts/sync-data.mjs && cd app && npm run build",
     "preview": "cd app && npm run preview"
   }
 }

@@ -31,13 +31,7 @@ User annotations are **not** public JSON — they use `localStorage` key `journa
 ## Setup
 
 ```bash
-# crawler
-cd crawler && bun install
-
-# app
-cd ../app && npm install
-# static/data → ../../data (symlink); recreate if missing:
-#   ln -sfn ../../data static/data
+npm run bootstrap
 ```
 
 ## Crawl (writes public JSON)
@@ -53,23 +47,25 @@ bun run crawl -- --max 5      # limit full-article downloads per source
 
 ```bash
 # from repo root
-bun run dev
+npm run dev
 
 # or
 cd app && npm run dev
 ```
 
-`app/static/data` is a symlink to `../data`. Vite is configured to allow that path (`server.fs.allow`). The edition refreshes via the **Update news** GitHub Action cron (every 6 hours). Notes are edited in the article view and saved locally.
+`npm run dev` copies `data/` into `app/static/data` with a cross-platform Node script before starting Vite. The edition refreshes via the **Update news** GitHub Action cron (every 6 hours). Notes are edited in the article view and saved locally.
 
 ```bash
-npm run build    # static site in app/build
+npm run build    # syncs data, then writes the static site in app/build
 npm run preview
 ```
 
 ## Tests
 
 ```bash
-cd crawler && bun test
+npm run check:crawler
+npm run check:app
+npm run check
 ```
 
 ## Initial sources
@@ -125,4 +121,13 @@ bun run crawl
 bun run sync-data   # copies data/ → app/static/data
 bun run build       # respects BASE_PATH if set, e.g. BASE_PATH=/journal bun run build
 ```
-# journal
+
+The root scripts are the canonical local entrypoints:
+
+| Script | Purpose |
+|--------|---------|
+| `npm run bootstrap` | Install crawler deps with Bun and app deps with npm lockfile |
+| `npm run sync-data` | Copy public JSON into `app/static/data` and regenerate SEO files |
+| `npm run check:crawler` | Run crawler and shared helper tests |
+| `npm run check:app` | Sync data and build the static app |
+| `npm run check` | Run crawler tests and app build |

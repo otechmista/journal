@@ -3,6 +3,11 @@
  * User annotations live in localStorage (see annotations.js).
  */
 import { base, resolve } from '$app/paths';
+import {
+	validateFeedDocument,
+	validateSourcesCatalog,
+	validateStatusDocument
+} from '../../../shared/contracts.js';
 
 /**
  * Root-relative (or kit-base) path for public assets / JSON.
@@ -29,7 +34,11 @@ function withBase(path) {
 async function getJson(path, fetcher = fetch) {
 	const res = await fetcher(withBase(path));
 	if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
-	return res.json();
+	const doc = await res.json();
+	if (path.endsWith('/sources.json')) return validateSourcesCatalog(doc);
+	if (path.endsWith('/status.json')) return validateStatusDocument(doc);
+	if (path.endsWith('/unified.json')) return validateFeedDocument(doc, { path });
+	return doc;
 }
 
 /**

@@ -1,4 +1,5 @@
 import { PATHS } from './paths.js';
+import { validateSourcesCatalog } from '../../shared/contracts.js';
 
 /**
  * @returns {Promise<{ version: number, sources: any[] }>}
@@ -8,7 +9,7 @@ export async function loadSources() {
 	if (!(await file.exists())) {
 		throw new Error(`Missing sources file: ${PATHS.sources}`);
 	}
-	return file.json();
+	return validateSourcesCatalog(await file.json());
 }
 
 /**

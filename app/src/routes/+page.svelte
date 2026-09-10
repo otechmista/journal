@@ -171,12 +171,12 @@
 		<p class="text-center text-[var(--color-accent)] text-sm mb-6" role="alert">{error}</p>
 	{/if}
 
-	{#if status.jobs?.some((j) => j.state === 'failed')}
+	{#if status.jobs?.some((j) => j.state === 'failed' || j.warning)}
 		<details class="mb-6 text-sm text-[var(--color-ink-muted)] font-[family-name:var(--font-meta)]">
-			<summary class="cursor-pointer text-[var(--color-accent)]">Algumas fontes falharam</summary>
+			<summary class="cursor-pointer text-[var(--color-accent)]">Algumas fontes precisam de atenção</summary>
 			<ul class="mt-2 list-disc pl-5 space-y-1">
-				{#each status.jobs.filter((j) => j.state === 'failed') as j}
-					<li>{j.source_id}: {j.error}</li>
+				{#each status.jobs.filter((j) => j.state === 'failed' || j.warning) as j}
+					<li>{j.source_id}: {j.error || j.warning}</li>
 				{/each}
 			</ul>
 		</details>
