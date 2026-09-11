@@ -15,7 +15,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.081Z",
+        "ingested_at": "2026-09-11T02:35:22.499Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -31,7 +31,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.081Z",
+        "ingested_at": "2026-09-11T02:35:22.499Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -47,7 +47,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.081Z",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -63,7 +63,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.081Z",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -79,7 +79,23 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.081Z",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://convergenciadigital.com.br/especial/sap/segre-da-sap-roi-com-ia-ja-e-uma-realidade-nas-empresas/",
+      "url": "https://convergenciadigital.com.br/especial/sap/segre-da-sap-roi-com-ia-ja-e-uma-realidade-nas-empresas/",
+      "title": "Segre, da SAP: ROI com IA já é uma realidade nas empresas",
+      "content_text": "As cerca de 4 mil pessoas que estiveram na 31ª edição do SAP NOW AI Tour Brazil tiveram a oportunidade de ver, na prática, como aplicações, dados e inteligência artificial estão ajudando empresas de todos os setores a operarem com mais eficiência, agilidade e capacidade de inovação. Neste ano, a SAP focou na evolução das companhias para o modelo de empresas autônomas. Na parte central do evento, especialistas demonstraram os diversos sistemas, como Autonomous Suite e Business AI Platform, além do Joule Studio 2.0. Ao longo dos dois dias, foram 373 sessões, incluindo keynotes, painéis, apresentações de clientes, demonstrações de soluções e conversas com especialistas da SAP e do ecossistema de negócios da empresa. Parte significativa do conteúdo foi conduzida por 122 empresas compartilhando resultados e aprendizados sobre as próprias jornadas de transformação. No Experience Center, a SAP usou o mote “da competição à colaboração”, aproveitando-se da Copa do Mundo para fazer analogia do jogo com a vivência empresarial. No Lab, espaço de experimentação equipado com dez estações com a Joule Studio 2.0, os participantes vivenciaram a experiência de, mesmo sem conhecimentos técnicos de programação, criarem seus próprios agentes de IA a partir de instruções em linguagem natural e com o suporte de especialistas da SAP. A proposta foi demonstrar que um agente direcionado a uma tarefa de negócio pode ser configurado em aproximadamente 15 minutos. Em entrevista à CDTV, Gustavo Segre, chief marketing officer (CMO) da SAP Brasil, explicou o futuro agêntico que a SAP apresentou no evento no Brasil e fez um balanço desse que é um dos maiores eventos da SAP no mundo. “Eu acho que a grande palavra nesse SAP Now AI Tour Brazil é ROI. Nós temos mostrado o retorno de investimento na prática junto com os cases dos clientes e como que a gente realmente usa IA nas operações atuais. Nos anos anteriores, a gente falava muito da inteligência artificial como algo projetado, ainda com muito receio no impacto do trabalho, em potencial diminuição de equipes. Muitos receios nesse sentido foram quebrados e, hoje, a gente mostra como a inteligência artificial, na verdade, ajuda as pessoas a fazerem seus projetos melhores, mais rápidos, com retorno e valor”. Assista a íntegra da entrevista com Gustavo Segre, da SAP. Siga-nos",
+      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div id=\"the-sticky-video\"><P> </P></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>As cerca de 4 mil pessoas que estiveram na 31ª edição do SAP NOW AI Tour Brazil tiveram a oportunidade de ver, na prática, como aplicações, dados e inteligência artificial estão ajudando empresas de todos os setores a operarem com mais eficiência, agilidade e capacidade de inovação.</p>\n\n\n\n<p>Neste ano, a SAP focou na evolução das companhias para o modelo de empresas autônomas. Na parte central do evento, especialistas demonstraram os diversos sistemas, como Autonomous Suite e Business AI Platform, além do Joule Studio 2.0. </p>\n\n\n\n<p>Ao longo dos dois dias, foram 373 sessões, incluindo keynotes, painéis, apresentações de clientes, demonstrações de soluções e conversas com especialistas da SAP e do ecossistema de negócios da empresa. Parte significativa do conteúdo foi conduzida por 122 empresas compartilhando resultados e aprendizados sobre as próprias jornadas de transformação.</p>\n\n\n\n<p>No Experience Center, a SAP usou o mote “da competição à colaboração”, aproveitando-se da Copa do Mundo para fazer analogia do jogo com a vivência empresarial. No Lab, espaço de experimentação equipado com dez estações com a Joule Studio 2.0, os participantes vivenciaram a experiência de, mesmo sem conhecimentos técnicos de programação, criarem seus próprios agentes de IA a partir de instruções em linguagem natural e com o suporte de especialistas da SAP. A proposta foi demonstrar que um agente direcionado a uma tarefa de negócio pode ser configurado em aproximadamente 15 minutos.</p>\n\n\n\n<p>Em entrevista à CDTV, Gustavo Segre, chief marketing officer (CMO) da SAP Brasil, explicou o futuro agêntico que a SAP apresentou no evento no Brasil e fez um balanço desse que é um dos maiores eventos da SAP no mundo. </p>\n\n\n\n<p>“Eu acho que a grande palavra nesse SAP Now AI Tour Brazil é ROI. Nós temos mostrado o retorno de investimento na prática junto com os cases dos clientes e como que a gente realmente usa IA nas operações atuais. Nos anos anteriores, a gente falava muito da inteligência artificial como algo projetado, ainda com muito receio no impacto do trabalho, em potencial diminuição de equipes. Muitos receios nesse sentido foram quebrados e, hoje, a gente mostra como a inteligência artificial, na verdade, ajuda as pessoas a fazerem seus projetos melhores, mais rápidos, com retorno e valor”. </p>\n\n\n\n<p>Assista a íntegra da entrevista com Gustavo Segre, da SAP.</p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
+      "image": "https://convergenciadigital.com.br/wp-content/uploads/2026/09/Gustavo-Segre_SAP-NOW-AI-Tour-Brazil-2026.jpg",
+      "_journal": {
+        "source_id": "src_convergencia_portal",
+        "source_type": "scrape",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -95,7 +111,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.081Z",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -111,7 +127,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -127,7 +143,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -143,7 +159,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -159,7 +175,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
+        "ingested_at": "2026-09-11T02:35:22.500Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -175,7 +191,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
+        "ingested_at": "2026-09-11T02:35:22.501Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -191,23 +207,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://convergenciadigital.com.br/especial/sap/nao-comece-pela-ia-comece-pelo-valor-diz-jan-gilg-da-sap/",
-      "url": "https://convergenciadigital.com.br/especial/sap/nao-comece-pela-ia-comece-pelo-valor-diz-jan-gilg-da-sap/",
-      "title": "“Não comece pela IA. Comece pelo valor”, diz Jan Gilg, da SAP",
-      "content_text": "Uma empresa autônoma deve ter foco em gerar valor para o negócio por meio de IA integrada e processos modernizados. “Eu diria: não comece pela IA. Comece pelo valor. Não acredito que os clientes queiram necessariamente mais modelos, certo? Acredito que eles buscam formas de eliminar atritos, ter acesso mais rápido à inovação, contar com uma base de dados limpa, modernizar seu ecossistema tecnológico e gerar valor ao longo desse processo”, reforçou Jan Gilg, presidente-global para sucesso de cliente e Américas da SAP SE, ao palestrar na sessão de abertura do SAP Now AI Tour Brazil 2026, nesta terça-feira, 9/9. Em vez de adquirir mais ferramentas de IA, as empresas têm de priorizar a geração de valor para eliminar atritos e modernizar suas bases de dados, aconselhou. Gilg destacou que o cerne da estratégia deve estar na transição do registro de tarefas para a sua execução efetiva. Apontou que o SAP Autonomous Suite atua como um novo sistema operacional para a empresa, tendo uma base governada, segura e pronta para auditoria, projetada para gerenciar a execução de processos nas áreas de finanças, gestão de gastos, cadeia de suprimentos, RH e experiência do cliente (CX). Com a IA se tornando parte integrante das vidas tanto das pessoas como das empresas, a SAP apresentou, em seu evento anual em Orlando, o Sapphire, realizado em maio, o que chamou de o próximo capítulo do software corporativo: a empresa autônoma. “No coração da empresa autônoma, está o Autonomous Suite, novo sistema operacional, que nos leva do registro do trabalho — o que fizemos nas últimas décadas e que continua sendo importante — para a execução do trabalho, pois a IA agora é capaz de participar dela”, explicou Gilg. A IA entende o contexto, consegue raciocinar e coordenar. Ela pode sugerir decisões e, eventualmente, executar ações no sistema. Isso está mudando o software. “O SAP Autonomous Suite oferece um sistema confiável, governado e seguro para gerir o negócio. O mesmo vale para o mundo da IA, onde um aspecto fundamental — a experiência do usuário — passará por uma mudança radical. Bem-vindo ao Joule Work Desktop”, frisou, ao falar sobre o aplicativo de desktop nativo em IA da SAP que conecta o ambiente da máquina local a dados corporativos na nuvem. “O Joule Work Desktop é o ponto de convergência onde tudo se une e onde o trabalho chega até o usuário final. Não se trata de uma camada de IA sobreposta a um software empresarial existente, mas de uma experiência nativa que mudará fundamentalmente a forma como você interage com as soluções SAP subjacentes. Em breve, todos terão acesso”, adiantou, sem revelar a data exata. Na transição para os novos modelos, o executivo explicou que não se trata apenas de uma migração direta — o chamado ‘lift and shift’. “Acredito que, se você simplesmente aplicar IA sobre fluxos de trabalho e processos ineficientes, o alcance dos resultados será limitado. Portanto, padronizar processos e simplificar o trabalho é fundamental para que se possa focar realmente no que importa.” Não se trata apenas de transferir a complexidade de hoje para a nuvem de amanhã. É preciso pensar no que é realmente mais importante para a empresa e nas mudanças necessárias para alcançar o sucesso no futuro. “Um núcleo limpo (clean core) permite adotar processos de excelência e proporciona a agilidade necessária para mudanças, servindo de base para gerar valor e alcançar resultados de negócios”, disse, antes de explicar que é preciso modernizar enquanto se transforma. O objetivo, segundo Jan Gilg, é acelerar a geração de valor. Para isso, sugeriu migrações conduzidas por agentes para tornar os projetos mais rápidos e econômicos. “Muita coisa está acontecendo agora e, comparando com um ano atrás, houve um avanço enorme.” A mentalidade necessária para capturar valor com o conjunto de soluções autônomas deve ir na linha de “não esperar pelas condições perfeitas, já que elas nunca chegarão, mas aproveitar a oportunidade no momento certo”. “A velocidade importa. Portanto, a transformação não precisa ser uma mudança abrupta e radical; ela também pode ser rápida e contínua. E capturar valor a longo prazo significa tomar as decisões tecnológicas certas hoje”, frisou. Adicionando mais uma perspectiva, o executivo falou da inovação voltada para necessidades específicas do cliente. “A SAP Business AI Platform é, na verdade, o ingrediente secreto que oferecemos a vocês, permitindo apoiar as capacidades individuais de diferenciação — muitas vezes ligadas a setores específicos”, disse. Jan Gilg encerrou sua fala resumindo que transformar em vez de apenas migrar, modernizar enquanto se transforma e promover inovação personalizada para o cliente geram valor de forma exponencial. “Estou convencido de que todos nós olharemos para este momento como uma das maiores transformações tecnológicas já ocorridas; não porque o software se tornou mais inteligente, mas porque ele permite que as empresas adotem uma forma de operação totalmente nova. A empresa autônoma é a base para a inovação contínua em IA”, finalizou.",
-      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div>\n\n\t\t\t\n\t\t\t\n<p>Uma empresa autônoma deve ter foco em gerar valor para o negócio por meio de IA integrada e processos modernizados. “Eu diria: não comece pela IA. Comece pelo valor. Não acredito que os clientes queiram necessariamente mais modelos, certo? Acredito que eles buscam formas de eliminar atritos, ter acesso mais rápido à inovação, contar com uma base de dados limpa, modernizar seu ecossistema tecnológico e gerar valor ao longo desse processo”, reforçou Jan Gilg, presidente-global para sucesso de cliente e Américas da SAP SE, ao palestrar na sessão de abertura do SAP Now AI Tour Brazil 2026, nesta terça-feira, 9/9.</p>\n\n\n\n<p>Em vez de adquirir mais ferramentas de IA, as empresas têm de priorizar a geração de valor para eliminar atritos e modernizar suas bases de dados, aconselhou. Gilg destacou que o cerne da estratégia deve estar na transição do registro de tarefas para a sua execução efetiva. Apontou que o SAP Autonomous Suite atua como um novo sistema operacional para a empresa, tendo uma base governada, segura e pronta para auditoria, projetada para gerenciar a execução de processos nas áreas de finanças, gestão de gastos, cadeia de suprimentos, RH e experiência do cliente (CX).</p>\n\n\n\n<p>Com a IA se tornando parte integrante das vidas tanto das pessoas como das empresas, a SAP apresentou, em seu evento anual em Orlando, o Sapphire, realizado em maio, o que chamou de o próximo capítulo do software corporativo: a empresa autônoma. “No coração da empresa autônoma, está o Autonomous Suite, novo sistema operacional, que nos leva do registro do trabalho — o que fizemos nas últimas décadas e que continua sendo importante — para a execução do trabalho, pois a IA agora é capaz de participar dela”, explicou Gilg.</p>\n\n\n\n<p>A IA entende o contexto, consegue raciocinar e coordenar. Ela pode sugerir decisões e, eventualmente, executar ações no sistema. Isso está mudando o software. “O SAP Autonomous Suite oferece um sistema confiável, governado e seguro para gerir o negócio. O mesmo vale para o mundo da IA, onde um aspecto fundamental — a experiência do usuário — passará por uma mudança radical. Bem-vindo ao Joule Work Desktop”, frisou, ao falar sobre o aplicativo de desktop nativo em IA da SAP que conecta o ambiente da máquina local a dados corporativos na nuvem.</p>\n\n\n\n<p>“O Joule Work Desktop é o ponto de convergência onde tudo se une e onde o trabalho chega até o usuário final. Não se trata de uma camada de IA sobreposta a um software empresarial existente, mas de uma experiência nativa que mudará fundamentalmente a forma como você interage com as soluções SAP subjacentes. Em breve, todos terão acesso”, adiantou, sem revelar a data exata.</p>\n\n\n\n<p>Na transição para os novos modelos, o executivo explicou que não se trata apenas de uma migração direta — o chamado ‘lift and shift’. “Acredito que, se você simplesmente aplicar IA sobre fluxos de trabalho e processos ineficientes, o alcance dos resultados será limitado. Portanto, padronizar processos e simplificar o trabalho é fundamental para que se possa focar realmente no que importa.”</p>\n\n\n\n<p>Não se trata apenas de transferir a complexidade de hoje para a nuvem de amanhã. É preciso pensar no que é realmente mais importante para a empresa e nas mudanças necessárias para alcançar o sucesso no futuro. “Um núcleo limpo (clean core) permite adotar processos de excelência e proporciona a agilidade necessária para mudanças, servindo de base para gerar valor e alcançar resultados de negócios”, disse, antes de explicar que é preciso modernizar enquanto se transforma.</p>\n\n\n\n<p>O objetivo, segundo Jan Gilg, é acelerar a geração de valor. Para isso, sugeriu migrações conduzidas por agentes para tornar os projetos mais rápidos e econômicos. “Muita coisa está acontecendo agora e, comparando com um ano atrás, houve um avanço enorme.” A mentalidade necessária para capturar valor com o conjunto de soluções autônomas deve ir na linha de “não esperar pelas condições perfeitas, já que elas nunca chegarão, mas aproveitar a oportunidade no momento certo”.</p>\n\n\n\n<p>“A velocidade importa. Portanto, a transformação não precisa ser uma mudança abrupta e radical; ela também pode ser rápida e contínua. E capturar valor a longo prazo significa tomar as decisões tecnológicas certas hoje”, frisou.</p>\n\n\n\n<p>Adicionando mais uma perspectiva, o executivo falou da inovação voltada para necessidades específicas do cliente. “A SAP Business AI Platform é, na verdade, o ingrediente secreto que oferecemos a vocês, permitindo apoiar as capacidades individuais de diferenciação — muitas vezes ligadas a setores específicos”, disse.</p>\n\n\n\n<p>Jan Gilg encerrou sua fala resumindo que transformar em vez de apenas migrar, modernizar enquanto se transforma e promover inovação personalizada para o cliente geram valor de forma exponencial. “Estou convencido de que todos nós olharemos para este momento como uma das maiores transformações tecnológicas já ocorridas; não porque o software se tornou mais inteligente, mas porque ele permite que as empresas adotem uma forma de operação totalmente nova. A empresa autônoma é a base para a inovação contínua em IA”, finalizou.</p>\n\n\n\n\n\n\t\t\t\n\t\t</div></DIV>",
-      "image": "https://convergenciadigital.com.br/wp-content/uploads/2026/09/Jang-Gilg_SAP-NOW-AI-Tour-Brazil-2026.jpg",
-      "_journal": {
-        "source_id": "src_convergencia_portal",
-        "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
+        "ingested_at": "2026-09-11T02:35:22.501Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -223,7 +223,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
+        "ingested_at": "2026-09-11T02:35:22.501Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -239,7 +239,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-10T20:20:14.082Z",
+        "ingested_at": "2026-09-11T02:35:22.501Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
