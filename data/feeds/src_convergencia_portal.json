@@ -15,7 +15,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.760Z",
+        "ingested_at": "2026-09-30T03:36:07.343Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -31,7 +31,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.760Z",
+        "ingested_at": "2026-09-30T03:36:07.343Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -47,7 +47,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.760Z",
+        "ingested_at": "2026-09-30T03:36:07.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -63,7 +63,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.760Z",
+        "ingested_at": "2026-09-30T03:36:07.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -79,7 +79,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.760Z",
+        "ingested_at": "2026-09-30T03:36:07.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -95,7 +95,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.760Z",
+        "ingested_at": "2026-09-30T03:36:07.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -111,7 +111,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.761Z",
+        "ingested_at": "2026-09-30T03:36:07.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -127,7 +127,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.761Z",
+        "ingested_at": "2026-09-30T03:36:07.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -143,7 +143,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.761Z",
+        "ingested_at": "2026-09-30T03:36:07.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -159,7 +159,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.761Z",
+        "ingested_at": "2026-09-30T03:36:07.344Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -175,7 +175,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.761Z",
+        "ingested_at": "2026-09-30T03:36:07.345Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -191,7 +191,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.761Z",
+        "ingested_at": "2026-09-30T03:36:07.345Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -207,7 +207,23 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.761Z",
+        "ingested_at": "2026-09-30T03:36:07.345Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://convergenciadigital.com.br/inovacao/vivo-investe-em-plugin-no-chatgpt-para-relacionamento-com-clientes/",
+      "url": "https://convergenciadigital.com.br/inovacao/vivo-investe-em-plugin-no-chatgpt-para-relacionamento-com-clientes/",
+      "title": "Vivo investe em plugin no ChatGPT para relacionamento com clientes",
+      "content_text": "A Vivo lançou seu plugin no ChatGPT, permitindo que consumidores consultem informações sobre seus produtos e serviços, usando a inteligência artificial para expandir seus pontos de contato com consumidores. O objetivo é fazer da busca por produtos e serviços uma conversa simples, natural e personalizada, onde o consumidor pode explicar suas necessidades e receber orientações contextualizadas. “Ferramentas de IA têm se tornado cada vez mais relevantes na tomada de decisão das pessoas e o compromisso da Vivo é se fazer presente onde o cliente estiver: presencial, remoto, web e, agora, plataformas de inteligência artificial”, afirma Renata Nobre, diretora de Experiência Digital da Vivo. “Criamos o plugin da Vivo no ChatGPT para oferecer uma experiência baseada em linguagem natural, na qual os consumidores podem obter informações sobre nossos planos, ofertas, aparelhos e serviços”, completa. No lançamento, o plugin da Vivo no ChatGPT esclarecerá informações sobre ofertas, planos, aparelhos, serviços, direcionando os consumidores para pontos de contato da empresa por meio de respostas assertivas e que os ajudem a esclarecer dúvidas sobre contratação de serviços e produtos ou suporte. Em uma fase futura, a Vivo planeja incorporar ao plugin funcionalidades transacionais, permitindo que os clientes realizem ações diretamente no ambiente conversacional, como emitir segunda via de fatura, fazer recargas e comprar planos de celular. A experiência torna a busca por informações mais fluida e relevante, simplificando a jornada do cliente. Ao levar seu conteúdo para o ChatGPT, a Vivo também estabelece um novo espaço para descoberta de produtos, geração de valor e desenvolvimento de negócios. “Quem acessa o plugin da Vivo no ChatGPT recebe a resposta da própria Vivo: informação oficial, atualizada e com curadoria nossa. A partir do que o cliente conta na conversa, a IA indica os produtos, serviços e ofertas que fazem sentido para aquele momento com conteúdo direcionado”, diz Tiago Baccala, diretor de IA da Vivo. Ao disponibilizar seu plugin no ChatGPT, a Vivo passa a oferecer informações sobre produtos, serviços e ofertas com curadoria da própria empresa, o que garante mais consistência, confiabilidade e contexto para os consumidores que buscam orientações sobre conectividade, dispositivos, entretenimento, serviços financeiros, soluções digitais e suporte. Com a novidade, a Vivo assume o desafio indiscutível de se tornar a melhor via de acesso dos cidadãos às tecnologias digitais. Para acessar o plugin da Vivo, o usuário pode buscar por “Vivo” na aba Plugins do ChatGPT e seguir as etapas indicadas para iniciar a interação. Siga-nos",
+      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"720\" height=\"405\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2024/05/chatgpt.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2024/05/chatgpt.jpg 720w, https://convergenciadigital.com.br/wp-content/uploads/2024/05/chatgpt-300x169.jpg 300w, https://convergenciadigital.com.br/wp-content/uploads/2024/05/chatgpt-390x220.jpg 390w\" sizes=\"(max-width: 720px) 100vw, 720px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>A Vivo lançou seu plugin no ChatGPT, permitindo que consumidores consultem informações sobre seus produtos e serviços, usando a inteligência artificial para expandir seus pontos de contato com consumidores. O objetivo é fazer da busca por produtos e serviços uma conversa simples, natural e personalizada, onde o consumidor pode explicar suas necessidades e receber orientações contextualizadas.</p>\n\n\n\n<p>“Ferramentas de IA têm se tornado cada vez mais relevantes na tomada de decisão das pessoas e o compromisso da Vivo é se fazer presente onde o cliente estiver: presencial, remoto, web e, agora, plataformas de inteligência artificial”, afirma Renata Nobre, diretora de Experiência Digital da Vivo. “Criamos o plugin da Vivo no ChatGPT para oferecer uma experiência baseada em linguagem natural, na qual os consumidores podem obter informações sobre nossos planos, ofertas, aparelhos e serviços”, completa.</p>\n\n\n\n<p>No lançamento, o plugin da Vivo no ChatGPT esclarecerá informações sobre ofertas, planos, aparelhos, serviços, direcionando os consumidores para pontos de contato da empresa por meio de respostas assertivas e que os ajudem a esclarecer dúvidas sobre contratação de serviços e produtos ou suporte. Em uma fase futura, a Vivo planeja incorporar ao plugin funcionalidades transacionais, permitindo que os clientes realizem ações diretamente no ambiente conversacional, como emitir segunda via de fatura, fazer recargas e comprar planos de celular.</p>\n\n\n\n<p>A experiência torna a busca por informações mais fluida e relevante, simplificando a jornada do cliente. Ao levar seu conteúdo para o ChatGPT, a Vivo também estabelece um novo espaço para descoberta de produtos, geração de valor e desenvolvimento de negócios.</p>\n\n\n\n<p>“Quem acessa o plugin da Vivo no ChatGPT recebe a resposta da própria Vivo: informação oficial, atualizada e com curadoria nossa. A partir do que o cliente conta na conversa, a IA indica os produtos, serviços e ofertas que fazem sentido para aquele momento com conteúdo direcionado”, diz Tiago Baccala, diretor de IA da Vivo.</p>\n\n\n\n<p>Ao disponibilizar seu plugin no ChatGPT, a Vivo passa a oferecer informações sobre produtos, serviços e ofertas com curadoria da própria empresa, o que garante mais consistência, confiabilidade e contexto para os consumidores que buscam orientações sobre conectividade, dispositivos, entretenimento, serviços financeiros, soluções digitais e suporte. Com a novidade, a Vivo assume o desafio indiscutível de se tornar a melhor via de acesso dos cidadãos às tecnologias digitais.</p>\n\n\n\n<p>Para acessar o plugin da Vivo, o usuário pode buscar por “Vivo” na aba Plugins do ChatGPT e seguir as etapas indicadas para iniciar a interação.</p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
+      "image": "https://convergenciadigital.com.br/wp-content/uploads/2024/05/chatgpt.jpg",
+      "_journal": {
+        "source_id": "src_convergencia_portal",
+        "source_type": "scrape",
+        "ingested_at": "2026-09-30T03:36:07.345Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -223,23 +239,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.762Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://convergenciadigital.com.br/seguranca/cibereducacao-termina-no-domingo-4-10-inscricoes-para-programa-da-cisco-com-5-mil-vagas-gratuitas/",
-      "url": "https://convergenciadigital.com.br/seguranca/cibereducacao-termina-no-domingo-4-10-inscricoes-para-programa-da-cisco-com-5-mil-vagas-gratuitas/",
-      "title": "CiberEducação: termina no domingo, 4/10, inscrições para programa da Cisco com 5 mil vagas gratuitas",
-      "content_text": "Termina no próximo domingo (04/10) o prazo das inscrições para o programa CiberEducação Cisco Brasil, iniciativa líder na formação em cibersegurança do país. Qualquer pessoa pode participar e o interessado começa por um curso online gratuito de seis horas, sem necessidade de conhecimento técnico prévio. Depois dessa etapa, os estudantes que concluíram essa primeira aula concorrem a uma das 5 mil bolsas de estudo profissionalizante gratuitas. As inscrições para a primeira fase, a Maratona CiberEducação, podem ser feitas até este fim de semana no site oficial do programa CiberEducação Cisco Brasil. Nesta edição, os participantes terão acesso ao curso introdutório de seis horas “Sensilbilização para a Segurança Digital”, que aborda, de forma prática e acessível, temas como prevenção contra golpes, criação de senhas seguras e protocolos essenciais de segurança digital. Os participantes que finalizarem essa fase e forem aprovados no processo seletivo entram na disputa das 5 mil bolsas de estudo integrais para uma formação profissional de 140 horas nas trilhas de Redes e Cibersegurança do Cisco Certified Support Technician (CCST), alinhadas a certificações de nível inicial reconhecidas pela indústria. A formação será conduzida por instrutores experientes do SENAI Santa Catarina. “Cibersegurança deixou de ser um tema reservado exclusivamente aos especialistas e se tornou uma necessidade para toda a sociedade. Ao capacitar a população para se proteger contra fraudes digitais, mantemos também nosso compromisso com o desenvolvimento de talentos qualificados para atender à crescente demanda por profissionais de cibersegurança no Brasil e no mundo”, afirma Gabriel Bello Barros, Head do Cisco Networking Academy no Brasil e executivo responsável pelo Programa CiberEducação. O programa está na sua 13ª edição e, desde o início da iniciativa, já recebeu mais de 400 mil inscrições, qualificou aproximadamente 71 mil estudantes e formou 10 mil talentos em sua trilha de capacitação profissional. Serviço Iniciativa: Programa CiberEducação Cisco Brasil Inscrições: até domingo (04/10) Valor: gratuito Formato: Online, pelo site do programa CiberEducação Cisco Brasil Siga-nos",
-      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"720\" height=\"327\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2023/07/ciber_prof.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2023/07/ciber_prof.jpg 720w, https://convergenciadigital.com.br/wp-content/uploads/2023/07/ciber_prof-300x136.jpg 300w\" sizes=\"(max-width: 720px) 100vw, 720px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>Termina no próximo domingo (04/10) o prazo das inscrições para o programa CiberEducação Cisco Brasil, iniciativa líder na formação em cibersegurança do país. Qualquer pessoa pode participar e o interessado começa por um curso online gratuito de seis horas, sem necessidade de conhecimento técnico prévio. Depois dessa etapa, os estudantes que concluíram essa primeira aula concorrem a uma das 5 mil bolsas de estudo profissionalizante gratuitas.</p>\n\n\n\n<p>As inscrições para a primeira fase, a Maratona CiberEducação, podem ser feitas até este fim de semana no site oficial do programa CiberEducação Cisco Brasil. Nesta edição, os participantes terão acesso ao curso introdutório de seis horas “Sensilbilização para a Segurança Digital”, que aborda, de forma prática e acessível, temas como prevenção contra golpes, criação de senhas seguras e protocolos essenciais de segurança digital.</p>\n\n\n\n<p>Os participantes que finalizarem essa fase e forem aprovados no processo seletivo entram na disputa das 5 mil bolsas de estudo integrais para uma formação profissional de 140 horas nas trilhas de Redes e Cibersegurança do Cisco Certified Support Technician (CCST), alinhadas a certificações de nível inicial reconhecidas pela indústria. A formação será conduzida por instrutores experientes do SENAI Santa Catarina.</p>\n\n\n\n<p>“Cibersegurança deixou de ser um tema reservado exclusivamente aos especialistas e se tornou uma necessidade para toda a sociedade. Ao capacitar a população para se proteger contra fraudes digitais, mantemos também nosso compromisso com o desenvolvimento de talentos qualificados para atender à crescente demanda por profissionais de cibersegurança no Brasil e no mundo”, afirma Gabriel Bello Barros, Head do Cisco Networking Academy no Brasil e executivo responsável pelo Programa CiberEducação.</p>\n\n\n\n<p>O programa está na sua 13ª edição e, desde o início da iniciativa, já recebeu mais de 400 mil inscrições, qualificou aproximadamente 71 mil estudantes e formou 10 mil talentos em sua trilha de capacitação profissional.</p>\n\n\n\n<p>Serviço</p>\n\n\n\n<p>Iniciativa: Programa CiberEducação Cisco Brasil</p>\n\n\n\n<p>Inscrições: até domingo (04/10)</p>\n\n\n\n<p>Valor: gratuito</p>\n\n\n\n<p>Formato: Online, pelo site do programa <a href=\"https://www.cisco.com/c/m/pt_br/brasil-digital-e-inclusivo/cibereducacao.html\">CiberEducação Cisco Brasil</a></p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
-      "image": "https://convergenciadigital.com.br/wp-content/uploads/2023/07/ciber_prof.jpg",
-      "_journal": {
-        "source_id": "src_convergencia_portal",
-        "source_type": "scrape",
-        "ingested_at": "2026-09-29T21:46:51.762Z",
+        "ingested_at": "2026-09-30T03:36:07.345Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
