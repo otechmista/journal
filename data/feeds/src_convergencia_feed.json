@@ -22,7 +22,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.480Z",
+        "ingested_at": "2026-10-04T03:52:16.032Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -44,7 +44,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.481Z",
+        "ingested_at": "2026-10-04T03:52:16.033Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -66,7 +66,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.481Z",
+        "ingested_at": "2026-10-04T03:52:16.033Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -89,7 +89,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.481Z",
+        "ingested_at": "2026-10-04T03:52:16.033Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -112,7 +112,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.481Z",
+        "ingested_at": "2026-10-04T03:52:16.033Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -125,6 +125,7 @@
       "summary": "Prestadora de serviços de TI contratou a infraestrutura da Omid e estuda ampliar o modelo para outros países da região, impulsionada por previsibilidade financeira, eficiência operacional e soberania digital.",
       "content_text": "A Praxis Globe, prestadora global de serviços de TI, contratou a provedora nacional de cloud públia, Omid Solutions. Além da operação brasileira, as empresas já iniciaram conversas para avaliar a expansão da parceria para outros mercados da América Latina, especialmente em países onde a combinação entre custos previsíveis, alta disponibilidade e suporte local representa um diferencial competitivo para organizações com ambientes distribuídos e grande volume de processamento. Ao optar pela Omid, a Praxis Globe passa a contar com uma cloud pública baseada em mensalidades fixas, eliminando variáveis como cobrança por tráfego de dados (data egress) e reduzindo significativamente a complexidade das atividades de FinOps, permitindo maior controle financeiro e previsibilidade para as áreas de tecnologia e finanças ao já possibilitar a criação de subdivisão por projetos dentro da própria tipologia da infraestrutura gerando uma fatura já segregada por departamentos ou unidades de negócio. “Para uma operação multinacional, trabalhar com custos fixos simplifica nosso planejamento, facilita o rateio entre diferentes centros de custos e reduz significativamente o esforço operacional relacionado à gestão financeira da nuvem” disse Fabiola Sanchez, diretora regional da Praxis para a América Latina. A expansão da inteligência artificial e o crescimento dos ambientes corporativos distribuídos têm tornado a gestão financeira da nuvem um tema cada vez mais estratégico. Organizações que operam grandes workloads buscam alternativas que conciliem flexibilidade tecnológica com previsibilidade orçamentária, reduzindo riscos de variações inesperadas nos custos mensais. Segundo Leonardo Senra, Chief Revenue Officer da Omid, esse movimento representa uma mudança importante na forma como grandes empresas estão avaliando seus provedores de cloud. A Omid opera uma infraestrutura totalmente instalada no Brasil, baseada em data centers próprios Tier III, operação local 24&#215;7 e orquestração desenvolvida pela própria companhia, oferecendo uma alternativa para empresas que buscam combinar alta disponibilidade, segurança, governança e maior controle sobre seus ambientes críticos. Os valores do contrato não foram revelados.",
       "content_html": "\n<p class=\"wp-block-paragraph\">A Praxis Globe, prestadora global de serviços de TI, contratou a provedora nacional de cloud públia, Omid Solutions. Além da operação brasileira, as empresas já iniciaram conversas para avaliar a expansão da parceria para outros mercados da América Latina, especialmente em países onde a combinação entre custos previsíveis, alta disponibilidade e suporte local representa um diferencial competitivo para organizações com ambientes distribuídos e grande volume de processamento.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Ao optar pela Omid, a Praxis Globe passa a contar com uma cloud pública baseada em mensalidades fixas, eliminando variáveis como cobrança por tráfego de dados (data egress) e reduzindo significativamente a complexidade das atividades de FinOps, permitindo maior controle financeiro e previsibilidade para as áreas de tecnologia e finanças ao já possibilitar a criação de subdivisão por projetos dentro da própria tipologia da infraestrutura gerando uma fatura já segregada por departamentos ou unidades de negócio.</p>\n\n\n\n<p class=\"wp-block-paragraph\">“Para uma operação multinacional, trabalhar com custos fixos simplifica nosso planejamento, facilita o rateio entre diferentes centros de custos e reduz significativamente o esforço operacional relacionado à gestão financeira da nuvem” disse Fabiola Sanchez, diretora regional da Praxis para a América Latina.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A expansão da inteligência artificial e o crescimento dos ambientes corporativos distribuídos têm tornado a gestão financeira da nuvem um tema cada vez mais estratégico. Organizações que operam grandes workloads buscam alternativas que conciliem flexibilidade tecnológica com previsibilidade orçamentária, reduzindo riscos de variações inesperadas nos custos mensais. Segundo Leonardo Senra, Chief Revenue Officer da Omid, esse movimento representa uma mudança importante na forma como grandes empresas estão avaliando seus provedores de cloud.</p>\n\n\n\n<p class=\"wp-block-paragraph\">A Omid opera uma infraestrutura totalmente instalada no Brasil, baseada em data centers próprios Tier III, operação local 24&#215;7 e orquestração desenvolvida pela própria companhia, oferecendo uma alternativa para empresas que buscam combinar alta disponibilidade, segurança, governança e maior controle sobre seus ambientes críticos. Os valores do contrato não foram revelados.</p>\n",
+      "image": "https://convergenciadigital.com.br/wp-content/uploads/2023/08/ia_cloud.jpg",
       "date_published": "2026-10-02T15:36:24.000Z",
       "authors": [
         {
@@ -134,7 +135,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.482Z",
+        "ingested_at": "2026-10-04T03:52:16.033Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -157,7 +158,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.482Z",
+        "ingested_at": "2026-10-04T03:52:16.033Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -180,7 +181,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.482Z",
+        "ingested_at": "2026-10-04T03:52:16.033Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -202,7 +203,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.482Z",
+        "ingested_at": "2026-10-04T03:52:16.034Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -225,7 +226,7 @@
       "_journal": {
         "source_id": "src_convergencia_feed",
         "source_type": "rss",
-        "ingested_at": "2026-10-03T20:29:31.482Z",
+        "ingested_at": "2026-10-04T03:52:16.034Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
