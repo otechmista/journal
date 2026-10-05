@@ -1,4 +1,6 @@
 import { describe, expect, test } from 'bun:test';
+import { readdirSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import {
 	validateFeedDocument,
 	validateSourcesCatalog,
@@ -6,6 +8,21 @@ import {
 } from '../../shared/contracts.js';
 
 describe('public JSON contracts', () => {
+	test('validates committed public JSON files', () => {
+		const root = join(import.meta.dir, '..', '..');
+		const sources = JSON.parse(readFileSync(join(root, 'data', 'sources.json'), 'utf8'));
+		const status = JSON.parse(readFileSync(join(root, 'data', 'jobs', 'status.json'), 'utf8'));
+		validateSourcesCatalog(sources);
+		validateStatusDocument(status);
+
+		const feedsDir = join(root, 'data', 'feeds');
+		for (const file of readdirSync(feedsDir).filter((name) => name.endsWith('.json'))) {
+			const doc = JSON.parse(readFileSync(join(feedsDir, file), 'utf8'));
+			validateFeedDocument(doc, { path: `data/feeds/${file}` });
+		}
+		expect(sources.sources.length).toBeGreaterThan(0);
+	});
+
 	test('accepts the current sources catalog shape including retention_days', () => {
 		expect(
 			validateSourcesCatalog({

@@ -1,6 +1,7 @@
 {
   "name": "journal",
   "private": true,
+  "type": "module",
   "scripts": {
     "bootstrap": "cd crawler && bun install && cd ../app && npm ci",
     "crawl": "cd crawler && bun run crawl",

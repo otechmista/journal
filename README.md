@@ -117,9 +117,9 @@ Resultado: `https://journal.camilomelo.com` → este app; `https://camilomelo.co
 Local parity:
 
 ```bash
-bun run crawl
-bun run sync-data   # copies data/ → app/static/data
-bun run build       # respects BASE_PATH if set, e.g. BASE_PATH=/journal bun run build
+npm run crawl
+npm run sync-data   # copies data/ -> app/static/data
+npm run build       # respects BASE_PATH if set, e.g. BASE_PATH=/journal npm run build
 ```
 
 The root scripts are the canonical local entrypoints:
