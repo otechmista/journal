@@ -15,7 +15,23 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.639Z",
+        "ingested_at": "2026-10-22T02:56:54.996Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://convergenciadigital.com.br/internet/leilao-6ghz-impasse-entre-teles-e-isps-faz-anatel-adiar-consulta-publica-ate-dezembro/",
+      "url": "https://convergenciadigital.com.br/internet/leilao-6ghz-impasse-entre-teles-e-isps-faz-anatel-adiar-consulta-publica-ate-dezembro/",
+      "title": "Leilão 6GHz: Impasse entre teles e ISPs faz Anatel adiar consulta pública até dezembro",
+      "content_text": "Com o impasse entre as operadoras de telecomunicações e os ISPs e provedores regionais de Internet como pano de fundo das audiências públicas registradas em Brasília e São Paulo sobre o leilão da faixa de 6GHz, a Anatel prorrogou até 7 de dezembro o prazo para o envio de contribuições à Consulta Pública nº 37/2026, que discute a proposta de edital do leilão da faixa de 6 GHz. Inicialmente, o período de participação terminaria na próxima sexta-feira, 23 de outubro. A ampliação foi anunciada nesta quarta-feira, 21, durante audiência pública realizada em São Paulo. Com 1200 Mhz, o edital de 6GHz – que antes seria destinada integralmente ao Wi-Fi e aos ISPs – e agora terá 700 MHz para as teles e 500 Mhz para os ISPs, prevê lotes nacionais e regionais, além de compromissos de investimentos em cobertura móvel, redes de fibra óptica e infraestrutura digital, incluindo data centers regionais. Para ampliar a participação da sociedade, a Anateel prevê uma terceira audiência pública sobre o tema, desta vez em Fortaleza (CE). O encontro deve ocorrer em novembro, mas ainda não tem data definida. No último dia 16, a primeira audiência pública sobre a proposta de edital de licitação foi conduzida em Brasília, no último dia 16. O leilão da faixa de 6 GHz permanece no planejamento da Anatel para ocorrer até 2028. Antes da publicação do edital definitivo, contudo, a proposta ainda deverá passar por outras etapas de análise. Manifestações “Vincular a outorga de espectro à implantação de edge data center é uma mudança relevante no modelo de compromissos, porque a implantação de redes móveis e a construção de centro de processamento de dados não são atividade equivalentes e envolvem mercados economicamente distintos”, disse o diretor da Abranet, Eduardo Parajo, acrescentando que não basta construir as instalações: é preciso ter demanda e os custos têm de ser sustentáveis. Ele participou da audiência pública em São Paulo. De acordo com o diretor da Abranet, a preocupação é que vincular a tutela de espectro a essa obrigação pode estabelecer obrigações que implicam uma regulação indireta com graves consequências. Diferentemente das redes de telecomunicações tradicionais, os data centers exigem instalações altamente especializadas, energia de alta disponibilidade, refrigeração, servidores, sistemas de segurança, manutenção contínua e atualização tecnológica constante. Siga-nos",
+      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"720\" height=\"405\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes.jpg 720w, https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes-300x169.jpg 300w, https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes-390x220.jpg 390w\" sizes=\"(max-width: 720px) 100vw, 720px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>Com o impasse entre as operadoras de telecomunicações e os ISPs e provedores regionais de Internet como pano de fundo das audiências públicas registradas em Brasília e São Paulo sobre o leilão da faixa de 6GHz, a Anatel prorrogou até 7 de dezembro o prazo para o envio de contribuições à Consulta Pública nº 37/2026, que discute a proposta de edital do leilão da faixa de 6 GHz. Inicialmente, o período de participação terminaria na próxima sexta-feira, 23 de outubro. A ampliação foi anunciada nesta quarta-feira, 21, durante audiência pública realizada em São Paulo.</p>\n\n\n\n<p>Com 1200 Mhz, o edital de 6GHz – que antes seria destinada integralmente ao Wi-Fi e aos ISPs – e agora terá 700 MHz para as teles e 500 Mhz para os ISPs, prevê lotes nacionais e regionais, além de compromissos de investimentos em cobertura móvel, redes de fibra óptica e infraestrutura digital, incluindo data centers regionais.</p>\n\n\n\n<p>Para ampliar a participação da sociedade, a Anateel prevê uma terceira audiência pública sobre o tema, desta vez em Fortaleza (CE). O encontro deve ocorrer em novembro, mas ainda não tem data definida. No último dia 16, a primeira audiência pública sobre a proposta de edital de licitação foi conduzida em Brasília, no último dia 16.</p>\n\n\n\n<p>O leilão da faixa de 6 GHz permanece no planejamento da Anatel para ocorrer até 2028. Antes da publicação do edital definitivo, contudo, a proposta ainda deverá passar por outras etapas de análise.</p>\n\n\n\n<p>Manifestações</p>\n\n\n\n<p>“Vincular a outorga de espectro à implantação de edge data center é uma mudança relevante no modelo de compromissos, porque a implantação de redes móveis e a construção de centro de processamento de dados não são atividade equivalentes e envolvem mercados economicamente distintos”, disse o diretor da Abranet, Eduardo Parajo, acrescentando que não basta construir as instalações: é preciso ter demanda e os custos têm de ser sustentáveis. Ele participou da audiência pública em São Paulo.</p>\n\n\n\n<p>De acordo com o diretor da Abranet, a preocupação é que vincular a tutela de espectro a essa obrigação pode estabelecer obrigações que implicam uma regulação indireta com graves consequências. Diferentemente das redes de telecomunicações tradicionais, os data centers exigem instalações altamente especializadas, energia de alta disponibilidade, refrigeração, servidores, sistemas de segurança, manutenção contínua e atualização tecnológica constante.</p>\n\n\n\n\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
+      "image": "https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes.jpg",
+      "_journal": {
+        "source_id": "src_convergencia_portal",
+        "source_type": "scrape",
+        "ingested_at": "2026-10-22T02:56:54.997Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -31,39 +47,23 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.640Z",
+        "ingested_at": "2026-10-22T02:56:54.997Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
       }
     },
     {
-      "id": "https://convergenciadigital.com.br/mercado/meta-e-condenada-a-pagar-r-125-bilhoes-por-uso-ilegal-de-dados-de-87-milhoes-de-usuarios-do-facebook-a-favor-de-donald-trump-em-2016/",
-      "url": "https://convergenciadigital.com.br/mercado/meta-e-condenada-a-pagar-r-125-bilhoes-por-uso-ilegal-de-dados-de-87-milhoes-de-usuarios-do-facebook-a-favor-de-donald-trump-em-2016/",
-      "title": "Meta vai pagar R$ 125 bilhões por uso ilegal de dados de 87 milhões de usuários do Facebook a favor de Donald Trump em 2016",
-      "content_text": "A Justiça do Estado americano do Novo México determinou nesta quarta-feira (21) que a Meta pague US$ 25 bilhões, ou R$ 125 bilhões, após um júri concluir que a empresa enganou consumidores em um processo relacionado às alegações de que a Cambridge Analytica, consultoria política britânica envolvida na campanha presidencial do republicano Donald Trump em 2016, obteve dados de milhões de usuários do Facebook sem consentimento. O juiz Francis Mathew afirmou em sua sentença que a conduta do Facebook, de forma sistemática ao longo de vários anos e amplamente comunicada ao público, atingiu o cerne das práticas empresariais da companhia. O próprio Facebook admitiu que fez uso indevido dos dados. Mathew concluiu que, com base na legislação estadual, uma multa superior a US$ 219 bilhões seria justificável, mas reduziu o valor para US$ 25 bilhões. O procurador-geral do Novo México processou a empresa em 2021, após as revelações de que a Cambridge Analytica coletou dados pessoais de até 87 milhões de usuários do Facebook por meio de um aplicativo de terceiros. O Estado acusou a Meta de enganar usuários da rede social no Novo México sobre quem tinha acesso a seus dados, como a empresa lidava com discursos de ódio e desinformação publicados na plataforma e outras políticas internas. Em 25 de setembro, os jurados concluíram que 26 de 29 declarações feitas pela empresa e por seus executivos sobre esses temas eram enganosas. Eles também determinaram que a Meta cometeu mais de 43 milhões de violações das leis de proteção ao consumidor do Novo México, com base no número de usuários do Facebook ou residentes no Estado que foram expostos a cada uma das declarações consideradas enganosas. Em uma audiência realizada em 1º de outubro, Randi McGinn, advogada do Estado, pediu que o juiz fixasse a multa entre US$ 35 bilhões e US$ 40 bilhões, argumentando que esse valor seria compatível com as garantias constitucionais de devido processo legal e com as conclusões do júri. “Este tribunal deve falar com a Meta na única linguagem que ela entende, que é o dinheiro e o valor de suas ações”, afirmou McGinn. Em documentos apresentados à Justiça, a Meta pediu que a multa fosse limitada a US$ 3,45 bilhões, alegando que uma penalidade maior poderia afastar empresas do Estado. Siga-nos",
-      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"720\" height=\"404\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2023/07/facebook_meta.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2023/07/facebook_meta.jpg 720w, https://convergenciadigital.com.br/wp-content/uploads/2023/07/facebook_meta-300x168.jpg 300w, https://convergenciadigital.com.br/wp-content/uploads/2023/07/facebook_meta-390x220.jpg 390w\" sizes=\"(max-width: 720px) 100vw, 720px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>A Justiça do Estado americano do Novo México determinou nesta quarta-feira (21) que a Meta pague US$ 25 bilhões, ou R$ 125 bilhões, após um júri concluir que a empresa enganou consumidores em um processo relacionado às alegações de que a Cambridge Analytica, consultoria política britânica envolvida na campanha presidencial do republicano Donald Trump em 2016, obteve dados de milhões de usuários do Facebook sem consentimento.</p>\n\n\n\n<p>O juiz Francis Mathew afirmou em sua sentença que a conduta do Facebook, de forma sistemática ao longo de vários anos e amplamente comunicada ao público, atingiu o cerne das práticas empresariais da companhia. <a href=\"https://convergenciadigital.com.br/internet/facebook-assume-que-o-uso-indevido-de-dados-atingiu-87-milhes-de-pessoas/\">O próprio Facebook admitiu que fez uso indevido dos dados.</a>  Mathew concluiu que, com base na legislação estadual, uma multa superior a US$ 219 bilhões seria justificável, mas reduziu o valor para US$ 25 bilhões.</p>\n\n\n\n<p>O procurador-geral do Novo México processou a empresa em 2021, após as revelações de que a Cambridge Analytica coletou dados pessoais de até 87 milhões de usuários do Facebook por meio de um aplicativo de terceiros.</p>\n\n\n\n<p>O Estado acusou a Meta de enganar usuários da rede social no Novo México sobre quem tinha acesso a seus dados, como a empresa lidava com discursos de ódio e desinformação publicados na plataforma e outras políticas internas. Em 25 de setembro, os jurados concluíram que 26 de 29 declarações feitas pela empresa e por seus executivos sobre esses temas eram enganosas.</p>\n\n\n\n<p>Eles também determinaram que a Meta cometeu mais de 43 milhões de violações das leis de proteção ao consumidor do Novo México, com base no número de usuários do Facebook ou residentes no Estado que foram expostos a cada uma das declarações consideradas enganosas.</p>\n\n\n\n<p>Em uma audiência realizada em 1º de outubro, Randi McGinn, advogada do Estado, pediu que o juiz fixasse a multa entre US$ 35 bilhões e US$ 40 bilhões, argumentando que esse valor seria compatível com as garantias constitucionais de devido processo legal e com as conclusões do júri.</p>\n\n\n\n<p>“Este tribunal deve falar com a Meta na única linguagem que ela entende, que é o dinheiro e o valor de suas ações”, afirmou McGinn. Em documentos apresentados à Justiça, a Meta pediu que a multa fosse limitada a US$ 3,45 bilhões, alegando que uma penalidade maior poderia afastar empresas do Estado.</p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
-      "image": "https://convergenciadigital.com.br/wp-content/uploads/2023/07/facebook_meta.jpg",
+      "id": "https://convergenciadigital.com.br/mercado/mp-de-sao-paulo-diz-que-vazamento-de-dados-do-smart-samp-e-gravissimo/",
+      "url": "https://convergenciadigital.com.br/mercado/mp-de-sao-paulo-diz-que-vazamento-de-dados-do-smart-samp-e-gravissimo/",
+      "title": "MP de São Paulo diz que vazamento de dados do Smart Sampa é “gravíssimo”",
+      "content_text": "O chefe do Ministério Público de São Paulo, o procurador-geral de Justiça, Paulo Sérgio de Oliveira e Costa, classificou como “gravíssimo” o vazamento de dados do Smart Sampa que permitiu, durante ao menos 11 meses, acesso indevido a mais de 58 mil câmeras de monitoramento espalhadas pela cidade de São Paulo. Segundo ele, o caso revelado pelo UOL será investigado pela Promotoria do Patrimônio Público. Oliveira e Costa defendeu o Smart Sampa, mas disse que a investigação é necessária. “Está correto investigar esse fato [vazamento de dados do Smart Sampa], que é gravíssimo. Verificar porque isso aconteceu, por quanto tempo, o nível de dados expostos e os responsáveis. Importante investigar também para aprimorar o sistema de segurança. É uma ferramenta tecnológica importante e agora vi mais acertos do que erros”, afirmou em em entrevista ao portal UOL nesta quarta-feira, 21/10. Quem também se pronunciou foi a Agência Nacional de Proteção de Dados, ANPD. A agência informou que vai analisar o pedido de investigação feita a partir do ofício da Coalização Direitos na Rede. Caso aceita, a ANPD vai avaliar se houve falha da Prefeitura de São Paulo e da empresa que presta serviço para o Smart Sampa, a SentinelX. Vale lembrar que os sistemas da plataforma de videomonitoramento de segurança de São Paulo (SP), o Smart Sampa, não possuíam autenticação em dois fatores (2FA), sistema básico de segurança da informação. De acordo com o prefeito da capital paulista, Ricardo Nunes (MDB), os sistemas do Smart Sampa passam por uma ação contínua de segurança e por isso, alegou, não tinham 2FA. Siga-nos Botão Voltar ao topo",
+      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"tie-container\">\n\t\t\t\r\n<header id=\"theme-header\">\r\n\t\r\n<!-- #top-nav /-->\r\n\r\n<!-- .container /-->\r\n\r\n<!-- .main-nav-wrapper /-->\r\n\r\n</header>\r\n\r\n\t\t\n\t\t<div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"720\" height=\"405\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2024/04/cameras-seguranca-tecnologia.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2024/04/cameras-seguranca-tecnologia.jpg 720w, https://convergenciadigital.com.br/wp-content/uploads/2024/04/cameras-seguranca-tecnologia-300x169.jpg 300w, https://convergenciadigital.com.br/wp-content/uploads/2024/04/cameras-seguranca-tecnologia-390x220.jpg 390w\" sizes=\"(max-width: 720px) 100vw, 720px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>O chefe do Ministério Público de São Paulo, o procurador-geral de Justiça, Paulo Sérgio de Oliveira e Costa, classificou como “gravíssimo” o vazamento de dados do Smart Sampa que permitiu, durante ao menos 11 meses, acesso indevido a mais de 58 mil câmeras de monitoramento espalhadas pela cidade de São Paulo. Segundo ele, o caso revelado pelo UOL será investigado pela Promotoria do Patrimônio Público.</p>\n\n\n\n<p>Oliveira e Costa defendeu o Smart Sampa, mas disse que a investigação é necessária. “Está correto investigar esse fato [vazamento de dados do Smart Sampa], que é gravíssimo. Verificar porque isso aconteceu, por quanto tempo, o nível de dados expostos e os responsáveis. Importante investigar também para aprimorar o sistema de segurança. É uma ferramenta tecnológica importante e agora vi mais acertos do que erros”, afirmou em em entrevista ao portal UOL nesta quarta-feira, 21/10.</p>\n\n\n\n<p>Quem também se pronunciou foi a Agência Nacional de Proteção de Dados, ANPD. A agência informou que vai analisar o pedido de investigação feita a partir do ofício da Coalização Direitos na Rede. Caso aceita, a ANPD vai avaliar se houve falha da Prefeitura de São Paulo e da empresa que presta serviço para o Smart Sampa, a SentinelX.</p>\n\n\n\n<p>Vale lembrar que os  <a href=\"https://convergenciadigital.com.br/seguranca/dados-de-mais-de-58-mil-cameras-da-smart-sampa-vazam-prefeitura-de-sp-acusa-servidor-e-nega-falha-no-sistema/\">sistemas da plataforma de videomonitoramento de segurança de São Paulo (SP), o Smart Sampa,</a> não possuíam <a href=\"https://convergenciadigital.com.br/mercado/smart-sampa-dados-sigilosos-vazados-estavam-sem-seguranca-basica/\">autenticação em dois fatores (2FA)</a>, sistema básico de segurança da informação. De acordo com o prefeito da capital paulista, Ricardo Nunes (MDB), os sistemas do Smart Sampa passam por uma ação contínua de segurança e por isso, alegou, não tinham 2FA.</p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div><!-- #content /-->\n\t\t\t<!-- .container -->\n\t\n<!-- #footer /-->\n\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t\t<p><a id=\"go-to-top\" href=\"#go-to-tie-body\">\n\t\t\t<span></span>\n\t\t\t<span>Botão Voltar ao topo</span>\n\t\t</a>\n\t\n\t\t</p></div></DIV>",
+      "image": "https://convergenciadigital.com.br/wp-content/uploads/2024/04/cameras-seguranca-tecnologia.jpg",
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.640Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://convergenciadigital.com.br/governo/tcu-critica-qualidade-dos-dados-e-cobra-relatorios-das-entidades-do-sistema-s-em-60-dias/",
-      "url": "https://convergenciadigital.com.br/governo/tcu-critica-qualidade-dos-dados-e-cobra-relatorios-das-entidades-do-sistema-s-em-60-dias/",
-      "title": "TCU critica qualidade dos dados e cobra relatórios das entidades do Sistema S em 60 dias",
-      "content_text": "O Tribunal de Contas da União (TCU) criticou a qualidade dos dados apresentados peelas entidades do sistema S. A corte acompanhou as entidades do Sistema S por meio de análise de dados para avaliar a transparência, o uso dos recursos e o desempenho de suas atividades. As entidades tiveram, em 2024, orçamentos que somaram mais de R$ 55 bilhões em receitas correntes, dos quais R$ 37 bilhões vieram de contribuições obrigatórias. Esses recursos financiam serviços de educação, capacitação profissional, saúde e cultura, entre outros, e exigem fiscalização redobrada. Segundo o TCU, todas as entidades avaliadas alcançaram o nível mínimo exigido de divulgação geral de informações. Mas algumas das entidades ficaram abaixo do mínimo exigido na oferta de dados em formatos abertos, com falhas nas informações sobre licitações, patrocínios e demonstrações contábeis. O relatório do TCU adverte que essas limitações dificultam tanto o acompanhamento pela sociedade quanto o trabalho dos órgãos de controle. Parte das entidades analisadas também apresentou fragilidades na disponibilização de dados que possam ser acessados e processados automaticamente. As informações estavam em arquivos ou sistemas que exigiam etapas manuais, dificultando análises e auditorias automatizadas. O Senac Nacional cumpriu as recomendações de ampliar o apoio às unidades regionais com baixo desempenho, separar os indicadores de custo dos cursos presenciais e a distância e divulgar resultados detalhados de todos os departamentos regionais. Porém, ainda faltam regras objetivas para identificar situações de ineficiência que justifiquem medidas de correção ou intervenção nos regionais. Segundo o TCU, essa falta de critérios torna as decisões mais subjetivas e pode atrasar providências necessárias para melhorar a gestão e o atendimento à população. Ao final, o TCU determinou que entidades fiscalizadas apresentem planos de ação para corrigir deficiências na divulgação de informações em formatos abertos e legíveis por máquina, conforme exigido pela legislação de transparência. O Tribunal também deu ciência sobre falhas identificadas e recomendou o aprimoramento dos critérios de avaliação da eficiência operacional. Siga-nos Botão Voltar ao topo",
-      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"tie-container\">\n\t\t\t\r\n<header id=\"theme-header\">\r\n\t\r\n<!-- #top-nav /-->\r\n\r\n<!-- .container /-->\r\n\r\n<!-- .main-nav-wrapper /-->\r\n\r\n</header>\r\n\r\n\t\t\n\t\t<div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"750\" height=\"350\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2026/10/sistema_SS.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2026/10/sistema_SS.jpg 750w, https://convergenciadigital.com.br/wp-content/uploads/2026/10/sistema_SS-300x140.jpg 300w\" sizes=\"(max-width: 750px) 100vw, 750px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>O Tribunal de Contas da União (TCU) criticou a qualidade dos dados apresentados peelas entidades do sistema S. A corte acompanhou as entidades do Sistema S por meio de análise de dados para avaliar a transparência, o uso dos recursos e o desempenho de suas atividades. As entidades tiveram, em 2024, orçamentos que somaram mais de R$ 55 bilhões em receitas correntes, dos quais R$ 37 bilhões vieram de contribuições obrigatórias. Esses recursos financiam serviços de educação, capacitação profissional, saúde e cultura, entre outros, e exigem fiscalização redobrada.</p>\n\n\n\n<p>Segundo o TCU, todas as entidades avaliadas alcançaram o nível mínimo exigido de divulgação geral de informações. Mas algumas das entidades ficaram abaixo do mínimo exigido na oferta de dados em formatos abertos, com falhas nas informações sobre licitações, patrocínios e demonstrações contábeis. O relatório do TCU adverte que essas limitações dificultam tanto o acompanhamento pela sociedade quanto o trabalho dos órgãos de controle.</p>\n\n\n\n<p>Parte das entidades analisadas também apresentou fragilidades na disponibilização de dados que possam ser acessados e processados automaticamente. As informações estavam em arquivos ou sistemas que exigiam etapas manuais, dificultando análises e auditorias automatizadas.</p>\n\n\n\n<p>O Senac Nacional cumpriu as recomendações de ampliar o apoio às unidades regionais com baixo desempenho, separar os indicadores de custo dos cursos presenciais e a distância e divulgar resultados detalhados de todos os departamentos regionais. Porém, ainda faltam regras objetivas para identificar situações de ineficiência que justifiquem medidas de correção ou intervenção nos regionais. Segundo o TCU, essa falta de critérios torna as decisões mais subjetivas e pode atrasar providências necessárias para melhorar a gestão e o atendimento à população.</p>\n\n\n\n<p>Ao final, o TCU determinou que entidades fiscalizadas apresentem planos de ação para corrigir deficiências na divulgação de informações em formatos abertos e legíveis por máquina, conforme exigido pela legislação de transparência. O Tribunal também deu ciência sobre falhas identificadas e recomendou o aprimoramento dos critérios de avaliação da eficiência operacional.</p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div><!-- #content /-->\n\t\t\t<!-- .container -->\n\t\n<!-- #footer /-->\n\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t\t<p><a id=\"go-to-top\" href=\"#go-to-tie-body\">\n\t\t\t<span></span>\n\t\t\t<span>Botão Voltar ao topo</span>\n\t\t</a>\n\t\n\t\t</p></div></DIV>",
-      "image": "https://convergenciadigital.com.br/wp-content/uploads/2026/10/sistema_SS.jpg",
-      "_journal": {
-        "source_id": "src_convergencia_portal",
-        "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.640Z",
+        "ingested_at": "2026-10-22T02:56:54.997Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -79,7 +79,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.640Z",
+        "ingested_at": "2026-10-22T02:56:54.997Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -95,7 +95,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.640Z",
+        "ingested_at": "2026-10-22T02:56:54.997Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -111,7 +111,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.640Z",
+        "ingested_at": "2026-10-22T02:56:54.997Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -127,7 +127,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.641Z",
+        "ingested_at": "2026-10-22T02:56:54.997Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -143,7 +143,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.641Z",
+        "ingested_at": "2026-10-22T02:56:54.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -159,7 +159,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.641Z",
+        "ingested_at": "2026-10-22T02:56:54.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -175,7 +175,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.641Z",
+        "ingested_at": "2026-10-22T02:56:54.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -191,7 +191,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.641Z",
+        "ingested_at": "2026-10-22T02:56:54.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -207,7 +207,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.641Z",
+        "ingested_at": "2026-10-22T02:56:54.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -223,7 +223,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.642Z",
+        "ingested_at": "2026-10-22T02:56:54.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -239,7 +239,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-21T21:07:54.642Z",
+        "ingested_at": "2026-10-22T02:56:54.998Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
