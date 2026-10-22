@@ -15,23 +15,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.841Z",
-        "content_status": "ok",
-        "content_error": null,
-        "article_snapshot": null
-      }
-    },
-    {
-      "id": "https://convergenciadigital.com.br/mercado/agentes-ia-estao-por-tras-dos-milhoes-de-ataques-no-mundo-as-falhas-da-linguagem-php/",
-      "url": "https://convergenciadigital.com.br/mercado/agentes-ia-estao-por-tras-dos-milhoes-de-ataques-no-mundo-as-falhas-da-linguagem-php/",
-      "title": "Agentes IA estão por trás dos milhões de ataques no mundo às falhas da linguagem PHP",
-      "content_text": "As interrupções emergenciais de serviços bancários, aéreos, ferroviários, fiscais e governamentais — de Tóquio a Helsinque — representam um dos testes mais críticos para ferramentas de programação com décadas de existência que mantêm a web em funcionamento. O episódio evidencia o quanto governos e empresas dependem de códigos que poucas pessoas realmente compreendem. “Não vejo nada parecido há muito, muito tempo”, admitiu Satya Nadella, CEO da Microsoft, durante um evento na Alemanha, nesta quinta-feira, 22/10. Ele ressaltou que o incidente demonstra a importância de desenvolver software que possam ser mantidos de forma segura, à medida que os sistemas se tornam cada vez mais complexos. “Foi um dia longo — e uma noite longa, eu sei — para todas as equipes de TI e segurança”, adicionou. Os desenvolvedores do PHP — uma linguagem de programação fundamental, tal como o HTML e o Python — disponibilizaram, na quarta-feira, correções para vulnerabilidades que permaneceram ocultas no software por anos, até serem descobertas com o auxílio de inteligência artificial. Eles recomendaram enfaticamente que os usuários realizem a atualização imediata. Madeline Lawrence, cofundadora da empresa belga de cibersegurança Aikido Security, explicou que detalhes sobre as falhas tornaram-se públicos antes mesmo de as correções estarem prontas, o que resultou em ataques. “As empresas estão em uma corrida para atualizar seus sistemas antes que invasores — que também podem utilizar IA — explorem essas brechas. É basicamente uma corrida contra o tempo”, afirmou ela. Dado confirmado pela Cloudflare, empresa de serviços em nuvem. Segundo a empresa, o número de tentativas de invasão disparou e chegou à casa dos milhões. “Nas 10 horas que antecederam o anúncio público, registramos milhares de tentativas de exploração em toda a nossa rede”, relatou Matthew Prince, CEO da Cloudflare, em uma publicação na rede social X. “Esse número saltou para dezenas de milhares nos 45 minutos após o anúncio, atingiu centenas de milhares em 2 horas e, agora, chega a milhões.” Siga-nos",
-      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"720\" height=\"405\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo.jpg 720w, https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo-300x169.jpg 300w, https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo-390x220.jpg 390w\" sizes=\"(max-width: 720px) 100vw, 720px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>As interrupções emergenciais de serviços bancários, aéreos, ferroviários, fiscais e governamentais — de Tóquio a Helsinque — representam um dos testes mais críticos para ferramentas de programação com décadas de existência que mantêm a web em funcionamento. O episódio evidencia o quanto governos e empresas dependem de códigos que poucas pessoas realmente compreendem.</p>\n\n\n\n<p>“Não vejo nada parecido há muito, muito tempo”, admitiu Satya Nadella, CEO da Microsoft, durante um evento na Alemanha, nesta quinta-feira, 22/10. Ele ressaltou que o incidente demonstra a importância de desenvolver software que possam ser mantidos de forma segura, à medida que os sistemas se tornam cada vez mais complexos. “Foi um dia longo — e uma noite longa, eu sei — para todas as equipes de TI e segurança”, adicionou.</p>\n\n\n\n<p>Os desenvolvedores do PHP — uma linguagem de programação fundamental, tal como o HTML e o Python — disponibilizaram, na quarta-feira, correções para vulnerabilidades que permaneceram ocultas no software por anos, até serem descobertas com o auxílio de inteligência artificial. Eles recomendaram enfaticamente que os usuários realizem a atualização imediata.</p>\n\n\n\n<p>Madeline Lawrence, cofundadora da empresa belga de cibersegurança Aikido Security, explicou que detalhes sobre as falhas tornaram-se públicos antes mesmo de as correções estarem prontas, o que resultou em ataques. “As empresas estão em uma corrida para atualizar seus sistemas antes que invasores — que também podem utilizar IA — explorem essas brechas. É basicamente uma corrida contra o tempo”, afirmou ela.</p>\n\n\n\n<p>Dado confirmado pela Cloudflare, empresa de serviços em nuvem. Segundo a empresa, o número de tentativas de invasão disparou e chegou à casa dos milhões. “Nas 10 horas que antecederam o anúncio público, registramos milhares de tentativas de exploração em toda a nossa rede”, relatou Matthew Prince, CEO da Cloudflare, em uma publicação na rede social X. “Esse número saltou para dezenas de milhares nos 45 minutos após o anúncio, atingiu centenas de milhares em 2 horas e, agora, chega a milhões.”</p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
-      "image": "https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo.jpg",
-      "_journal": {
-        "source_id": "src_convergencia_portal",
-        "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.841Z",
+        "ingested_at": "2026-10-22T21:07:02.384Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -47,23 +31,39 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.841Z",
+        "ingested_at": "2026-10-22T21:07:02.384Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
       }
     },
     {
-      "id": "https://convergenciadigital.com.br/internet/leilao-6ghz-impasse-entre-teles-e-isps-faz-anatel-adiar-consulta-publica-ate-dezembro/",
-      "url": "https://convergenciadigital.com.br/internet/leilao-6ghz-impasse-entre-teles-e-isps-faz-anatel-adiar-consulta-publica-ate-dezembro/",
-      "title": "Leilão 6GHz: Impasse entre teles e ISPs faz Anatel adiar consulta pública até dezembro",
-      "content_text": "Com o impasse entre as operadoras de telecomunicações e os ISPs e provedores regionais de Internet como pano de fundo das audiências públicas registradas em Brasília e São Paulo sobre o leilão da faixa de 6GHz, a Anatel prorrogou até 7 de dezembro o prazo para o envio de contribuições à Consulta Pública nº 37/2026, que discute a proposta de edital do leilão da faixa de 6 GHz. Inicialmente, o período de participação terminaria na próxima sexta-feira, 23 de outubro. A ampliação foi anunciada nesta quarta-feira, 21, durante audiência pública realizada em São Paulo. Com 1200 Mhz, o edital de 6GHz – que antes seria destinada integralmente ao Wi-Fi e aos ISPs – e agora terá 700 MHz para as teles e 500 Mhz para os ISPs, prevê lotes nacionais e regionais, além de compromissos de investimentos em cobertura móvel, redes de fibra óptica e infraestrutura digital, incluindo data centers regionais. Para ampliar a participação da sociedade, a Anateel prevê uma terceira audiência pública sobre o tema, desta vez em Fortaleza (CE). O encontro deve ocorrer em novembro, mas ainda não tem data definida. No último dia 16, a primeira audiência pública sobre a proposta de edital de licitação foi conduzida em Brasília, no último dia 16. O leilão da faixa de 6 GHz permanece no planejamento da Anatel para ocorrer até 2028. Antes da publicação do edital definitivo, contudo, a proposta ainda deverá passar por outras etapas de análise. Manifestações “Vincular a outorga de espectro à implantação de edge data center é uma mudança relevante no modelo de compromissos, porque a implantação de redes móveis e a construção de centro de processamento de dados não são atividade equivalentes e envolvem mercados economicamente distintos”, disse o diretor da Abranet, Eduardo Parajo, acrescentando que não basta construir as instalações: é preciso ter demanda e os custos têm de ser sustentáveis. Ele participou da audiência pública em São Paulo. De acordo com o diretor da Abranet, a preocupação é que vincular a tutela de espectro a essa obrigação pode estabelecer obrigações que implicam uma regulação indireta com graves consequências. Diferentemente das redes de telecomunicações tradicionais, os data centers exigem instalações altamente especializadas, energia de alta disponibilidade, refrigeração, servidores, sistemas de segurança, manutenção contínua e atualização tecnológica constante. Siga-nos",
-      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"720\" height=\"405\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes.jpg 720w, https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes-300x169.jpg 300w, https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes-390x220.jpg 390w\" sizes=\"(max-width: 720px) 100vw, 720px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>Com o impasse entre as operadoras de telecomunicações e os ISPs e provedores regionais de Internet como pano de fundo das audiências públicas registradas em Brasília e São Paulo sobre o leilão da faixa de 6GHz, a Anatel prorrogou até 7 de dezembro o prazo para o envio de contribuições à Consulta Pública nº 37/2026, que discute a proposta de edital do leilão da faixa de 6 GHz. Inicialmente, o período de participação terminaria na próxima sexta-feira, 23 de outubro. A ampliação foi anunciada nesta quarta-feira, 21, durante audiência pública realizada em São Paulo.</p>\n\n\n\n<p>Com 1200 Mhz, o edital de 6GHz – que antes seria destinada integralmente ao Wi-Fi e aos ISPs – e agora terá 700 MHz para as teles e 500 Mhz para os ISPs, prevê lotes nacionais e regionais, além de compromissos de investimentos em cobertura móvel, redes de fibra óptica e infraestrutura digital, incluindo data centers regionais.</p>\n\n\n\n<p>Para ampliar a participação da sociedade, a Anateel prevê uma terceira audiência pública sobre o tema, desta vez em Fortaleza (CE). O encontro deve ocorrer em novembro, mas ainda não tem data definida. No último dia 16, a primeira audiência pública sobre a proposta de edital de licitação foi conduzida em Brasília, no último dia 16.</p>\n\n\n\n<p>O leilão da faixa de 6 GHz permanece no planejamento da Anatel para ocorrer até 2028. Antes da publicação do edital definitivo, contudo, a proposta ainda deverá passar por outras etapas de análise.</p>\n\n\n\n<p>Manifestações</p>\n\n\n\n<p>“Vincular a outorga de espectro à implantação de edge data center é uma mudança relevante no modelo de compromissos, porque a implantação de redes móveis e a construção de centro de processamento de dados não são atividade equivalentes e envolvem mercados economicamente distintos”, disse o diretor da Abranet, Eduardo Parajo, acrescentando que não basta construir as instalações: é preciso ter demanda e os custos têm de ser sustentáveis. Ele participou da audiência pública em São Paulo.</p>\n\n\n\n<p>De acordo com o diretor da Abranet, a preocupação é que vincular a tutela de espectro a essa obrigação pode estabelecer obrigações que implicam uma regulação indireta com graves consequências. Diferentemente das redes de telecomunicações tradicionais, os data centers exigem instalações altamente especializadas, energia de alta disponibilidade, refrigeração, servidores, sistemas de segurança, manutenção contínua e atualização tecnológica constante.</p>\n\n\n\n\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
-      "image": "https://convergenciadigital.com.br/wp-content/uploads/2024/01/wifi_coneccoes.jpg",
+      "id": "https://convergenciadigital.com.br/mercado/com-ia-em-alta-carga-milionaria-de-gpus-da-nvidia-e-roubada-no-aeroporto-de-guarulhos/",
+      "url": "https://convergenciadigital.com.br/mercado/com-ia-em-alta-carga-milionaria-de-gpus-da-nvidia-e-roubada-no-aeroporto-de-guarulhos/",
+      "title": "Com IA em alta, carga milionária de GPUs da Nvidia é roubada no aeroporto de Guarulhos",
+      "content_text": "Uma carga de placas de vídeo Nvidia GeForce RTX 5090, avaliada em aproximadamente R$ 2,5 milhões, foi furtada do terminal de cargas do Aeroporto Internacional de Guarulhos, em São Paulo. Os equipamentos pertencem ao Grupo Oderço, distribuidora brasileira de produtos de tecnologia. O furto ocorreu em 21 de setembro. Parte do lote já teria sido colocada à venda na internet. Segundo informações divulgadas pelo Jornal da Band e pelo portal AEROIN, três funcionários terceirizados são suspeitos de participação na ação. Segundo as reportagens, imagens de câmeras de segurança teriam registrado dois operadores de empilhadeira retirando a mercadoria do armazém. Um terceiro funcionário, responsável pela conferência, teria autorizado a movimentação nos sistemas internos. A carga, composta por unidades RTX 5090 fabricadas pela Zotac, foi carregada em um caminhão que deixou o terminal. A retirada teria acontecido quatro dias antes da conclusão do processo aduaneiro, encerrado em 25 de setembro. Segundo reportagem publicada pelo UOL nesta quinta-feira (22), a carga pesava 423,6 quilos. GPUs identificadas em anúncios on-line Uma das placas teria sido anunciada em uma plataforma de comércio eletrônico por R$ 32 mil. O AEROIN informa que a identificação foi possível porque o anúncio exibia parcialmente o número de série do equipamento, o que permitiu relacioná-lo ao lote furtado. As placas GeForce RTX 5090 estão entre os modelos de maior desempenho da Nvidia para o mercado consumidor. Equipadas com 32 GB de memória GDDR7, são utilizadas em jogos, produção audiovisual e determinadas cargas de trabalho de inteligência artificial (IA). No mercado brasileiro, unidades da Zotac podem alcançar valores próximos de R$ 35 mil, segundo levantamento do Tecnoblog. O valor de R$ 2,5 milhões atribuído à carga corresponde ao custo de importação, não ao preço de varejo. A GRU Airport, concessionária responsável pelo aeroporto, informou que a investigação está sob responsabilidade das autoridades competentes. Até esta quinta-feira (22), não havia confirmação pública sobre a recuperação da carga nem sobre a prisão dos suspeitos. Siga-nos",
+      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"739\" height=\"350\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2026/10/gpus_nvidia.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2026/10/gpus_nvidia.jpg 739w, https://convergenciadigital.com.br/wp-content/uploads/2026/10/gpus_nvidia-300x142.jpg 300w\" sizes=\"(max-width: 739px) 100vw, 739px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>Uma carga de placas de vídeo Nvidia GeForce RTX 5090, avaliada em aproximadamente R$ 2,5 milhões, foi furtada do terminal de cargas do Aeroporto Internacional de Guarulhos, em São Paulo. Os equipamentos pertencem ao Grupo Oderço, distribuidora brasileira de produtos de tecnologia. O furto ocorreu em 21 de setembro. Parte do lote já teria sido colocada à venda na internet. Segundo informações divulgadas pelo Jornal da Band e pelo portal AEROIN, três funcionários terceirizados são suspeitos de participação na ação.</p>\n\n\n\n<p>Segundo as reportagens, imagens de câmeras de segurança teriam registrado dois operadores de empilhadeira retirando a mercadoria do armazém. Um terceiro funcionário, responsável pela conferência, teria autorizado a movimentação nos sistemas internos.</p>\n\n\n\n<p>A carga, composta por unidades RTX 5090 fabricadas pela Zotac, foi carregada em um caminhão que deixou o terminal. A retirada teria acontecido quatro dias antes da conclusão do processo aduaneiro, encerrado em 25 de setembro. Segundo reportagem publicada pelo UOL nesta quinta-feira (22), a carga pesava 423,6 quilos.</p>\n\n\n\n<p>GPUs identificadas em anúncios on-line</p>\n\n\n\n<p>Uma das placas teria sido anunciada em uma plataforma de comércio eletrônico por R$ 32 mil. O AEROIN informa que a identificação foi possível porque o anúncio exibia parcialmente o número de série do equipamento, o que permitiu relacioná-lo ao lote furtado.</p>\n\n\n\n<p>As placas GeForce RTX 5090 estão entre os modelos de maior desempenho da Nvidia para o mercado consumidor. Equipadas com 32 GB de memória GDDR7, são utilizadas em jogos, produção audiovisual e determinadas cargas de trabalho de inteligência artificial (IA). No mercado brasileiro, unidades da Zotac podem alcançar valores próximos de R$ 35 mil, segundo levantamento do Tecnoblog. O valor de R$ 2,5 milhões atribuído à carga corresponde ao custo de importação, não ao preço de varejo.</p>\n\n\n\n<p>A GRU Airport, concessionária responsável pelo aeroporto, informou que a investigação está sob responsabilidade das autoridades competentes. Até esta quinta-feira (22), não havia confirmação pública sobre a recuperação da carga nem sobre a prisão dos suspeitos.</p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
+      "image": "https://convergenciadigital.com.br/wp-content/uploads/2026/10/gpus_nvidia.jpg",
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.841Z",
+        "ingested_at": "2026-10-22T21:07:02.384Z",
+        "content_status": "ok",
+        "content_error": null,
+        "article_snapshot": null
+      }
+    },
+    {
+      "id": "https://convergenciadigital.com.br/mercado/agentes-ia-estao-por-tras-dos-milhoes-de-ataques-no-mundo-as-falhas-da-linguagem-php/",
+      "url": "https://convergenciadigital.com.br/mercado/agentes-ia-estao-por-tras-dos-milhoes-de-ataques-no-mundo-as-falhas-da-linguagem-php/",
+      "title": "Agentes IA estão por trás dos milhões de ataques no mundo às falhas da linguagem PHP",
+      "content_text": "As interrupções emergenciais de serviços bancários, aéreos, ferroviários, fiscais e governamentais — de Tóquio a Helsinque — representam um dos testes mais críticos para ferramentas de programação com décadas de existência que mantêm a web em funcionamento. O episódio evidencia o quanto governos e empresas dependem de códigos que poucas pessoas realmente compreendem. “Não vejo nada parecido há muito, muito tempo”, admitiu Satya Nadella, CEO da Microsoft, durante um evento na Alemanha, nesta quinta-feira, 22/10. Ele ressaltou que o incidente demonstra a importância de desenvolver software que possam ser mantidos de forma segura, à medida que os sistemas se tornam cada vez mais complexos. “Foi um dia longo — e uma noite longa, eu sei — para todas as equipes de TI e segurança”, adicionou. Os desenvolvedores do PHP — uma linguagem de programação fundamental, tal como o HTML e o Python — disponibilizaram, na quarta-feira, correções para vulnerabilidades que permaneceram ocultas no software por anos, até serem descobertas com o auxílio de inteligência artificial. Eles recomendaram enfaticamente que os usuários realizem a atualização imediata. Madeline Lawrence, cofundadora da empresa belga de cibersegurança Aikido Security, explicou que detalhes sobre as falhas tornaram-se públicos antes mesmo de as correções estarem prontas, o que resultou em ataques. “As empresas estão em uma corrida para atualizar seus sistemas antes que invasores — que também podem utilizar IA — explorem essas brechas. É basicamente uma corrida contra o tempo”, afirmou ela. Dado confirmado pela Cloudflare, empresa de serviços em nuvem. Segundo a empresa, o número de tentativas de invasão disparou e chegou à casa dos milhões. “Nas 10 horas que antecederam o anúncio público, registramos milhares de tentativas de exploração em toda a nossa rede”, relatou Matthew Prince, CEO da Cloudflare, em uma publicação na rede social X. “Esse número saltou para dezenas de milhares nos 45 minutos após o anúncio, atingiu centenas de milhares em 2 horas e, agora, chega a milhões.” Siga-nos",
+      "content_html": "<DIV class=\"page\" id=\"readability-page-1\"><div id=\"content\" role=\"main\">\n\n\t\n\t<article id=\"the-post\">\n\n\t\t\n<!-- .entry-header-outer /-->\n\n\n\n\t\t<!-- .share-buttons /-->\n\n\t\t<div><figure><img width=\"720\" height=\"405\" src=\"https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo.jpg\" alt=\"\" data-main-img=\"1\" decoding=\"async\" fetchpriority=\"high\" srcset=\"https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo.jpg 720w, https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo-300x169.jpg 300w, https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo-390x220.jpg 390w\" sizes=\"(max-width: 720px) 100vw, 720px\"></figure></div>\n\t\t<div>\n\n\t\t\t\n\t\t\t\n<p>As interrupções emergenciais de serviços bancários, aéreos, ferroviários, fiscais e governamentais — de Tóquio a Helsinque — representam um dos testes mais críticos para ferramentas de programação com décadas de existência que mantêm a web em funcionamento. O episódio evidencia o quanto governos e empresas dependem de códigos que poucas pessoas realmente compreendem.</p>\n\n\n\n<p>“Não vejo nada parecido há muito, muito tempo”, admitiu Satya Nadella, CEO da Microsoft, durante um evento na Alemanha, nesta quinta-feira, 22/10. Ele ressaltou que o incidente demonstra a importância de desenvolver software que possam ser mantidos de forma segura, à medida que os sistemas se tornam cada vez mais complexos. “Foi um dia longo — e uma noite longa, eu sei — para todas as equipes de TI e segurança”, adicionou.</p>\n\n\n\n<p>Os desenvolvedores do PHP — uma linguagem de programação fundamental, tal como o HTML e o Python — disponibilizaram, na quarta-feira, correções para vulnerabilidades que permaneceram ocultas no software por anos, até serem descobertas com o auxílio de inteligência artificial. Eles recomendaram enfaticamente que os usuários realizem a atualização imediata.</p>\n\n\n\n<p>Madeline Lawrence, cofundadora da empresa belga de cibersegurança Aikido Security, explicou que detalhes sobre as falhas tornaram-se públicos antes mesmo de as correções estarem prontas, o que resultou em ataques. “As empresas estão em uma corrida para atualizar seus sistemas antes que invasores — que também podem utilizar IA — explorem essas brechas. É basicamente uma corrida contra o tempo”, afirmou ela.</p>\n\n\n\n<p>Dado confirmado pela Cloudflare, empresa de serviços em nuvem. Segundo a empresa, o número de tentativas de invasão disparou e chegou à casa dos milhões. “Nas 10 horas que antecederam o anúncio público, registramos milhares de tentativas de exploração em toda a nossa rede”, relatou Matthew Prince, CEO da Cloudflare, em uma publicação na rede social X. “Esse número saltou para dezenas de milhares nos 45 minutos após o anúncio, atingiu centenas de milhares em 2 horas e, agora, chega a milhões.”</p>\n\n\t\t\t\n\t\t</div><!-- .entry-content /-->\n\n\t\t\t\t\n\n\t\t\n\t\t\n\t\t<div>\n\t\t\t\t\t\t\t\t<p>Siga-nos</p>\n\t\t\t\t\t\t\t\t\t\t<p><a href=\"https://news.google.com/publications/CAAqOQgKIjNDQklTSUFnTWFod0tHbU52Ym5abGNtZGxibU5wWVdScFoybDBZV3d1WTI5dExtSnlLQUFQAQ?ceid=BR:pt-419&oc=3\" title=\"Google News\" target=\"_blank\" rel=\"nofollow noopener\">\n\t\t\t\t\t\t<img src=\"https://convergenciadigital.com.br/wp-content/themes/jannah/assets/images/google-news.svg\" alt=\"Google News\" loading=\"lazy\" width=\"120\" height=\"22\">\n\t\t\t\t\t</a>\n\t\t\t\t\t\t\t</p></div>\n\t\t\n\n\t\t<!-- .share-buttons /-->\n\n\t\t\n\t</article><!-- #the-post /-->\n\n\t\n\t<!-- .post-components /-->\n\n\t\n</div></DIV>",
+      "image": "https://convergenciadigital.com.br/wp-content/uploads/2024/04/ataque-redes-globo.jpg",
+      "_journal": {
+        "source_id": "src_convergencia_portal",
+        "source_type": "scrape",
+        "ingested_at": "2026-10-22T21:07:02.384Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -79,7 +79,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.841Z",
+        "ingested_at": "2026-10-22T21:07:02.384Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -95,7 +95,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.842Z",
+        "ingested_at": "2026-10-22T21:07:02.384Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -111,7 +111,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.842Z",
+        "ingested_at": "2026-10-22T21:07:02.384Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -127,7 +127,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.842Z",
+        "ingested_at": "2026-10-22T21:07:02.385Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -143,7 +143,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.842Z",
+        "ingested_at": "2026-10-22T21:07:02.385Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -159,7 +159,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.843Z",
+        "ingested_at": "2026-10-22T21:07:02.385Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -175,7 +175,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.843Z",
+        "ingested_at": "2026-10-22T21:07:02.385Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -191,7 +191,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.843Z",
+        "ingested_at": "2026-10-22T21:07:02.385Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -207,7 +207,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.843Z",
+        "ingested_at": "2026-10-22T21:07:02.385Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -223,7 +223,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.843Z",
+        "ingested_at": "2026-10-22T21:07:02.385Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
@@ -239,7 +239,7 @@
       "_journal": {
         "source_id": "src_convergencia_portal",
         "source_type": "scrape",
-        "ingested_at": "2026-10-22T16:28:46.843Z",
+        "ingested_at": "2026-10-22T21:07:02.385Z",
         "content_status": "ok",
         "content_error": null,
         "article_snapshot": null
